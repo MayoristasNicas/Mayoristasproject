@@ -12,7 +12,8 @@ import java.sql.*;
 public class DB_Conn {
 
     //private String database="saikiran enterprises", username = "chirag", password = "1234567";
-    private String database="saikiran_enterprises", username = "root", password = "Pa$$wd22";
+    //private String database="saikiran_enterprises", username = "root", password = "Pa$$wd22";
+    private String database="mayoristasnic", username = "root", password = "Pa$$wd22";
     private Connection con;
     
     public Connection getConnection() throws SQLException, ClassNotFoundException  {
