@@ -6,7 +6,7 @@ package helpers;
 
 /**
  *
- * @author Chirag
+ * @author MayoristasNicas
  */
 public class StringSlasher {
     public void sqlSlasher (String sql){

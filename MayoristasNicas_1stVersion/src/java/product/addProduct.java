@@ -18,7 +18,7 @@ import javax.servlet.http.HttpSession;
 
 /**
  *
- * @author student
+ * @author MayoristasNicas
  */
 public class addProduct extends HttpServlet {
 

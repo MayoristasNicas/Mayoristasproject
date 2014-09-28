@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author chirag
+ * @author MayoristasNicas
  */
 public class administrator {
     Connection c;

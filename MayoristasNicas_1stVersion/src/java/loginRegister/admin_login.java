@@ -23,7 +23,7 @@ import user.user;
 
 /**
  *
- * @author chirag
+ * @author MayoristasNicas
  */
 public class admin_login extends HttpServlet {
 

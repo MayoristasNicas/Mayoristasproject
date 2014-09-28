@@ -19,7 +19,7 @@ import user.user;
 
 /**
  *
- * @author chirag
+ * @author MayoristasNicas
  */
 public class registerServlet extends HttpServlet {
 

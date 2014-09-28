@@ -7,7 +7,7 @@ package database;
 import java.sql.*;
 /*
  *
- * @author Chirag
+ * @author MayoristasNicas
  */
 public class DB_Conn {
 

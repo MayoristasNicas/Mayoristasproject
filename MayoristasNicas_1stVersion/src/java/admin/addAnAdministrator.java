@@ -21,7 +21,7 @@ import user.user;
 
 /**
  *
- * @author chirag
+ * @author MayoristasNicas
  */
 public class addAnAdministrator extends HttpServlet {
 

@@ -13,7 +13,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
+        <title>MayoristasNicas</title>
         <link rel="shortcut icon" href="images/logo/ico.ico"/>
 
         <%@include file="includesPage/_stylesheets.jsp" %>

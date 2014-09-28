@@ -6,7 +6,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
+        <title>MayoristasNicas</title>
         <link rel="shortcut icon" href="images/logo/ico.ico"/>
 
         <link rel="stylesheet" type="text/css" href="css/reset.css"/>
@@ -88,10 +88,10 @@
                 <div class="grid_10">
                     <div class="grid_10">
                         <br/>
-                        <h5>Category :<a href="#"><span class="blue"><%= category_name%></span></a> > <a href="#"><span class="blue"><%= sub_category_name%></span></a></h5>
+                        <h5>Proveedor :<a href="#"><span class="blue"><%= category_name%></span></a> > <a href="#"><span class="blue"><%= sub_category_name%></span></a></h5>
                         <div class="clear"></div>
                         <br/>
-                        <h5>Priced At <span class="BigRed">Rs. <%= price%></span></h5>
+                        <h5>Precio <span class="BigRed">Rs. <%= price%></span></h5>
                         <br/>
                         <br/>
                         <%
@@ -99,7 +99,7 @@
                             %>
                          <a href="admin_manageProduct.jsp?pid=<%= product_id %>">
                             <div class="grid_1" id="buy">
-                                Edit
+                                Editar
                             </div>
                         </a>
                         <%
@@ -109,34 +109,34 @@
 
                         <a href="addToCart.jsp?id=<%= product_id %>">
                             <div class="grid_3" id="buy">
-                                Buy This Product Now
+                                Compra este producto ahora
                             </div>
                         </a>
                            
-                        <h1>Summary Of this item</h1>
+                        <h1>Detalle del producto</h1>
                         <div class="clear"></div>
-                        <p>Summary of <%= product_name%>
+                        <p>Detalle de <%= product_name%>
 
                             <%= summary%>
 
 
-                        <h1>Brief Description</h1>
+                        <h1>Breve Descripción</h1>
                         <br/>
                         <table class="grid_6" id="descripTable">
                             <tr class="grid_6">
-                                <td>Name:</td>
+                                <td>Nombre</td>
                                 <td><%= product_name%></td>
                             </tr>
                             <tr class="grid_6">
-                                <td>Category</td>
+                                <td>Proveedor</td>
                                 <td><%= category_name%></td>
                             </tr>
                             <tr class="grid_6">
-                                <td>Sub-Category</td>
+                                <td>Categoría</td>
                                 <td><%= sub_category_name%></td>
                             </tr>
                             <tr class="grid_6">
-                                <td>Company </td>
+                                <td>Sub-categoría </td>
                                 <td><%= company_name%></td>
                             </tr>
                         </table>

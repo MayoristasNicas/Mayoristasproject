@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author chirag
+ * @author MayoristasNicas
  */
 public class getCompanyNames extends HttpServlet {
 

@@ -27,7 +27,7 @@ import user.user;
 
 /**
  *
- * @author chirag
+ * @author MayoristasNicas
  */
 @WebServlet(name = "buyItems", urlPatterns = {"/buyItems"})
 public class buyItems extends HttpServlet {

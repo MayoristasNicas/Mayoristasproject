@@ -22,7 +22,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author chirag
+ * @author MayoristasNicas
  */
 public class removeCompany extends HttpServlet {
 
