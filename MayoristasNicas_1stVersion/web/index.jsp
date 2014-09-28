@@ -7,7 +7,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <!--<title>SaiKiran BookStores</title>-->
-        <title>Mayoristas Nicas Prueba</title>
+        <title>Mayoristas Nicas</title>
         <!-- Default Stylesheets -->
         <%@include file="includesPage/_stylesheets.jsp" %>
 
