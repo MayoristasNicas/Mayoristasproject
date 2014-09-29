@@ -187,13 +187,13 @@
                     </ul>
                 </div>
                 <div class="adv">
-<<<<<<< HEAD
+
                     <h2><br/>Anuncios publicitarios</h2>
                     <p>Tu negocio puede anunciarse aqui,contáctanos </p>
-=======
+
                     <h2><br/>ATENTO !</h2>
                     <p>Se acerca la Navidad! Grandes descuentos solo en MayoristasNicas </p>
->>>>>>> 57c1f9fb2ecc87f8bb004d1c9541021a7197fd22
+
                 </div>
             </div>
 
