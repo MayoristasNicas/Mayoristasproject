@@ -8,7 +8,7 @@ import java.util.regex.*;
 
 /**
  *
- * @author Chirag
+ * @author MayoristasNicas
  */
 public class EmailValidator {
     boolean result = false;

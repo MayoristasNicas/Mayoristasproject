@@ -18,7 +18,7 @@ import database.*;
 
 /**
  *
- * @author student
+ * @author MayoristasNicas
  */
 public class addCompany extends HttpServlet {
 

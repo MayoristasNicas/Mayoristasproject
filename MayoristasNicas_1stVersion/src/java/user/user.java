@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author chirag
+ * @author MayoristasNicas
  */
 public class user {
     public String userEmail = null;

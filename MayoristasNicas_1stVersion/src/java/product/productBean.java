@@ -6,7 +6,7 @@ package product;
 
 /**
  *
- * @author chirag
+ * @author MayoristasNicas
  */
 public class productBean {
 

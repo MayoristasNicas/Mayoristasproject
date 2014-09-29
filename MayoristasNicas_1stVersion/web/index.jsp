@@ -6,8 +6,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <!--<title>SaiKiran BookStores</title>-->
-        <title>Mayoristas Nicas</title>
+        <title>MayoristasNicas</title>
         <!-- Default Stylesheets -->
         <%@include file="includesPage/_stylesheets.jsp" %>
 
@@ -64,11 +63,11 @@
 
                         <span class="top" style="display: none; ">
 
-                            <strong>Fountain Pens...</strong>	
+                            <strong>Coca Cola...</strong>	
 
-                            <br>From the International and Indian markets, we have the variety of the High Class fountain 
-
-                            pens. Available now for you to get your hands on.
+                            <br>Las mejores promociones de Coca Cola solo las puedes encontrar en tu tienda 
+                            
+                            MayoristasNicas.
 
                         </span>
 
@@ -174,7 +173,7 @@
             <div id="leftside" class="grid_3">
                 <div>
                     <ul id="leftsideNav">
-                        <li><a href="#"><strong>Categories</strong></a></li>
+                        <li><a href="#"><strong>Proveedores</strong></a></li>
                         
                         <%
                         while (rs.next()){
@@ -188,8 +187,13 @@
                     </ul>
                 </div>
                 <div class="adv">
+<<<<<<< HEAD
                     <h2><br/>Anuncios publicitarios</h2>
                     <p>Tu negocio puede anunciarse aqui,contáctanos </p>
+=======
+                    <h2><br/>ATENTO !</h2>
+                    <p>Se acerca la Navidad! Grandes descuentos solo en MayoristasNicas </p>
+>>>>>>> 57c1f9fb2ecc87f8bb004d1c9541021a7197fd22
                 </div>
             </div>
 

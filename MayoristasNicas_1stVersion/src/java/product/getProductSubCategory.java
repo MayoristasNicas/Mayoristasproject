@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author chirag
+ * @author MayoristasNicas
  */
 public class getProductSubCategory extends HttpServlet {
 

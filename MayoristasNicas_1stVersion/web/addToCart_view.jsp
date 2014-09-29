@@ -1,7 +1,7 @@
 <%-- 
     Document   : addToCart
     Created on : 16 Nov, 2012, 1:42:23 AM
-    Author     : chirag
+    Author     : MayoristasNicas
 --%>
 
 <%@page import="java.util.ArrayList"%>

@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author chirag
+ * @author MayoristasNicas
  */
 public class product {
 
