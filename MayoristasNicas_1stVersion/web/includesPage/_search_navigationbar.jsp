@@ -25,7 +25,9 @@
     <div class="container_16">
         <div class="grid_16">
             <div class="grid_9">
-               <p><span>Saikiran</span> is one of the best places to have your <span>books</span> for any material We are the only one to have your <span>thoughts</span> at the right place... For More Information Call Us : +91-9004300630</p>
+               <p><span>Misión</span> Brindar una canal de distribución en línea a empresas productoras de alimentos como una alternativa de canal de venta. Asimismo ofrecer a clientes finales productos al por mayor a un mejor precio de compra.</p>
+               <p><span>Visión</span> Ser una empresa de servicios de distribución robusta con capacidad de adaptarse a la globalización y implantar un estilo en mercado de canal de distribución de productos al por mayor.</p>
+               
            
             <!-- <p><span>Mahavir Paints</span> is the one of the most best places in Mira Bhyyandar to find <span>First Class Paints</span></p>
             -->
