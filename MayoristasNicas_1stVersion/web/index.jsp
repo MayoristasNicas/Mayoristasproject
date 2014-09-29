@@ -188,8 +188,8 @@
                     </ul>
                 </div>
                 <div class="adv">
-                    <h2><br/>This is The Header of an Advertisement</h2>
-                    <p>We offer Advertisement display here </p>
+                    <h2><br/>Anuncios publicitarios</h2>
+                    <p>Tu negocio puede anunciarse aqui,contáctanos </p>
                 </div>
             </div>
 
