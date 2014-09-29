@@ -173,13 +173,13 @@
             <div id="leftside" class="grid_3">
                 <div>
                     <ul id="leftsideNav">
-                        <li><a href="#"><strong>Proveedores</strong></a></li>
+                        <li><a href="#" class="strong-white"><strong>Proveedores</strong></a></li>
                         
                         <%
                         while (rs.next()){
                             String category = rs.getString ("category_name");
                             %>
-                            <li><a href="viewProducts_.jsp"><%= category %></a></li>
+                            <li><a href="viewProducts_.jsp" class="strong-white"><%= category %></a></li>
                         <%
                         }
                         %>

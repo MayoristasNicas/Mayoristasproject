@@ -182,15 +182,16 @@ text-shadow: none;
 	
 	}
 #leftsideNav  {
-	background:#ade700;
+	//background:#ade700;
+        background:#00aac9;
 	font-family:"Droid",Arial, Helvetica, sans-serif;
 	font-size:17px;
 	border-radius:7px;
-	background:url(../images/textures/pcrumbled2x200w.png);
+	//background:url(../images/textures/pcrumbled2x200w.png);
 	margin:15px 0px;
 
-  	background: -webkit-linear-gradient(top,#ade700, #8ebd00);
-  	background: -moz-linear-gradient(top,#ade700, #8ebd00);
+  	//background: -webkit-linear-gradient(top,#ade700, #8ebd00);
+  	//background: -moz-linear-gradient(top,#ade700, #8ebd00);
 	text-shadow: 0 1px 0 white;
 	-webkit-box-shadow:0 0 7px #000;
 	-moz-box-shadow:0 0 7px #000;

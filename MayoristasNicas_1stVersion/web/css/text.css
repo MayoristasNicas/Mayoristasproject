@@ -160,10 +160,17 @@ a:hover     	{ color: #002C5B;  }
 
 blockquote  	{ color:#000; font-size:12px; }
 
+.strong-white     	{
+	font-weight: bold;
+	color: white;
+}
+
 strong      	{
 	font-weight: bold;
 	color: #000000;
 }
+
+
 em		      	{ font-style: italic; }
 
 
