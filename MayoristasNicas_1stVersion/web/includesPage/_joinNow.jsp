@@ -2,7 +2,7 @@
 <div id = "topWrapper">
     <div class="container_16">
         <div class="grid_16">
-            <div id="logo" class="grid_6"> <a href="index.jsp"><img src="images\crap imgs\cartt.ico" /></a>
+            <div id="logo" class="grid_6"> <a href="index.jsp"><img src="images/logo/icon.png" /></a>
             </div>
             <div class="grid_6" id="top">
                 <ul>
