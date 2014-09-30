@@ -2,11 +2,11 @@
 <div id = "topWrapper">
     <div class="container_16">
         <div class="grid_16">
-            <div id="logo" class="grid_6"> <a href="index.jsp"><img src="images/logo/icon.png" /></a>
+            <div id="logo" class="grid_6"> <a href="index.jsp"><img src="images\crap imgs\cartt.ico" /></a>
             </div>
             <div class="grid_6" id="top">
                 <ul>
-                    <a href="#" id="join"><li id="greenBtn"  class ="Btn showForm">Join Now!!</li></a>
+                    <a href="#" id="join"><li id="greenBtn"  class ="Btn showForm">Unete ya!!</li></a>
                 </ul>
             </div>
         </div>
@@ -59,7 +59,7 @@
                     <table>
                         <tr>
                             <td colspan="2">
-                                <strong><h1 style="font-wieght:bold; text-align:right; padding:20px 0px; color:#FFF;">Register Now!!</h1></strong>
+                                <strong><h1 style="font-wieght:bold; text-align:right; padding:20px 0px; color:#FFF;">Registrate Now!!</h1></strong>
                             </td>
                             <td>
 
