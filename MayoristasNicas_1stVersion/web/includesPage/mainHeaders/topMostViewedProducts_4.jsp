@@ -78,7 +78,7 @@
  if (i == 0){
 %>
                 <div class="clear"></div><div id="productList" class="grid_3 prodGrid"> 
-                    <a href="product.jsp"><img src="images/textures/linen.png" /></a>
+                    <a href="product.jsp"></a>
                     <p id="info">
                         <a href="product.jsp?id="><span class="blue">No Product Added in Database</span></a><br/>
                         <br/>
