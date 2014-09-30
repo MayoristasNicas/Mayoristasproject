@@ -189,7 +189,7 @@
                 <div class="adv">
 
                     <h2><br/>Anuncios publicitarios</h2>
-                    <p>Tu negocio puede anunciarse aqui,contáctanos </p>
+                    <p>Tu negocio puede anunciarse aqui,contï¿½ctanos </p>
 
                     <h2><br/>ATENTO !</h2>
                     <p>Se acerca la Navidad! Grandes descuentos solo en MayoristasNicas </p>
