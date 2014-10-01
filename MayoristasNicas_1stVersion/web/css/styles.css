@@ -302,11 +302,12 @@ text-shadow: none;
 	}
 	
 #footer ul li a {
-	color:#FFF;
-	text-shadow: 0 1px 0 black;
+        color:#00aac9;
+	//color:#FFF;
+	//text-shadow: 0 1px 0 black;
 	}
 #footer ul li a:hover {
-	text-shadow: 0 -1px 0 #CCC;
+	//text-shadow: 0 -1px 0 #CCC;
 	
 	}
 	
