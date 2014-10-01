@@ -47,7 +47,7 @@
 
                             </td>
                             <td>
-                                <input type="submit" value="Login!!" id="greenBtn" /><br/>
+                                <input type="submit" value="Inicio de sesión!!" id="greenBtn" /><br/>
                             </td>
                         </tr>
                     </table>
@@ -105,7 +105,7 @@
                             <td>
                             </td>
                             <td>
-                                <input type="submit" value="Register" id="greenBtn" /><br/>
+                                <input type="submit" value="Registrate" id="greenBtn" /><br/>
                             </td>
                         </tr>
                     </table>
