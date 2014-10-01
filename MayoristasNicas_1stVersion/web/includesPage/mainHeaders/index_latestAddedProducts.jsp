@@ -1,7 +1,7 @@
 <%-- 
     Document   : topMostViewedProducts
     Created on : 13 Dec, 2012, 6:45:53 PM
-    Author     : chirag
+    Author     : MayoristasNicas
 --%>
 
         <%@page import="java.sql.ResultSet"%>
@@ -14,10 +14,10 @@
                        <a href="viewProducts_.jsp">
                            <div class="ProductHeading">
                                <div class="grid_12">
-                                   <h2 class="heading">Top Most Viewed Products Currently</h2>
+                                   <h2 class="heading">Productos más vistos actualmente</h2>
                                </div>
                                <div id="viewMore" class="grid_3">
-                                   <h6 class="blue">View More</h6>
+                                   <h6 class="blue">Ver más</h6>
                                </div>
                            </div>
                        </a>

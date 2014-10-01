@@ -6,15 +6,15 @@
             <div class="grid_9">
 
 
-                <input type="text" id="search" class="searchBox" placeholder="Quick search an item ..." autofocus="true"/>
+                <input type="text" id="search" class="searchBox" placeholder="Busca por artículos ..." autofocus="true"/>
 
             </div>
             <div class="grid_6" id="topNav">
                 <ul>
-                    <li><a href="index.jsp">HOME</a></li>
-                    <li><a href="viewProducts_.jsp">PRODUCTS</a></li>
-                    <li><a href="contact-support.jsp">CONTACT</a></li>
-                    <li><a href="faq.jsp">FAQ</a></li>
+                    <li><a href="index.jsp">INICIO</a></li>
+                    <li><a href="viewProducts_.jsp">PRODUCTOS</a></li>
+                    <li><a href="contact-support.jsp">CONTACTANOS</a></li>
+                    <li><a href="faq.jsp">PREGUNTAS</a></li>
                 </ul>
             </div>
         </div>
@@ -25,15 +25,15 @@
     <div class="container_16">
         <div class="grid_16">
             <div class="grid_9">
-               <p><span>MisiÃ³n</span> Brindar una canal de distribuciÃ³n en lÃ­nea a empresas productoras de alimentos como una alternativa de canal de venta. Asimismo ofrecer a clientes finales productos al por mayor a un mejor precio de compra.</p>
-               <p><span>VisiÃ³n</span> Ser una empresa de servicios de distribuciÃ³n robusta con capacidad de adaptarse a la globalizaciÃ³n y implantar un estilo en mercado de canal de distribuciÃ³n de productos al por mayor.</p>
+               <p><span>Misión</span> Brindar una canal de distribución en línea a empresas productoras de alimentos como una alternativa de canal de venta. Asimismo ofrecer a clientes finales productos al por mayor a un mejor precio de compra.</p>
+               <p><span>Visión</span> Ser una empresa de servicios de distribución robusta con capacidad de adaptarse a la globalización y implantar un estilo en mercado de canal de distribución de productos al por mayor.</p>
                
            
             <!-- <p><span>Mahavir Paints</span> is the one of the most best places in Mira Bhyyandar to find <span>First Class Paints</span></p>
             -->
             </div>
             <div class="grid_6" id="top">
-                <a href="http://www.facebook.com"> <div id="greenBtn" align="center" class ="Btn">Join the Community on Facebook!!</div></a>
+                <a href="http://www.facebook.com"> <div id="greenBtn" align="center" class ="Btn">Sé miembro de nuestra comunidad en Facebook!!</div></a>
             </div>
         </div>
     </div>

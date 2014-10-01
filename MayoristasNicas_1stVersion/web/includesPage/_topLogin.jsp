@@ -70,7 +70,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <label>Password Again</label>
+                                <label>Repetir Password</label>
                             </td>
                             <td>
                                 <input type="password" name="passAgain" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;" /><br/>

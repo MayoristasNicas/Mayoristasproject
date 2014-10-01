@@ -3,36 +3,36 @@
         <div class="grid_16" >
             <div class="grid_3">
                 <ul>
-                    <li><strong>Help</strong></li>
-                    <li><a href="faq.jsp">Payments</a></li>
-                    <li><a href="faq.jsp">Shipping</a></li>
-                    <li><a href="faq.jsp">Cancellation &amp; Returns</a></li>
+                    <li><strong>Ayuda</strong></li>
+                    <li><a href="faq.jsp">Pagos</a></li>
+                    <li><a href="faq.jsp">Entregas</a></li>
+                    <li><a href="faq.jsp">Cancelación &amp; Devoluciones</a></li>
                 </ul>
             </div>
             <div class="grid_3">
                 <ul>
-                    <li><strong>SaiKiran</strong></li>
-                    <li><a href="contact-support.jsp">Contact Us</a></li>
-                    <li><a href="contact-support.jsp">About Us</a></li>
-                    <li><a href="faq.jsp">Careers</a></li>
+                    <li><strong>MayoristasNicas</strong></li>
+                    <li><a href="contact-support.jsp">Contactanos</a></li>
+                    <li><a href="contact-support.jsp">Acerca de Nosotros</a></li>
+                    <li><a href="faq.jsp">-</a></li>
                 </ul>
             </div>
             <div class="grid_3">
                 <ul>
                     <li><strong>Misc</strong></li>
-                    <li><a href="index.jsp">Home</a></li>
-                    <li><a href="faq.jsp">Affiliate</a></li>
+                    <li><a href="index.jsp">Inicio</a></li>
+                    <li><a href="faq.jsp">Registrate</a></li>
                     <li><a href="http://www.facebook.html">Facebook</a></li>
                 </ul>
             </div>
             <div class="grid_5">
-                <br/><h2>Safe and Secure Shopping</h2><p>
-                    All the payments will be made through Cash on delivery, No need to take care of payment methods because you pay when you get your product delivered at your doorstep.</p>
+                <br/><h2>Ventas y entregas seguras e inmediatas</h2><p>
+                    Todos nuestros pagos se realizan una vez recibido el producto por medio de una transferencia bancaria. No debemos de preocuparnos por métodos de pago ya que usted va a pagar una vez que reciba el producto en la puerta de su casa.</p>
             </div>
         </div>
         <div id="clear"></div>
         <div class="grid_16">	
-            <p>Copyrights &copy; 2012 SaiKiran BookStores - The Online Megastore</p>
+            <p>Copyrights &copy; 2014 MayoristasNicas - Ventas al por mayor</p>
     </div>
 </div>
 </div>

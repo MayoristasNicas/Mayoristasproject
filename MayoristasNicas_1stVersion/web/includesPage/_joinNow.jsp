@@ -6,7 +6,7 @@
             </div>
             <div class="grid_6" id="top">
                 <ul>
-                    <a href="#" id="join"><li id="greenBtn"  class ="Btn showForm">Join Now!!</li></a>
+                    <a href="#" id="join"><li id="greenBtn"  class ="Btn showForm">Registrate!!</li></a>
                 </ul>
             </div>
         </div>
@@ -83,7 +83,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <label>Password Again</label>
+                                <label>Repetir Password</label>
                             </td>
                             <td>
                                 <input type="password" name="passAgainReg" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;" required/><br/>
