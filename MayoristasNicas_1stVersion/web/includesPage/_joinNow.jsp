@@ -22,7 +22,7 @@
                     <table>
                         <tr>
                             <td colspan="2">
-                                <strong><h1 style="font-wieght:bold; text-align:left; padding:20px 0px; color:#FFF;">Login...</h1></strong>
+                                <strong><h1 style="font-weight:bold; text-align:left; padding:20px 0px; color:#FFF;">Login...</h1></strong>
                             </td>
                             <td>
                             </td>
