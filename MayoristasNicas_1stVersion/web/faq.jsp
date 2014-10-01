@@ -1,7 +1,7 @@
 <%-- 
     Document   : faq
     Created on : 18 Dec, 2012, 9:22:01 AM
-    Author     : chirag
+    Author     : MayoristasNicas
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Saikiran BookStores FAQ</title>        
+        <title>MayoristasNicas FAQ</title>        
         <!-- Default Stylesheets -->
         <link rel="shortcut icon" href="images/logo/ico.ico"/>
 

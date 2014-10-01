@@ -1,7 +1,7 @@
 <%-- 
     Document   : myUpload
     Created on : Sep 6, 2012, 7:59:25 AM
-    Author     : student
+    Author     : MayoristasNicas
 --%>
 
 
@@ -65,7 +65,7 @@
                                     result = "File Uploaded with no errors...";
                                     DB_Conn conn = new DB_Conn();
                                     Connection con = conn.getConnection();
-                                    String insertImage = "INSERT INTO  `saikiran enterprises`.`images` "
+                                    String insertImage = "INSERT INTO  `mayoristasnic`.`images` "
                                             + "(`image-id` ,`image-name` ,`product-name`) "
                                             + "VALUES (NULL ,  "
                                             + "'uploads/" + file.getFileName() + "',  '" + (String)session.getAttribute("productName") + "');";

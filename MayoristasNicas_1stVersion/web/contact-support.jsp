@@ -1,7 +1,7 @@
 <%-- 
     Document   : contact-support
     Created on : 14 Dec, 2012, 12:38:53 AM
-    Author     : chirag
+    Author     : MayoristasNicas
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
+        <title>MayoristasNicas</title>
         <jsp:useBean class="product.product" id="product" scope="session"></jsp:useBean>
 
         <%@page import="java.sql.*, database.*" %>
@@ -93,7 +93,7 @@
         <div class="container_16">
             <div id="whiteBox" style="padding: 10px;">
                 <br/>
-                <h1>Contact Us</h1>
+                <h1>Contactanos</h1>
                 <hr/>
             </div>
         </div>
@@ -106,7 +106,7 @@
                 <div class="grid_5">
                     
                     <div class="grid_3 ">
-                        Saikiran BookStores
+                        MayoristasNicas
                     </div>
                     <div class="clear ">
                     </div>
@@ -114,19 +114,19 @@
                         Email:
                     </div>
                     <div class="grid_3">
-                        support@sai_books.com
+                        support@mayoristasnicas.com
                     </div>
                     <div class="grid_1">
-                        Address:
+                        Dirección:
                     </div>
                     <div class="grid_3">
-                        B-3/Shop No 18, Silver Park, Mira Bhyendar Road, Mira Road East
+                        Lomas del Valle, Av. Henares, casa #A-8
                     </div>
                     <div class="grid_1">
-                        Mobile:
+                        Celular:
                     </div>
                     <div class="grid_3">
-                        +91-9004300630
+                        +505-887-63345
                     </div>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 <%-- 
     Document   : admin_addProduct_Insert
     Created on : 30 Nov, 2012, 11:35:07 PM
-    Author     : chirag
+    Author     : MayoristasNicas
 --%>
 
 <%@page import="java.sql.SQLIntegrityConstraintViolationException"%>
@@ -93,7 +93,7 @@ NULL ,  '2',  'Ayinga Movie ',  '123456', NOW( )
         */
                 String insertQuery = ""
                         + "INSERT INTO  "
-                        + "`saikiran enterprises`.`products` "
+                        + "`mayoristasnic`.`products` "
                         + "(`product_id` ,"
                         + "`product-name` ,"
                         + "`sub-category-name` ,"
@@ -144,7 +144,7 @@ NULL ,  '2',  'Ayinga Movie ',  '123456', NOW( )
                      pid = executeQueryFetchPid.getInt("product_id");
                  }
                 
-                st.executeUpdate(" INSERT INTO  `saikiran enterprises`.`expenses` ("
+                st.executeUpdate(" INSERT INTO  `mayoristasnic`.`expenses` ("
                             +"`expenses_id` ,"
                             +"`product_id` ,"
                             +"`product_name` ,"

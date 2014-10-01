@@ -1,7 +1,7 @@
 <%-- 
     Document   : admin_performance
     Created on : 22 Nov, 2012, 10:20:00 PM
-    Author     : chirag
+    Author     : MayoristasNicas
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
+        <title>MayoristasNicas</title>
         <jsp:useBean class="product.product" id="product" scope="session"></jsp:useBean>
 
         <%@page import="java.sql.*, database.*" %>

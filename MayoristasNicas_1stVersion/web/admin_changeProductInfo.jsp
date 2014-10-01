@@ -1,14 +1,14 @@
 <%-- 
     Document   : admin_changeProductInfo
     Created on : 5 Dec, 2012, 8:53:35 PM
-    Author     : chirag
+    Author     : MayoristasNicas
 --%>
 
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
+        <title>MayoristasNicas</title>
         <jsp:useBean class="product.product" id="product" scope="session"></jsp:useBean>
 
         <%@page import="java.sql.*, database.*" %>
@@ -99,7 +99,7 @@ UPDATE  `products` SET  `product-name` =  'XPS Seriator v2',
                         +" `summary` =  '"+summary+"' WHERE  `products`.`product_id` ="+pid+" ";
                         double expenses_d = productPrice * addQuantity;
                         int expenses = (int)expenses_d;
-                        String sqlUpdateExpenses = "INSERT INTO  `saikiran enterprises`.`expenses` ("
+                        String sqlUpdateExpenses = "INSERT INTO  `mayoristasnic`.`expenses` ("
 +"  `expenses_id` , "
  +"   `product_id` ,"
  +"   `product_name` , "

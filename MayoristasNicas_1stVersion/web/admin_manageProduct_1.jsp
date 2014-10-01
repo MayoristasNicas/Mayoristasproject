@@ -1,7 +1,7 @@
 <%-- 
     Document   : admin_manageProduct
     Created on : 26 Nov, 2012, 7:48:56 PM
-    Author     : chirag
+    Author     : MayoristasNicas
 --%>
 
 <%@page import="java.util.ArrayList"%>

@@ -1,7 +1,7 @@
 <%-- 
     Document   : findProductLoad
     Created on : 26 Nov, 2012, 12:09:12 AM
-    Author     : chirag
+    Author     : MayoristasNicas
 --%>
         <link rel="stylesheet" type="text/css" href="css/reset.css"/>
         <link rel="stylesheet" type="text/css" href="css/text.css"/>

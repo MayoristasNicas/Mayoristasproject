@@ -1,14 +1,14 @@
 <%-- 
     Document   : showMyBill
     Created on : 21 Nov, 2012, 10:13:42 PM
-    Author     : chirag
+    Author     : MayoristasNicas
 --%>
 <%@page import="java.util.ArrayList"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
+        <title>MayoristasNicas</title>
         <jsp:useBean class="product.product" id="product" scope="session"></jsp:useBean>
 
         <%@page import="java.sql.*, database.*" %>
@@ -193,25 +193,25 @@
                         From;
                     </div>
                     <div class="grid_3">
-                        Saikiran BookStores
+                        MayoristasNicas
                     </div>
                     <div class="grid_1">
                         Email:
                     </div>
                     <div class="grid_3">
-                        support@sai_books.com
+                        support@mayoristasnicas.com
                     </div>
                     <div class="grid_1">
-                        Address:
+                        Dirección:
                     </div>
                     <div class="grid_3">
-                        B-3/Shop No 18, Silver Park, Mira Bhyendar Road, Mira Road East
+                        Lomas del Valle, Av. Henares, casa #A-8
                     </div>
                     <div class="grid_1">
-                        Mobile:
+                        Celular:
                     </div>
                     <div class="grid_3">
-                        +91-9004300630
+                        +505-4356-5444
                     </div>
                 </div>
             </div>
@@ -222,20 +222,20 @@
             <div id="whiteBox" class="grid_12 push_2">
                 <div id="CartTable" style="padding:10px 00px" class="grid_12">
                     <div class="grid_1">
-                        <h3>Order No</h3>
+                        <h3>Número de orden</h3>
                     </div> 
                     <div class="grid_7">
-                        <h3 class="push_3">Order Summary</h3> 
+                        <h3 class="push_3">Detalle de la orden</h3> 
                         <div class="clear"></div>
                         <div class="grid_4">
-                            Item 
+                            Artículo 
                         </div>
                         <div class="grid_2">
-                            Price x Quantity
+                            Precio unitario
                         </div>
                     </div>
                     <div class="grid_3 ">
-                        <h3>Total Value</h3>
+                        <h3>Valor Total</h3>
                     </div>
 
                     <div class="clear"></div>

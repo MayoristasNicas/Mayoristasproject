@@ -1,7 +1,7 @@
 <%-- 
     Document   : admin_manageProduct
     Created on : 26 Nov, 2012, 7:48:56 PM
-    Author     : chirag
+    Author     : MayoristasNicas
 --%>
 
 <%@page import="java.util.ArrayList"%>
@@ -13,7 +13,7 @@
 <!DOCTYPE html>
 <html>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>SaiKiran BookStores</title>
+    <title>MayoristasNicas</title>
     <link rel="shortcut icon" href="images/logo/ico.ico"/>
     <link rel="stylesheet" type="text/css" href="css/reset.css"/>
     <link rel="stylesheet" type="text/css" href="css/text.css"/>

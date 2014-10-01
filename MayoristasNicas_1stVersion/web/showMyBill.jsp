@@ -1,14 +1,14 @@
 <%-- 
     Document   : showMyBill
     Created on : 21 Nov, 2012, 10:13:42 PM
-    Author     : chirag
+    Author     : MayoristasNicas
 --%>
 <%@page import="java.util.ArrayList"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
+        <title>MayoristasNicas</title>
         <jsp:useBean class="product.product" id="product" scope="session"></jsp:useBean>
 
         <%@page import="java.sql.*, database.*" %>

@@ -289,7 +289,7 @@
             </div>
             <div class="grid_3">
                 <ul>
-                    <li><strong>SaiKiran</strong></li>
+                    <li><strong>MayoristasNicas</strong></li>
                     <li><a href="contact.html">Contact Us</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="faq.html">Careers</a></li>
@@ -314,7 +314,7 @@
 
         <div id="clear"/>
         <div class="grid_16">	
-            <p>Copyrights &copy; 2012 SaiKiran BookStores - The online library</p>
+            <p>Copyrights &copy; 2014 MayoristasNicas - Ventas al por mayor</p>
         </div>
     </div>
 </div>

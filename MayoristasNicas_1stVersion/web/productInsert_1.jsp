@@ -13,7 +13,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
+        <title>MayoristasNicas</title>
         <link rel="shortcut icon" href="images/logo/ico.ico"/>
 
         <%@include file="includesPage/_stylesheets.jsp" %>
@@ -279,7 +279,7 @@
         <div class="grid_16" >
             <div class="grid_3">
                 <ul>
-                    <li><strong>Help</strong></li>
+                    <li><strong>Ayuda</strong></li>
                     <li><a href="faq.html">Payments</a></li>
                     <li><a href="faq.html">Shipping</a></li>
                     <li><a href="faq.html">Cancellation &amp; Returns</a></li>
@@ -287,7 +287,7 @@
             </div>
             <div class="grid_3">
                 <ul>
-                    <li><strong>SaiKiran</strong></li>
+                    <li><strong>MayoristasNicas</strong></li>
                     <li><a href="contact.html">Contact Us</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="faq.html">Careers</a></li>
@@ -296,14 +296,14 @@
             <div class="grid_3">
                 <ul>
                     <li><strong>Misc</strong></li>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="faq.html">Affiliate</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="faq.html">Afiliarse</a></li>
                     <li><a href="http://www.facebook.html">Facebook</a></li>
                 </ul>
             </div>
 
             <div class="grid_5">
-                <br/><h2>Safe and Secure Shopping</h2><p>
+                <br/><h2>Compras seguras</h2><p>
                     All major credit and debit cards are accepted. We also accept payments by Internet Banking, Cash on Delivery and Equated Monthly Installments(EMI).</p>
 
             </div>
@@ -312,7 +312,7 @@
 
         <div id="clear"/>
         <div class="grid_16">	
-            <p>Copyrights &copy; 2012 SaiKiran BookStores - The online library</p>
+            <p>Copyrights &copy; 2012 MayoristasNicas - Ventas al por mayor</p>
         </div>
     </div>
 </div>

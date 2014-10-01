@@ -1,7 +1,7 @@
 <%-- 
     Document   : addToCart
     Created on : 16 Nov, 2012, 1:42:23 AM
-    Author     : chirag
+    Author     : MayoristasNicas
 --%>
 
 <%@page import="java.util.ArrayList"%>
@@ -11,7 +11,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores - Cart</title>
+        <title>MayoristasNicas - Carrito</title>
         <!-- Default Stylesheets -->
         <link rel="shortcut icon" href="images/logo/ico.ico"/>
 

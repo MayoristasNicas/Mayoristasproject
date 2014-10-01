@@ -1,13 +1,13 @@
 <%-- 
     Document   : admin_deleteProduct
     Created on : 28 Nov, 2012, 9:43:57 PM
-    Author     : chirag
+    Author     : MayoristasNicas
 --%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
+        <title>MayoristasNicas</title>
         <jsp:useBean class="product.product" id="product" scope="session"></jsp:useBean>
 
         <%@page import="java.sql.*, database.*" %>

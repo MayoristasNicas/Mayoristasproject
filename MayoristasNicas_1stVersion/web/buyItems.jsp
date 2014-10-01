@@ -1,7 +1,7 @@
 <%-- 
     Document   : buyItems
     Created on : 5 Nov, 2012, 12:23:58 PM
-    Author     : chirag
+    Author     : MayoristasNicas
 --%>
 
 <%@page import="user.user"%>
@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
+        <title>MayoristasNicas</title>
         <jsp:useBean class="product.product" id="product" scope="session"></jsp:useBean>
 
         <%@page import="java.sql.*, database.*" %>

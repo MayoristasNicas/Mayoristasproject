@@ -1,7 +1,7 @@
 <%-- 
     Document   : removeProductFilter
     Created on : 16 Nov, 2012, 12:15:51 AM
-    Author     : chirag
+    Author     : MayoristasNicas
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

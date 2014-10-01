@@ -1,7 +1,7 @@
 <%-- 
     Document   : admin_approvedOrders
     Created on : Nov 24, 2012, 2:07:17 PM
-    Author     : jDeveloper
+    Author     : MayoristasNicas
 --%>
 
 <%@page import="java.util.ArrayList"%>
@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
+        <title>MayoristasNicas</title>
         <jsp:useBean class="product.product" id="product" scope="session"></jsp:useBean>
 
         <%@page import="java.sql.*, database.*" %>

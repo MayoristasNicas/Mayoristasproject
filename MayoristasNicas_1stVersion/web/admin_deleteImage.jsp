@@ -1,7 +1,7 @@
 <%-- 
     Document   : admin_deleteImage
     Created on : 27 Nov, 2012, 10:45:41 PM
-    Author     : chirag
+    Author     : MayoristasNicas
 --%>
 
 <%@page import="java.sql.Statement"%>
@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>SaiKiran BookStores</title>
+    <title>MayoristasNicas</title>
     <link rel="shortcut icon" href="images/logo/ico.ico"/>
     <link rel="stylesheet" type="text/css" href="css/reset.css"/>
     <link rel="stylesheet" type="text/css" href="css/text.css"/>

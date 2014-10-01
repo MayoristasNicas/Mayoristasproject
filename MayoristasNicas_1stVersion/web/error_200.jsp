@@ -1,7 +1,7 @@
 <%-- 
     Document   : error_404
     Created on : 10 Dec, 2012, 2:34:20 AM
-    Author     : chirag
+    Author     : MayoristasNicas
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Saikiran BookStores 404</title>        
+        <title>MayoristasNicas 404</title>        
         <!-- Default Stylesheets -->
         <link rel="shortcut icon" href="images/logo/ico.ico"/>
 
