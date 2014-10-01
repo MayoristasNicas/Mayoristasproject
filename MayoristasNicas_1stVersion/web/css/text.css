@@ -177,7 +177,7 @@ em		      	{ font-style: italic; }
 /*Global*/
 html {}
 body {	
-	background-image:url(../images/background/bgrounoptimzed.jpg);
+	/*background-image:url(../images/background/bgrounoptimzed.jpg);*/
 	position:relative;
 	background-color:  #000;
 	background-position:top center;
