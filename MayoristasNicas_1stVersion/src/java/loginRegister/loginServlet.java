@@ -115,12 +115,12 @@ public class loginServlet extends HttpServlet {
                 db_pass = rs.getString("pass");
 
                 if (email.equals(db_email)) {
-                    message = "Your email-id exists with us!";
+                    message = "Tu correo electrónica existe en nuestra base de datos!";
                     //you exist with us
                     if (pass.equals(db_pass)) {
                         isLoggedIn = true;
                         //user exists and password is matching
-                        out.print("You are logged in");
+                        out.print("Ya iniciaste sesión!");
                         user User = new user();
                         User.setUserEmail(email);
                         userSession.setAttribute("user", User);
@@ -129,8 +129,8 @@ public class loginServlet extends HttpServlet {
                     else {
                         isLoggedIn = false;
                         // user exsts but wrong passwotd ask to CHANGE THE PASSWORD
-                        message = "Wrong Password...!";
-                        messageDetail = "Password does not match with the password during registeration... Please re-login with correct password";
+                        message = "Password incorrecto...!";
+                        messageDetail = "Password no coincide con el de la registración... Intenta iniciar sesión nuevamente con el password correcto";
                         out.println("wrong password Change the password now <a href = 'changeMyPassword.jsp'>Change</a>");
                         break;
                     }

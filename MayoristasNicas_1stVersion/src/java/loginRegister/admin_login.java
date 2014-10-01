@@ -116,7 +116,7 @@ public class admin_login extends HttpServlet {
                 db_pass = rs.getString("password");
 
                 if (email.equals(db_email)) {
-                    message = "Your email-id exists with us!";
+                    message = "Tu dirección de correo electrónico ya existe en nuestra base de datos!";
                     //you exist with us
                     if (pass.equals(db_pass)) {
                         isLoggedIn = true;
@@ -133,8 +133,8 @@ public class admin_login extends HttpServlet {
                     else {
                         isLoggedIn = false;
                         // user exsts but wrong passwotd ask to CHANGE THE PASSWORD
-                        message = "Wrong Password...!";
-                        messageDetail = "Password does not match with the password during registeration... Please re-login with correct password";
+                        message = "Password incorrecto...!";
+                        messageDetail = "El password no coincide con el que se ingresó durante la registración... Por favor ingrese el password correcto";
                         //out.println("wrong password Change the password now <a href = 'changeMyPassword.jsp'>Change</a>");
                         break;
                     }
@@ -142,8 +142,8 @@ public class admin_login extends HttpServlet {
                 else {
                     //or there no such email YOu do not exist with us Create an account now!!
                     //out.println(" no such email Register an account now!");
-                    message = "Not an Administrator";
-                    messageDetail = "You are currently not an Administrator!";
+                    message = "No es un administrador";
+                    messageDetail = "Actualmente no cuenta con una cuenta de adminisrador!";
                     isLoggedIn = false;
                 }
             }
@@ -155,15 +155,15 @@ public class admin_login extends HttpServlet {
             }
         } 
         catch (SQLException e) {
-            message = "Error in the Login process";
-                    messageDetail = "There was an error in the process of login Please try after some time!";
+            message = "Error en el proceso de registración";
+                    messageDetail = "Tenemos un proceso con su registración. Por favor intente nuevamente!";
                     
             request.setAttribute("message", message);
             request.setAttribute("messageDetail", messageDetail);
             //dispatchMessage.forward(request, response);
         } catch (Exception e) {
-           message = "Error in the Login process";
-                    messageDetail = "There was an error in the process of login Please try after some time!";
+           message = "Error en el proceso de registración";
+                    messageDetail = "Tenemos un proceso con su registración. Por favor intente nuevamente!";
                   
             request.setAttribute("message", message);
             request.setAttribute("messageDetail", messageDetail);

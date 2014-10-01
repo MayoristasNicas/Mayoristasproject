@@ -31,7 +31,7 @@ public class StringSlasher {
     
     public static void main(String args[]){
         StringSlasher slash = new StringSlasher();
-        String sql = "Hi Chir'ag ";
+        String sql = "Hola MayoristasNicas ";
         slash.sqlSlasher(sql);
     }
     

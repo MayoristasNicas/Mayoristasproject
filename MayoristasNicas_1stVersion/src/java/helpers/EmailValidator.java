@@ -55,11 +55,11 @@ public class EmailValidator {
     
     public static void main(String arg[]){
         EmailValidator valid = new EmailValidator();
-        System.out.print("Gimme an email to validate ");
+        System.out.print("Correo electronico a validar...");
         Scanner sc = new Scanner(System.in);
         String email = sc.next();
         
         boolean b = valid.validate(email);
-        System.out.println("email is "+ b);
+        System.out.println("Correo electrónico es: "+ b);
     }
 }

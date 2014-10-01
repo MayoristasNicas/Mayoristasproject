@@ -101,7 +101,7 @@ public class addProduct extends HttpServlet {
             try {
                 String insertQuery = ""
                         + "INSERT INTO  "
-                        + "`saikiran enterprises`.`products` "
+                        + "`mayoristasnic`.`products` "
                         + "(`product_id` ,"
                         + "`product-name` ,"
                         + "`sub-category-name` ,"

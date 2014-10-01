@@ -94,13 +94,13 @@ public class user {
     }
     
     public static void main (String args[]) throws SQLException, ClassNotFoundException{
-        System.out.println("Ok then gimme an email to give u an ID");
+        System.out.println("Ok ingresa un correo para darte un ID");
         Scanner sc = new Scanner (System.in);
         String next = sc.next();
         user user = new user ();
         user.setUserEmail(next);
         user.getUsername();
-        System.out.println("Dude u have a email of an id "+
-        user.getUsername()+" Address of "+user.getAddress());
+        System.out.println("Tienes un correo para el ID "+
+        user.getUsername()+" Dirección de "+user.getAddress());
     }
 }

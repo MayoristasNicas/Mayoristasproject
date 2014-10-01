@@ -88,7 +88,7 @@ public class changeMyPassword extends HttpServlet {
             String email = request.getParameter("email");
             String pass = request.getParameter("pass");
             
-            String changePassword = "UPDATE  `saikiran enterprises`.`user` SET  `pass` = SHA1(  ? ) WHERE  `user`.`email` =?;";
+            String changePassword = "UPDATE  `mayoristasnic`.`user` SET  `pass` = SHA1(  ? ) WHERE  `user`.`email` =?;";
             
             DB_Conn con = new DB_Conn();
             Connection c  = con.getConnection();
@@ -98,10 +98,10 @@ public class changeMyPassword extends HttpServlet {
             int i = psmt.executeUpdate();
             PrintWriter out =response.getWriter();
             if(i==1){
-                out.println("Password Updated... Try to login now!!");
+                out.println("Password actualizada... Inicia sesión ahora!!");
             }
             if (i==0){
-                out.println("Password Updated... Try to login now!!");
+                out.println("Password actualizada... Inicia sesión ahora!!");
             }
             
         } catch (SQLException ex) {

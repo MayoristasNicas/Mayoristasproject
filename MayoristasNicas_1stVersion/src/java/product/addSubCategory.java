@@ -98,7 +98,7 @@ public class addSubCategory extends HttpServlet {
                 DB_Conn conn = new DB_Conn();
                 con = conn.getConnection();
                 
-                String sqlInsertCompany ="INSERT INTO  `saikiran enterprises`.`sub-category` (`subcategory_id` ,`sub-category_name` ,`category_name`)VALUES (NULL ,  '"+SubCategoryName+"',  '"+categoryName+"');"; 
+                String sqlInsertCompany ="INSERT INTO  `mayoristasnic`.`sub-category` (`subcategory_id` ,`sub-category_name` ,`category_name`)VALUES (NULL ,  '"+SubCategoryName+"',  '"+categoryName+"');"; 
                // "INSERT INTO  `saikiran enterprises`.`product-company` (`company-id` ,`company-name`)VALUES (NULL ,  '"+companyName+"');";                
                 //String sqlInsertProduct = "INSERT INTO  `saikiran enterprises`.`category` (`category_id` ,`category_name`)VALUES (NULL ,  '"+companyName+"'); ";
                 Statement st = con.createStatement();

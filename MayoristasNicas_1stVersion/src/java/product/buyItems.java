@@ -163,7 +163,7 @@ public class buyItems extends HttpServlet {
                     //******* Starting a Transaction
                     c.setAutoCommit(false);
                     String insertOrder;
-                    insertOrder = "    INSERT INTO  `saikiran_enterprises`.`order` ("
+                    insertOrder = "    INSERT INTO  `mayoristasnic`.`order` ("
                             + "    `order_id` ,"
                             + "    `user_id` ,"
                             + "    `status` ,"
@@ -225,7 +225,7 @@ public class buyItems extends HttpServlet {
                         ArrayList<Integer> id = Cart.getId();
                         
                         String insertIntoSalesSQL3 = ""
-                                + "INSERT INTO  `saikiran_enterprises`.`sales` ("
+                                + "INSERT INTO  `mayoristasnic`.`sales` ("
                                 + "`sales_id` ,"
                                 + "`order_id` ,"
                                 + "`product_id` ,"

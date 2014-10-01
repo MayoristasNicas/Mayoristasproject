@@ -99,7 +99,7 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response)
                         if (pass.equals(passAgain)) {
                             // then the user is registered and a session is 
 
-                            String sql = "INSERT INTO  `saikiran enterprises`.`administrators` "
+                            String sql = "INSERT INTO  `mayoristasnic`.`administrators` "
                                     + "(`admin_id`  ,`email` ,`password` ) "
                                     + "VALUES (NULL ,  ?, SHA1(  ? )); ";
 
@@ -117,7 +117,7 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response)
                                 user User = new user();
                                 User.setUserEmail(email);
                                 userSession.setAttribute("user", User);
-                                response.sendRedirect("/saikiranBookstoreApp/admin_settings.jsp");
+                                response.sendRedirect("/MayoristasNicas_1stVersion/admin_settings.jsp");
                             } else {
                                 isRegistered = false;
                                 out.println("You are not registered");

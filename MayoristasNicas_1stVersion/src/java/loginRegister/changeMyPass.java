@@ -93,7 +93,7 @@ public class changeMyPass extends HttpServlet {
             }
             String changePassword = 
                     "UPDATE  "
-                    + "`saikiran enterprises`.`user` "
+                    + "`mayoristasnic`.`user` "
                     + " SET  `pass` = SHA1( '"+pass+"' ) "
                     + "WHERE  `user`.`email` ='"+email+"';";
             
@@ -105,10 +105,10 @@ public class changeMyPass extends HttpServlet {
             int i = psmt.executeUpdate(changePassword);
             PrintWriter out =response.getWriter();
             if(i==1){
-                out.println("Password Updated... Try to login now!!"+email+pass);
+                out.println("Password actualizado... Intenta iniciar sesión nuevamente!!"+email+pass);
             }
             if (i==0){
-                out.println("Password Not Updated... Try to login now!!"+email+pass);
+                out.println("Password No actualizado... Intenta iniciar sesión nuevamente!!"+email+pass);
             }
             response.sendRedirect(request.getContextPath()+"/userinfo.jsp");
             

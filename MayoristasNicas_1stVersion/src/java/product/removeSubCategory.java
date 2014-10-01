@@ -122,7 +122,7 @@ public class removeSubCategory extends HttpServlet {
                 st.addBatch(sqlCategory);
             }
             st.executeBatch();
-            response.sendRedirect("/saikiranBookstoreApp/admin_settings.jsp");
+            response.sendRedirect("/MayoristasNicas_1stVersion/admin_settings.jsp");
         } catch (SQLException ex) {
             Logger.getLogger(removeCategory.class.getName()).log(Level.SEVERE, null, ex);
             message = "An Error occoured during the process of Deletion";
