@@ -93,9 +93,11 @@ text-shadow: none;
 	-webkit-transition:.3s all ease-in-out;
 	-moz-transition:.3s all ease-in-out;
 	background-repeat:no-repeat;
+        display:none;
 	}
 #logo:hover {
-	background:url(../images/logo/logohover.png);
+        display:none;
+	//background:url(../images/logo/logohover.png);
 	-webkit-transition:.3s all ease-in-out;
 	-moz-transition:.3s all ease-in-out;
 	background-repeat:no-repeat;
