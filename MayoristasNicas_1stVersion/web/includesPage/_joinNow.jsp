@@ -2,7 +2,7 @@
 <div id = "topWrapper">
     <div class="container_16">
         <div class="grid_16">
-            <div id="logo" class="grid_6"> <a href="index.jsp"><img src="images/logo/icon.png" /></a>
+            <div id="logo" class="grid_6"> <a href="index.jsp"><img src="file:///C|/Users/ADRIANA/Documents/GitHub/Mayoristasproject/MayoristasNicas_1stVersion/web/images/logo/Logo.jpg" width="195" height="99" /></a>
             </div>
             <div class="grid_6" id="top">
                 <ul>
