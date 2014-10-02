@@ -137,9 +137,9 @@ public class loginServlet extends HttpServlet {
                 }
                 else {
                     //or there no such email YOu do not exist with us Create an account now!!
-                    out.println(" no such email Register an account now!");
-                    message = "Email does not exists";
-                    messageDetail = "Please register with us right now to buy items on the go!";
+                    out.println(" No existe una cuenta con este correo electrónico!");
+                    message = "Correo electrónico no existe";
+                    messageDetail = "Por favor registrate para iniciar a comprar!";
                     isLoggedIn = false;
                 }
             }
@@ -150,17 +150,17 @@ public class loginServlet extends HttpServlet {
                 dispatchMessage.forward(request, response);
             }
         } catch (SQLException e) {
-            out.println(" Problem in the process execution...");
+            out.println("Problema durante la ejecución...");
             //response.sendError(404);
-            message = "An Error occoured during the process of login";
-            messageDetail = "We are extremely sorry to have this but we had an error during your process of login please do try after some time,";
+            message = "A ocurrido un error durante tu inicio de sesión";
+            messageDetail = "Lo sentimos muchopero ha ocurrido un error durante tu inicio de sesion. Por favor intenta de nuevo más tarde.";
                    
             request.setAttribute("message", message);
             request.setAttribute("messageDetail", messageDetail);
             dispatchMessage.forward(request, response);
         
         } catch (Exception e) {
-            out.println(" Problem in the process execution...");
+            out.println("Problema durante la ejecución...");
             //response.sendError(404);
         }
     }

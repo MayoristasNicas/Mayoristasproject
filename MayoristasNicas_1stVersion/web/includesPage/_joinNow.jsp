@@ -59,7 +59,7 @@
                     <table>
                         <tr>
                             <td colspan="2">
-                                <strong><h1 style="font-wieght:bold; text-align:right; padding:20px 0px; color:#FFF;">Register Now!!</h1></strong>
+                                <strong><h1 style="font-wieght:bold; text-align:right; padding:20px 0px; color:#FFF;">Registrate!!</h1></strong>
                             </td>
                             <td>
 
@@ -105,7 +105,7 @@
                             <td>
                             </td>
                             <td>
-                                <input type="submit" value="Register" id="greenBtn" /><br/>
+                                <input type="submit" value="Registrarme" id="greenBtn" /><br/>
                             </td>
                         </tr>
                     </table>

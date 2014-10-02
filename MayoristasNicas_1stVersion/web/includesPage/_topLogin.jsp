@@ -8,7 +8,7 @@
                     <table>
                         <tr>
                             <td colspan="2">
-                                <strong><h1 style="font-wieght:bold; text-align:left; padding:20px 0px; color:#FFF;">Login...</h1></strong>
+                                <strong><h1 style="font-wieght:bold; text-align:left; padding:20px 0px; color:#FFF;">Inicio de Sesión...</h1></strong>
                             </td>
                             <td>
 
@@ -19,7 +19,7 @@
                                 <label>Email</label>
                             </td>
                             <td>
-                                <label><input type="text" name="email" placeholder="john_lee@xyz.com" /><br/></label>
+                                <label><input type="text" name="email" placeholder="correo@xyz.com" /><br/></label>
                             </td>
                         </tr>
                         <tr>
@@ -34,7 +34,7 @@
 
                             </td>
                             <td>
-                                <input type="submit" value="Login!!" id="greenBtn" /><br/>
+                                <input type="submit" value="Iniciar Sesión!!" id="greenBtn" /><br/>
                             </td>
                         </tr>
                     </table>
@@ -46,7 +46,7 @@
                     <table>
                         <tr>
                             <td colspan="2">
-                                <strong><h1 style="font-wieght:bold; text-align:right; padding:20px 0px; color:#FFF;">Register Now!!</h1></strong>
+                                <strong><h1 style="font-wieght:bold; text-align:right; padding:20px 0px; color:#FFF;">Registrate Ahora!!</h1></strong>
                             </td>
                             <td>
 

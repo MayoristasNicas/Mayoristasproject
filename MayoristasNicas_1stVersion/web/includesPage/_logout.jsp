@@ -40,16 +40,16 @@
                         </div>
                         <div class="grid_9" id="top">
                             <ul>
-                                <a href="_logoutServlet"><li id="greenBtn" class ="Btn showForm">Logout</li></a>
+                                <a href="_logoutServlet"><li id="greenBtn" class ="Btn showForm">Cerrar Sesión</li></a>
                                 <a href="userinfo.jsp?uid=<%= uid %>"><li class ="Btn showForm"><%= printName %></li></a>
                                 <%
                                     if (session.getAttribute("admin") != null){
                                 %>
-                                <a href="admin_Performance.jsp"><li class ="Btn showForm">Administrator: </li></a>
+                                <a href="admin_Performance.jsp"><li class ="Btn showForm">Administrador: </li></a>
                                 <%
                                     }
                                 %>
-                                <a href="addToCart_view.jsp"><li class ="Btn showForm"><span class="backRed"><%= totalQty %></span> in My Cart </li></a>
+                                <a href="addToCart_view.jsp"><li class ="Btn showForm"><span class="backRed"><%= totalQty %></span> En mi carro </li></a>
                             </ul>
                         </div>
                 </div>
