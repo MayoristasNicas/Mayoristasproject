@@ -109,18 +109,18 @@
         <div class="container_16">
             <div id="leftside" class="grid_3">
                     <ul id="leftsideNav">
-                        <li><a id="userInfo"><strong>User Profile</strong></a></li>
+                        <li><a id="userInfo"><strong>Perfil de Usuario</strong></a></li>
                         
-                        <li><a id="Account">Account</a></li>
-                        <li><a id="MyOrders">My Orders</a></li>
-                        <li><a id="Settings">Settings</a></li>
+                        <li><a id="Account">Cuenta</a></li>
+                        <li><a id="MyOrders">Mis ordenes</a></li>
+                        <li><a id="Settings">Configuraciones</a></li>
                     </ul>
                 </div>
             <div class="grid_13 push_3" id="whiteBox">
                 <div  class="grid_13">
                     <h1  style ="text-align: center; padding: 10px 0px 0px 0px;">Hello <%= printName %></h1>  
                     <p  style ="text-align: center;"> 
-                       Enter in the personal information for your Account to have quick checkouts during any transaction 
+                       Ingresa la información personal para tu cuenta 
                     </p>
                 </div>
             </div>
@@ -130,24 +130,24 @@
                     
                  <div  style ="text-align: center; border-top: 20px #444 solid; padding: 10px 0px 10px 0px;" class="grid_12 MyOrders">
                         
-                     <h1 style ="padding: 10px 0px 10px 0px;">My Orders</h1>  
+                     <h1 style ="padding: 10px 0px 10px 0px;">Mis ordenes</h1>  
                     
                         <div id="CartTable" style="padding:10px 00px" class="grid_12">
                                     <div class="grid_1">
-                                         <h3>Order No</h3>
+                                         <h3>Orden Número</h3>
                                     </div> 
                                     <div class="grid_7">
-                                        <h3 class="push_3">Order Summary</h3> 
+                                        <h3 class="push_3">Detalle de Orden</h3> 
                                             <div class="clear"></div>
                                             <div class="grid_4">
-                                                Item 
+                                                Producto 
                                             </div>
                                             <div class="grid_2">
-                                                Price x Quantity
+                                                Precio por Cantidad
                                             </div>
                                     </div>
                                     <div class="grid_3 push_1">
-                                        <h3>Date</h3>
+                                        <h3>Fecha</h3>
                                     </div>
                             
                                     <div class="clear"></div>
@@ -210,7 +210,7 @@ WHERE o.`user_id` =4
                                                                 <%= product_name %>
                                                             </div>
                                                             <div class="grid_2">
-                                                                Rs. <%= product_price %> x<%= product_quantity %>
+                                                                C$ <%= product_price %> x<%= product_quantity %>
                                                             </div>
                                                     </div>
                                                     <div class="grid_3">
@@ -234,7 +234,7 @@ WHERE o.`user_id` =4
                                                             <%= product_name %> 
                                                         </div>
                                                         <div class="grid_2">
-                                                            Rs. <%= product_price %> x<%= product_quantity %>
+                                                            C$ <%= product_price %> x<%= product_quantity %>
                                                         </div>
                                                 </div>
                                                 <div class="grid_3">
@@ -294,49 +294,49 @@ WHERE o.`user_id` =4
                  </div>
                  <div class="clear"></div>
                     <div  style ="text-align: center; border-top: 20px #444 solid; padding: 10px 0px 10px 0px;" class="grid_9 push_1 Account">
-                        <h1 style ="padding: 10px 0px 10px 0px;">User Account</h1>  
+                        <h1 style ="padding: 10px 0px 10px 0px;">Cuenta de Usuario</h1>  
                     
                         <%
                             if (User.getUsername() == null) {
                                 %>
                         <form method="post" action="addUserDetalsServlet">
                             <div class="grid_3">
-                                Name
+                                Nombre
                             </div>
                             <div class="grid_5">
                                 <input type="text" name="username" required/>
                             </div>
                             <div class="clear"></div><br/>
                             <div class="grid_3">
-                                Gender
+                                Genero
                             </div>
                             <div class="grid_5">
                                 <select name="gender" required>
-                                    <option value="male">Male</option>
-                                    <option value="female">Female</option>
+                                    <option value="male">Masculino</option>
+                                    <option value="female">Femenino</option>
                                 </select>
                             </div>
                             <div class="clear"></div><br/>
                             <div class="grid_3">
-                                Mobile No
+                                Celular
                             </div>
                             <div class="grid_5">
                                 <input type="text" name="mobileNum" maxlength="10" required/>
                             </div>
                             <div class="clear"></div><br/>
                             <div class="grid_3">
-                                Address
+                                Dirección
                             </div>
                             <div class="grid_5">
                                 <textarea name="address" required></textarea>
                             </div>
                             <div class="clear"></div><br/>
                             <div class="grid_3">
-                                City
+                                Ciudad
                             </div>
                             <div class="grid_5">
-                                <input type="text" value="Mumbai" disabled/><br/> We Do not accept any orders outside Mumbai <br/><br/>
-                                <input type="submit" id="greenBtn" value="Add Details"/>
+                                <input type="text" value="Managua" disabled/><br/> No aceptamos órdenes fuera de Managua <br/><br/>
+                                <input type="submit" id="greenBtn" value="Agregar información"/>
                             </div>
                             <div class="clear"></div><br/>
                         </form>
@@ -345,14 +345,14 @@ WHERE o.`user_id` =4
                                        %>
                       <form method="post" action="addUserDetalsServlet">
                             <div class="grid_3">
-                                Name
+                                Nombre
                             </div>
                             <div class="grid_5">
                                 <input type="text" name="username" value="<%= User.getUsername()%>" required/>
                             </div>
                             <div class="clear"></div><br/>
                             <div class="grid_3">
-                                Gender
+                                Genero
                             </div>
                             <div class="grid_5">
                                 <select name="gender" required>
@@ -360,12 +360,12 @@ WHERE o.`user_id` =4
                                     <%
                                         if (User.getGender().equals("male")) {
                                     %>
-                                    <option value="male" selected>Male</option>
-                                    <option value="female">Female</option>
+                                    <option value="male" selected>Masculino</option>
+                                    <option value="female">Femenino</option>
                                     <%        } else {
                                     %>
-                                    <option value="male">Male</option>
-                                    <option value="female" selected >Female</option>
+                                    <option value="male">Masculino</option>
+                                    <option value="female" selected >Femenino</option>
 
                                     <%                            }
                                     %>
@@ -373,24 +373,24 @@ WHERE o.`user_id` =4
                             </div>
                             <div class="clear"></div><br/>
                             <div class="grid_3">
-                                Mobile No
+                               Celular
                             </div>
                             <div class="grid_5">
                                 <input type="text" name="mobileNum"  value="<%= User.getMobileNum()%>" required/>
                             </div>
                             <div class="clear"></div><br/>
                             <div class="grid_3">
-                                Address
+                                Dirección
                             </div>
                             <div class="grid_5">
                                 <textarea name="address" required><%= User.getAddress()%></textarea>
                             </div>
                             <div class="clear"></div><br/>
                             <div class="grid_3">
-                                City
+                                Ciudad
                             </div>
                             <div class="grid_5">
-                                <input type="text" value="Mumbai" disabled/><br/> We Do not accept any orders outside Mumbai <br/><br/>
+                                <input type="text" value="Managua" disabled/><br/> No aceptamos órdenes fuera de Managua <br/><br/>
                                 <input type="submit" id="greenBtn" value="Change Account Info"/>
                             </div>
                             <div class="clear"></div><br/>
@@ -408,22 +408,22 @@ WHERE o.`user_id` =4
                  
                  <div  style ="text-align: center; border-top: 20px #444 solid; padding: 10px 0px 10px 0px;" class="grid_9 push_1 Settings">
                         
-                     <h1 style ="padding: 10px 0px 10px 0px;">Settings</h1>  
+                     <h1 style ="padding: 10px 0px 10px 0px;">Configuraciones</h1>  
                     
                         <form method="post" action="changeMyPass">
                             <div class="grid_3">
-                                Email 
+                                Correo Electrónico 
                             </div>
                             <div class="grid_5">
                                 <input type="text" name="email" value="<%= User.getUserEmail() %>" disabled/>
                             </div>
                             <div class="clear"></div><br/>
                             <div class="grid_3">
-                                Password
+                                Contraseña
                             </div>
                             <div class="grid_5">
                                 <input type="password" name="pass" /><br/><br/> 
-                                <input id="greenBtn" type="submit" value="Change My Password"/>
+                                <input id="greenBtn" type="submit" value="Cambiar mi Contraseña"/>
                             </div>
                             <div class="clear"></div><br/>
                         </form>
