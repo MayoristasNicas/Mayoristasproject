@@ -21,7 +21,7 @@
                        <a href="viewProducts_.jsp">
                            <div class="ProductHeading">
                                <div class="grid_12">
-                                   <h2 class="heading">Top Most Viewed Products Currently</h2>
+                                   <h2 class="heading">Nuestros productos mas vistos recientemente</h2>
                                </div>
                                <!--<div id="viewMore" class="grid_3">
                                    <h6 class="blue">View More</h6>
@@ -29,7 +29,8 @@
                            </div>
                        </a>
                        <div class="clear"></div>
-<%--%
+<%--<% 
+ 
  String sqlTopMostProds = "SELECT * "
 +" FROM  `products` p"
 +" INNER JOIN  `images` i"
@@ -57,8 +58,8 @@
       subCategory = rs.getString("sub-category-name");
       category = rs.getString("category-name");
       company = rs.getString("company-name");
-      %> 
-                <div id="productList" class="grid_3 prodGrid"> 
+      %> --%>
+            <%--    <div id="productList" class="grid_3 prodGrid"> 
                     <a href="product.jsp?id=<%= productId %>"><img src="<%= imageName %>" /></a>
                     <p id="info">
                         <a href="product.jsp?id="><span class="blue"><%= name %></span></a><br/>
@@ -87,5 +88,5 @@
                 </div>
                        <%
 }
-%> --%>
-            </div>
+%> 
+            </div> --%>
