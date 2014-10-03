@@ -1,6 +1,5 @@
 <%-- 
     Document   : topMostViewedProducts
-    Created on : 13 Dec, 2012, 6:45:53 PM
     Author     : MayoristasNicas
 --%>
 
@@ -21,7 +20,7 @@
                        <a href="viewProducts_.jsp">
                            <div class="ProductHeading">
                                <div class="grid_16">
-                                   <h2 class="heading">Top Most Viewed Products Currently</h2>
+                                   <h2 class="heading">Top de productos más vistos actualmente</h2>
                                </div>
                                <!--<div id="viewMore" class="grid_3">
                                    <h6 class="blue">View More</h6>
@@ -62,8 +61,8 @@
                     <a href="product.jsp?id=<%= productId %>"><img src="<%= imageName %>" /></a>
                     <p id="info">
                         <a href="product.jsp?id="><span class="blue"><%= name %></span></a><br/>
-                        By <%= company %> <%= category %><br/>
-                        <span class="red">Rs. <%= price %></span>
+                        Por <%= company %> <%= category %><br/>
+                        <span class="red">C$ <%= price %></span>
                     </p>            
                 </div>
                        <%

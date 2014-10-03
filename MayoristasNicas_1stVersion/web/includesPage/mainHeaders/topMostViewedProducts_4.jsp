@@ -1,6 +1,5 @@
 <%-- 
     Document   : topMostViewedProducts
-    Created on : 13 Dec, 2012, 6:45:53 PM
     Author     : MayoristasNicas
 --%>
 
@@ -21,7 +20,7 @@
                        <a href="viewProducts_.jsp">
                            <div class="ProductHeading">
                                <div class="grid_12">
-                                   <h2 class="heading">Nuestros productos mas vistos recientemente</h2>
+                                   <h2 class="heading">Nuestros productos más vistos recientemente</h2>
                                </div>
                                <!--<div id="viewMore" class="grid_3">
                                    <h6 class="blue">View More</h6>

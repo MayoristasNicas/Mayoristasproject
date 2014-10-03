@@ -51,8 +51,8 @@
                     <a href="product.jsp?id=<%= productId %>"><img src="<%= imageName %>" /></a>
                     <p id="info">
                         <a href="product.jsp?id="><span class="blue"><%= name %></span></a><br/>
-                        By <%= company %> <%= category %><br/>
-                        <span class="red">Rs. <%= price %></span>
+                        Por <%= company %> <%= category %><br/>
+                        <span class="red">C$ <%= price %></span>
                     <p>            
                 </div>
                        <%
