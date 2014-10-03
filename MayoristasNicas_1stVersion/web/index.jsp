@@ -63,9 +63,9 @@
 
                         <span class="top" style="display: none; ">
 
-                            <strong>Coca Cola...</strong>	
+                            <strong>Kimberly Clark</strong>	
 
-                            <br>Las mejores promociones de Coca Cola solo las puedes encontrar en tu tienda 
+                            <br>Aprovechá las promociones que Kimberly Clark te trae en toda su linea de productos de higiene 
                             
                             MayoristasNicas.
 
@@ -114,17 +114,13 @@
 
                     <li class="sliderImage" style="display: none; ">
 
-                        <img src="images/banner/b7.jpg" width="900" height="300" /> 
+                        <img src="images/banner/b7.jpeg" width="900" height="300" /> 
 
                         <span class="top" style="display: none; ">
 
-                            <strong>Graphic Novels...</strong>				
+                            <strong>NESTLE</strong>				
 
-                            <br>The most amazing titles that you always wanted to get your hands onn.. 
-
-                            Now you have the opportunity to have them all in your personal library.
-
-                            International as well as Indian titles of many authors available
+                            <br>Nestlé te trae precio de ganga en la compra al por mayor de los siguientes productos
 
                         </span>
 
