@@ -89,7 +89,7 @@ text-shadow: none;
 	}
 	
 #logo {
-	background:url(../images/logo/Logo.png);
+	//background:url(../images/logo/Logo.png);
 	-webkit-transition:.3s all ease-in-out;
 	-moz-transition:.3s all ease-in-out;
 	background-repeat:no-repeat;
