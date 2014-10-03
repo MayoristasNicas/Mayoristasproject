@@ -50,7 +50,7 @@
                 <hr/> <br/><div class="grid_9 push_2" style="padding:10px;">
                         <form method="post" action="admin_login">
                             <div class="grid_2">
-                                Email
+                                Cprreo Electrónico
                             </div>
                             <div class="grid_5">
                                 <input type="text" name="email" placeholder="abc@xyz.com" />
@@ -58,7 +58,7 @@
                             <div class="clear"></div><br/>
                             
                             <div class="grid_2">
-                                Password 
+                                Contraseña 
                             </div>
                             <div class="grid_5">
                                 <input type="password" name="pass" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;" /><br/><br/> 

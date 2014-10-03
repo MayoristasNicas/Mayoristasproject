@@ -1,6 +1,5 @@
 <%-- 
     Document   : buyItems
-    Created on : 5 Nov, 2012, 12:23:58 PM
     Author     : MayoristasNicas
 --%>
 
@@ -66,36 +65,36 @@
         <div class="container_16">
             <div class="grid_16" id="whiteBox" style="padding: 10px;">
                 <div class="grid_8">
-                    <h1>Buy Items</h1> <br/>
+                    <h1>Compras Productos</h1> <br/>
                     <form method="post" action="buyItems">
                         <div class="grid_2">
-                            Name
+                            Nombre
                         </div>
                         <div class="grid_5">
                             <input type="text" class="name"  name="name" required/>
                         </div>
                         <div class="clear"></div><br/>
                         <div class="grid_2">
-                            Mobile No
+                            Celular
                         </div>
                         <div class="grid_5">
                             <input type="text" class="mobile" maxlength="10" name="mobile" />
                         </div>
                         <div class="grid_2">
-                            Address
+                            Dirección
                         </div>
                         <div class="grid_5">
                             <textarea class="address"  name="address" required></textarea>    
                         </div>
                         <div class="grid_2">
-                            City
+                            Ciudad
                         </div>
                         <div class="grid_5">
-                            <input  type="text" value="Mumbai" disabled/> We Do not accept any orders outside Mumbai
+                            <input  type="text" value="Managua" disabled/> No aceptamos ninguna orden fuera de Managua
                         </div>
                         <div class="clear"></div><br/>
                         <div class="grid_5" >
-                            <input  type="submit" id="greenBtn" value="Add Details"/>
+                            <input  type="submit" id="greenBtn" value="Agregar Detalles"/>
                         </div>
                     </form>
                 </div>
@@ -103,22 +102,22 @@
                if (User.getAddress() != null && User.getMobileNum() != null && User.getUserEmail() != null && User.getUsername() != null){
                    %>
                    <div class="grid_7 shippingAddress" id="useInfo">
-                    <h1> <strong></strong>This is my Shipping Address</h1> <br/>
+                    <h1> <strong></strong>Esta es mi información</h1> <br/>
                         <div class="grid_1">
-                            Name
+                            Nombre
                         </div>
                         <div class="grid_5">
                             <span id ="userName"><%= User.getUsername() %></span>
                         </div>
                         <div class="clear"></div>
                         <div class="grid_1">
-                            Mobile
+                            Celular
                         </div>
                         <div class="grid_5">
                             <span id ="mobile"><%= User.getMobileNum() %></span>
                         </div>
                         <div class="grid_1">
-                            Address
+                            Dirección
                         </div>
                         <div class="grid_5">
                             <span id ="useAddress"><%= User.getAddress() %></span> 
@@ -145,7 +144,7 @@
                %>
                     <a href="userinfo.jsp">
                         <div class="grid_7 shippingAddress">
-                            <h1> <strong></strong>Add your Details for quick Checkout</h1>
+                            <h1> <strong></strong>Agregue su información para efectuar una compra</h1>
                         </div>
                     </a>
                 <%
