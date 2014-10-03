@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin_performance
-    Created on : 22 Nov, 2012, 10:20:00 PM
     Author     : MayoristasNicas
 --%>
 
@@ -122,10 +121,10 @@
                             approvedOrders = "No";
                         }
                     %>
-                <h1 class="grid_15">Dashboard Home</h1><hr/>
-                <a href="admin_manageProduct.jsp" id="buy"  class="grid_3"><%= qty %> Items below Quantity</a>     
-                <a href="admin_approvedOrders.jsp" id="buy"  class="grid_3"><%= approvedOrders %> Items to be Delivered</a>    
-                <a href="admin_pendingOrders.jsp" id="buy" class="grid_3"><%= pendingOrders %> Items to be Approved</a>    
+                <h1 class="grid_15">Página Principal</h1><hr/>
+                <a href="admin_manageProduct.jsp" id="buy"  class="grid_3"><%= qty %> Productos y Cantidades</a>     
+                <a href="admin_approvedOrders.jsp" id="buy"  class="grid_3"><%= approvedOrders %> Productos pendientes de enviar</a>    
+                <a href="admin_pendingOrders.jsp" id="buy" class="grid_3"><%= pendingOrders %> Productos pendientes de aprobar</a>    
            </div>
                 <div class="clear"></div>
             <!--Loading the AJAX API-->

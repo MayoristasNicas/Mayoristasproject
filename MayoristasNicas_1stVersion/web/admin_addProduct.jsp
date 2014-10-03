@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin_performance
-    Created on : 22 Nov, 2012, 10:20:00 PM
     Author     : MayoristasNicas
 --%>
 
@@ -119,7 +118,7 @@
         <div class="container_16">
             <div class="grid_16" style="padding: 10px;" id="whiteBox">
                     <div class="grid_3">
-                        <br/><h1>Add Product</h1>
+                        <br/><h1>Agregar un producto</h1>
                     </div>
                 <div>
                         

@@ -1,6 +1,5 @@
 <%-- 
     Document   : addToCart
-    Created on : 16 Nov, 2012, 1:42:23 AM
     Author     : MayoristasNicas
 --%>
 
@@ -72,7 +71,7 @@
         <div class="container_16">
             <div class="grid_16" id="whiteBox">
                 <div class="grid_8 push_3" >
-                    <h1 class="push_2" style="padding:10px 00px">Products In your Cart</h1>
+                    <h1 class="push_2" style="padding:10px 00px">Productos en el carrito</h1>
 
                     <%
                         user User = new user();
@@ -81,13 +80,13 @@
                         User = (user) session.getAttribute("user");
                         if (session.getAttribute("user") == null) {
                     %>
-                    <h3 class="showForm" id="loginBtn" style="padding:10px 00px">Please Login before buying...</h3>
+                    <h3 class="showForm" id="loginBtn" style="padding:10px 00px">Por favor iniciar sesión antes de comprar...</h3>
 
                     <%                } else {
                         //out.println("login by " + User.getUserEmail());
 
                     %>
-                    <h3 class="push_2" >Your Cart contains following...</h3>
+                    <h3 class="push_2" >Tu carrito contiene...:</h3>
 
 
                     <%
@@ -107,13 +106,13 @@
 
                     <div id="CartTable" style="padding:10px 00px" class="grid_11">
                         <div class="grid_5">
-                            <h2>Name Of Product</h2> 
+                            <h2>Nombre del producto</h2> 
                         </div>
                         <div class="grid_2">
-                            <h2>Price</h2>
+                            <h2>Precio</h2>
                         </div>
                         <div class="grid_2">
-                            <h2>Quantity</h2>
+                            <h2>Cantidad</h2>
                         </div>
 
                         <%
@@ -142,7 +141,7 @@
                         <br/>
 
                         <div class="grid_5">
-                            <strong>Total Price of your Cart</strong>
+                            <strong>Precio total de tu carrito</strong>
                         </div>
 
                         <div class="grid_3 push_3">
@@ -154,12 +153,12 @@
                         <br/>
                         <a href="buyItems.jsp">
                             <div class="grid_3" id="greenBtn">
-                                Buy These Items
+                                Finalizar compra
                             </div>
                         </a>
                         <a href="viewProducts_.jsp">
                             <div class="grid_3" id="greenBtn">
-                                Continue Shopping
+                                Continuar comprando
                             </div>
                         </a>
                     </div>
