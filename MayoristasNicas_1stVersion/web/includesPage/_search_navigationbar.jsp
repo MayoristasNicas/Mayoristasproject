@@ -10,12 +10,17 @@
 
             </div>
             <div class="grid_6" id="topNav">
+                <div class="mainmenu pull-left">
+							<ul class="nav navbar-nav collapse navbar-collapse">
                 <ul>
                     <li><a href="index.jsp">Inicio</a></li>
-                    <li><a href="viewProducts_.jsp">Productos</a></li>
+                    <li class="dropdown"><a href="viewProducts_.jsp">Productos<i class="fa fa-angle-down"></i></a>
+                </li>
                     <li><a href="contact-support.jsp">Contactanos</a></li>
                     <li><a href="faq.jsp">Preguntas</a></li>
                 </ul>
+                                                        </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -24,14 +29,14 @@
 <div id = "topThird">
     <div class="container_16">
         <div class="grid_16">
-            <div class="grid_9">
+           <!-- <div class="grid_9">
                <p><span>Misión</span> Brindar una canal de distribución en línea a empresas productoras de alimentos como una alternativa de canal de venta. Asimismo ofrecer a clientes finales productos al por mayor a un mejor precio de compra.</p>
                <p><span>Visión</span> Ser una empresa de servicios de distribución robusta con capacidad de adaptarse a la globalización y implantar un estilo en mercado de canal de distribución de productos al por mayor.</p>
                
-           
+    
             <!-- <p><span>Mahavir Paints</span> is the one of the most best places in Mira Bhyyandar to find <span>First Class Paints</span></p>
-            -->
-            </div>
+           
+            </div> -->
             <div class="grid_6" id="top">
                 <a href="http://www.facebook.com"> <div id="greenBtn" align="center" class ="Btn">Sé miembro de nuestra comunidad en Facebook!!</div></a>
             </div>
