@@ -6,15 +6,15 @@
             <div class="grid_9">
 
 
-                <input type="text" id="search" class="searchBox" placeholder="Busca por artículos ..." autofocus="true"/>
+                <input type="text" id="search" class="searchBox" placeholder="Búsqueda por artículos ..." autofocus="true"/>
 
             </div>
             <div class="grid_6" id="topNav">
                 <ul>
-                    <li><a href="index.jsp">INICIO</a></li>
-                    <li><a href="viewProducts_.jsp">PRODUCTOS</a></li>
-                    <li><a href="contact-support.jsp">CONTACTANOS</a></li>
-                    <li><a href="faq.jsp">PREGUNTAS</a></li>
+                    <li><a href="index.jsp">Inicio</a></li>
+                    <li><a href="viewProducts_.jsp">Productos</a></li>
+                    <li><a href="contact-support.jsp">Contactanos</a></li>
+                    <li><a href="faq.jsp">Preguntas</a></li>
                 </ul>
             </div>
         </div>

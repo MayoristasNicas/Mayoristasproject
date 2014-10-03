@@ -1,6 +1,5 @@
 <%-- 
     Document   : _categoryList
-    Created on : 15 Nov, 2012, 11:26:20 PM
     Author     : MayoristasNicas
 --%>
 
@@ -13,7 +12,7 @@
     %>
                     <div>
                         <ul id="leftsideNav">
-                            <li><a href="#"><strong>Categories</strong></a></li>   
+                            <li><a href="#"><strong>Categorías</strong></a></li>   
     <%
     for (int i=0;i<category.size(); i++){
         %>         

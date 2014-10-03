@@ -1,6 +1,5 @@
 <%-- 
     Document   : gCharts_pieDiagram1
-    Created on : 2 Dec, 2012, 12:01:13 AM
     Author     : MayoristasNicas
 --%>
 
@@ -24,25 +23,25 @@
         <div class="container_16">
             <div class="grid_16" style="padding: 10px;" id="whiteBox">
                 <br/>
-                <h1 class="grid_15" style="text-align: center;">Monthly Activity Graph - Expenses, Sales, Profits  </h1><hr/>
+                <h1 class="grid_15" style="text-align: center;">Gráfico de actividad mensual- Gastos, Ventas, Ganancias  </h1><hr/>
                 <div class="grid_10 push_3"><form>
-                     Select Month
+                     Seleccione el mes
                      
                 <select name="month" class="graphLoad" id="month">
-                    <option value="12">December</option>
-                    <option value="11">November</option>
-                    <option value="10">October</option>
-                    <option value="09">September</option>
-                    <option value="08">August</option>
-                    <option value="07">July</option>
-                    <option value="06">June</option>
-                    <option value="05">May</option>
-                    <option value="04">April</option>
-                    <option value="03">March</option>
-                    <option value="02">February</option>
-                    <option value="01">January</option>
+                    <option value="12">Diciembre</option>
+                    <option value="11">Noviembre</option>
+                    <option value="10">Octubre</option>
+                    <option value="09">Septiembre</option>
+                    <option value="08">Agosto</option>
+                    <option value="07">Julio</option>
+                    <option value="06">Junio</option>
+                    <option value="05">Mayo</option>
+                    <option value="04">Abril</option>
+                    <option value="03">Marzo</option>
+                    <option value="02">Febrero</option>
+                    <option value="01">Enero</option>
                 </select>
-                Select Year
+                Seleccione el año
                 <select name="year" class="graphLoad" id="year">
                     <%
                         for (int i =12 ;i<35;i++){
@@ -336,43 +335,43 @@ WHERE  `purchase_date` LIKE  '2012-1%'
                   <%
 
                         if (month == 1){
-                            monthInWords = "January";
+                            monthInWords = "Enero";
                         }
                         if (month == 2){
-                            monthInWords = "February";
+                            monthInWords = "Febrero";
                         }
                         if (month == 3){
-                            monthInWords = "March";
+                            monthInWords = "Marzo";
                         }
                         if (month == 4){
-                            monthInWords = "April";
+                            monthInWords = "Abril";
                         }
                         if (month == 5){
-                            monthInWords = "May";
+                            monthInWords = "Mayo";
                         }
                         if (month == 6){
-                            monthInWords = "Jume";
+                            monthInWords = "Junio";
                         }
                         if (month == 7){
-                            monthInWords = "July";
+                            monthInWords = "Julio";
                         }
                         if (month == 8){
-                            monthInWords = "August";
+                            monthInWords = "Agosto";
                         }
                         if (month == 9){
-                            monthInWords = "September";
+                            monthInWords = "Septiembre";
                         }
                         if (month == 10){
-                            monthInWords = "October";
+                            monthInWords = "Octubre";
                         }
                         if (month == 11){
-                            monthInWords = "November";
+                            monthInWords = "Noviembre";
                         }
                         if (month == 12){
-                            monthInWords = "December";
+                            monthInWords = "Diciembre";
                         }
                                 out.print("([ "
-                                          + "['Day', 'Pending', 'Approved', 'Delivered', 'Expenses' ], ");
+                                          + "['Día', 'Pendiente', 'Aprobada', 'Entregas', 'Gastos' ], ");
                                 int i = 0 ;
                                  while (i<= soldOn.size()-1){
                                       if (i< soldOn.size()-1){
@@ -396,9 +395,9 @@ WHERE  `purchase_date` LIKE  '2012-1%'
                                 out.print("]);");
                       %>
                       var options = {
-                                title: 'Report in the Month of <%= monthInWords +" "+year %>',
-                                  vAxis: {title: "Items Sold in Rs."},
-                                  hAxis: {title: "Days of <%= monthInWords %>"}
+                                title: 'Reporte al mes de  <%= monthInWords +" "+year %>',
+                                  vAxis: {title: "Productos vendidos en C$"},
+                                  hAxis: {title: "Dias <%= monthInWords %>"}
                               };
 
                               var chart = new google.visualization.LineChart(document.getElementById('chart_div_lineCombo'));

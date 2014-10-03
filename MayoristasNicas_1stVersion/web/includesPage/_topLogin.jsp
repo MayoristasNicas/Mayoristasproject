@@ -93,7 +93,7 @@
 
                             </td>
                             <td>
-                                <input type="submit" value="Register" id="greenBtn" /><br/>
+                                <input type="submit" value="Resgistrarme" id="greenBtn" /><br/>
                             </td>
                         </tr>
                     </table>
