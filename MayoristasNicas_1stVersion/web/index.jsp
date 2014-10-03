@@ -197,9 +197,9 @@
         </div>
 
         <!-- Middle -->
-        <div id="middle"class="grid_13">
-            <jsp:include page="includesPage/mainHeaders/topMostViewedProducts_4.jsp"></jsp:include>
-        </div>
+        <!--<div id="middle"class="grid_13">
+           <jsp:include page="includesPage/mainHeaders/topMostViewedProducts_4.jsp"></jsp:include>
+        </div>-->
         <!--The Middle Content Div Closing -->
     </div>
     <!--The Center Content Div Closing -->
