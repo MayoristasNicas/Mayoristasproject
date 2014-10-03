@@ -59,7 +59,7 @@
 
                     <li class="sliderImage" style="display: none; ">
 
-                        <img src="images/banner/b1.png" width="900" height="300" /> 
+                        <img src="images/banner/b1.jpg" width="900" height="300" /> 
 
                         <span class="top" style="display: none; ">
 
@@ -74,7 +74,7 @@
                     </li>  
                     <li class="sliderImage" style="display: none; ">
 
-                        <img src="images/banner/b2.png" width="900" height="300" /> 
+                        <img src="images/banner/b2.jpg" width="900" height="300" /> 
 
                         <span class="top" style="display: none; ">
 
@@ -96,7 +96,7 @@
 
                     <li class="sliderImage" style="display: none; ">
 
-                        <img src="images/banner/b5.png" width="900" height="300" /> 
+                        <img src="images/banner/b5.jpg" width="900" height="300" /> 
 
                         <span class="top" style="display: none; ">
 
@@ -134,7 +134,7 @@
 
                     <li class="sliderImage" style="display: none; ">
 
-                        <img src="images/banner/b6.png" width="900" height="300" /> 
+                        <img src="images/banner/b6.jpg" width="900" height="300" /> 
 
                         <span class="top" style="display: none; ">
 
