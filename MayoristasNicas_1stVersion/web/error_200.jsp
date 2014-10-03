@@ -1,6 +1,5 @@
 <%-- 
     Document   : error_404
-    Created on : 10 Dec, 2012, 2:34:20 AM
     Author     : MayoristasNicas
 --%>
 
@@ -42,14 +41,12 @@
 
         <div class="container_16">
             <div class="grid_14 push_1" id="whiteBox" style="padding: 10px;">
-                <br/><h1 style="padding: 10px;">Server Status <span class="blue">Temporary Shutdown</span>
+                <br/><h1 style="padding: 10px;">Status del servidor <span class="blue">Temporalmente caído</span>
                 </h1><hr/><br/>
                 <p  class="grid_4" style="text-align: right; font-size: 52px;">200</p>
                 <p class="grid_7">
-                We are extremely sorry about the inconvenience for not finding the requested webpage, Please Do co-operate!! We wish you best
-                but this server is under a maintainence, So 
-                You may ask the same webpage after some time or so
-                We will be back in no time!!
+                Lo sentimos mucho por el inconveniente tratando de ingresar a la página. 
+                Estaremos pronto de regreso!!
                 </p>
             </div>
         </div>

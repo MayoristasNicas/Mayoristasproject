@@ -1,6 +1,5 @@
 <%-- 
     Document   : findProductLoad
-    Created on : 26 Nov, 2012, 12:09:12 AM
     Author     : MayoristasNicas
 --%>
         <link rel="stylesheet" type="text/css" href="css/reset.css"/>
@@ -126,7 +125,7 @@ product-name	product_id	sub-category-name	category-name	company-name	price	summa
                                 <p id="info"><a href="product.jsp?id=<%=product_id%>"><h3><span class="blue"> <%=product_name %></span></h3></a>By <%= company_name+" "+ category_name %><br/><span class="red">Rs. <%= price %></span></p>
                             </div>
                             <div class="grid_3">
-                                <p><%=sub_category_name %> <br/> <a href="admin_manageProduct.jsp?pid=<%= product_id %>" id="greenBtn">Edit</a><a style="margin-right: 10px;" href="addToCart.jsp?id=<%= product_id %>" id="greenBtn">Add to cart</a><p>Will Be delivered in 3 Working days</p>
+                                <p><%=sub_category_name %> <br/> <a href="admin_manageProduct.jsp?pid=<%= product_id %>" id="greenBtn">Edit</a><a style="margin-right: 10px;" href="addToCart.jsp?id=<%= product_id %>" id="greenBtn">Agregar al carrito</a><p>Será entregado dentro de 3 día hábiles</p>
                             </div>
                         </div>
                         <div class="clear"></div>

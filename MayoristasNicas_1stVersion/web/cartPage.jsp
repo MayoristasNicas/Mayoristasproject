@@ -47,8 +47,8 @@
     <div class="container_16">
         <div class="grid_16" id="whiteBox">
             <div class="grid_8 push_4" >
-                <h1 class="push_2" style="padding:10px 00px">Products In your Cart</h1>
-                <h3 class="push_2" >Your Cart contains following...</h3>
+                <h1 class="push_2" style="padding:10px 00px">Productos en tu carrito</h1>
+                <h3 class="push_2" >Tu carrito contiene lo siguiente...</h3>
                 
               <!--  <p>
                     fgfh fgfg dgrsfd cdv dvdvdsddcd 
@@ -72,15 +72,15 @@
         
         <div id="CartTable" style="padding:10px 00px" class="grid_11">
                     <div class="grid_5">
-                        <h2>Name Of Product</h2> 
+                        <h2>Nombre del producto</h2> 
                     </div>
                     <div class="grid_2">
-                        <h2>Price</h2>
+                        <h2>Precio</h2>
                     </div>
                     <div class="grid_2">
-                         <h2>Quantity</h2>
+                         <h2>Cantidad</h2>
                     </div>
-            
+             <!--marina  <p>
                     <div class="grid_5">
                         Assassins Creed III
                     </div>
@@ -121,13 +121,13 @@
                          Rs. 6789
                     </div>
                     <br/>
-                    
+                </p> marina -->    
                     <div class="grid_5">
-                        <strong>Total Price of your Cart</strong>
+                        <strong>Precio total del carrito</strong>
                     </div>
             
                     <div class="grid_3 push_3">
-                        Rs 20345
+                        C$ 20345
                     </div>
                     <div class="clear"></div>
                     
@@ -135,12 +135,12 @@
                     <br/>
                     <a href="viewProducts_.jsp">
                     <div class="grid_3" id="greenBtn">
-                        Buy These Items
+                        Comprar este producto
                     </div>
                     </a>
                     <a href="index.jsp">
                         <div class="grid_3" id="greenBtn">
-                        Continue Shopping
+                        Continuar comprando
                     </div>
                     </a>
                 </div>
