@@ -96,7 +96,7 @@ text-shadow: none;
         //display:none;
 	}
 #logo:hover {
-        display:none;
+       // display:none;
 	//background:url(../images/logo/logohover.png);
 	//-webkit-transition:.3s all ease-in-out;
 	//-moz-transition:.3s all ease-in-out;
