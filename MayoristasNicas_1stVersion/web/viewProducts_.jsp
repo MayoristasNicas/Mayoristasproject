@@ -91,7 +91,7 @@
                             %>
                             <div>
                                 <ul id="leftsideNav">
-                                    <li><a href="#"><strong>Sub-Categories</strong></a></li>
+                                    <li><a href="#"><strong>Categorías</strong></a></li>
                             <%
                             for (int i =0; i< subCat.size(); i++){
                                 %>
@@ -112,7 +112,7 @@
                             %>
                             <div>
                                 <ul id="leftsideNav">
-                                    <li><a href="#"><strong>Categories</strong></a></li>
+                                    <li><a href="#"><strong>Proveedores</strong></a></li>
                             <%
                             for (int i =0; i< Cat.size(); i++){
                                 %>
@@ -162,8 +162,8 @@
                     -->
                     
                     <div class="adv">
-                        <h2><br/>This is The Header of an Advertisement</h2>
-                        <p>We offer Advertisement display here </p>
+                        <h2><br/>Se acerca finales de Octubre</h2>
+                        <p>Nuestros proveedores ofrecen los mejores productos al mejor precios</p>
                     </div>
                 </div>
             </div>
@@ -287,7 +287,7 @@ product-name	product_id	sub-category-name	category-name	company-name	price	summa
                                 <p id="info"><a href="product.jsp?id=<%=product_id%>"><h3><span class="blue"> <%=product_name %></span></h3></a>By <%= company_name+" "+ category_name %><br/><span class="red">Rs. <%= price %></span></p>
                             </div>
                             <div class="grid_3 push_2">
-                                <p><%=sub_category_name %>  <a href="addToCart.jsp?id=<%= product_id %>" id="greenBtn">Add to cart</a></p><p>Will Be delivered in 3 Working days</p>
+                                <p><%=sub_category_name %>  <a href="addToCart.jsp?id=<%= product_id %>" id="greenBtn">Agregar al catrito</a></p><p>Será entregada en los próximos 3 días hábiles</p>
                             </div>
                         </div>
                         <div class="clear"></div>
