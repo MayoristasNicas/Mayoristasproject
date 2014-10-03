@@ -34,7 +34,7 @@
 
                             </td>
                             <td>
-                                <input type="submit" value="Iniciar Sesión!!" id="greenBtn" /><br/>
+                                <input type="submit" value="Iniciar Sesión" id="greenBtn" /><br/>
                             </td>
                         </tr>
                     </table>
