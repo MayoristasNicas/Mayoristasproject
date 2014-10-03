@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin
-    Created on : 25 Nov, 2012, 6:12:25 PM
     Author     : MayoristasNicas
 --%>
 
@@ -47,14 +46,14 @@
 
         <div class="container_16">
             <div class="grid_13 push_2" id="whiteBox" style="padding:10px 0px 10px 0px;">
-                <h1 class="push_4" style="padding: 10px;" >Administrator Login</h1>    
+                <h1 class="push_4" style="padding: 10px;" >Inicio de Sesión - Administrador</h1>    
                 <hr/> <br/><div class="grid_9 push_2" style="padding:10px;">
                         <form method="post" action="admin_login">
                             <div class="grid_2">
                                 Email
                             </div>
                             <div class="grid_5">
-                                <input type="text" name="email" placeholder="xyz@xyz.com" />
+                                <input type="text" name="email" placeholder="abc@xyz.com" />
                             </div>
                             <div class="clear"></div><br/>
                             
@@ -63,7 +62,7 @@
                             </div>
                             <div class="grid_5">
                                 <input type="password" name="pass" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;" /><br/><br/> 
-                                <input id="greenBtn" type="submit" value="Login"/>
+                                <input id="greenBtn" type="submit" value="Iniciar Sesión"/>
                             </div>
                             <div class="clear"></div><br/>
                         </form>
