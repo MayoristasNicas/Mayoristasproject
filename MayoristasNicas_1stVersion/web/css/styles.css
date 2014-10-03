@@ -90,16 +90,16 @@ text-shadow: none;
 	
 #logo {
 	//background:url(../images/logo/Logo.png);
-	-webkit-transition:.3s all ease-in-out;
-	-moz-transition:.3s all ease-in-out;
+	//-webkit-transition:.3s all ease-in-out;
+	//-moz-transition:.3s all ease-in-out;
 	background-repeat:no-repeat;
         //display:none;
 	}
 #logo:hover {
-        display:none;
+       // display:none;
 	//background:url(../images/logo/logohover.png);
-	-webkit-transition:.3s all ease-in-out;
-	-moz-transition:.3s all ease-in-out;
+	//-webkit-transition:.3s all ease-in-out;
+	//-moz-transition:.3s all ease-in-out;
 	background-repeat:no-repeat;
 	}
 
