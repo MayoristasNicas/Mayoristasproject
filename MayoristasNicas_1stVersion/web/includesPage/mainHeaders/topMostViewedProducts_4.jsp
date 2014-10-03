@@ -29,7 +29,7 @@
                            </div>
                        </a>
                        <div class="clear"></div>
-<%
+<%--%
  String sqlTopMostProds = "SELECT * "
 +" FROM  `products` p"
 +" INNER JOIN  `images` i"
@@ -57,7 +57,7 @@
       subCategory = rs.getString("sub-category-name");
       category = rs.getString("category-name");
       company = rs.getString("company-name");
-      %>
+      %> 
                 <div id="productList" class="grid_3 prodGrid"> 
                     <a href="product.jsp?id=<%= productId %>"><img src="<%= imageName %>" /></a>
                     <p id="info">
@@ -87,5 +87,5 @@
                 </div>
                        <%
 }
-%>
+%> --%>
             </div>
