@@ -78,15 +78,13 @@
 
                         <span class="top" style="display: none; ">
 
-                            <strong>Books, Diaries...</strong>				
+                            <strong>Café Soluble</strong>				
 
-                            <br>Text Books, Single Lines, Double Lines, Red 'n Blue Lines, Fullscape Books
-
-                            Drawing Books, and all the paper you want to write all throughout to learn 
-
-                            Available now at your doorsteps* 
-
-
+                            <br>Aprovechá las promociones del mejor café de Nicaragua, ideal para que lo brindes a tus clientes.
+                           
+                            Café Soluble brinda su línea de productos completa a un mejor precio que en cualquier otra
+                            
+                            tienda.
 
                         </span>
 
@@ -100,13 +98,11 @@
 
                         <span class="top" style="display: none; ">
 
-                            <strong>Kids Colors...</strong>				
+                            <strong>Parmalat</strong>				
 
-                            <br>Collection of Non-Toxic childrens colors available
-
-                            Let your child learn the art of painting at an early age 
-
-                            by having his hands on the colors available here... 
+                            <br>Con la línea más completa de productos lácteos, Parmalata está presente en MayoristasNicas
+                            
+                            para brindarte un precio mejor que en cualquier otro lugar del país.
 
                         </span>
 
@@ -134,11 +130,13 @@
 
                         <span class="top" style="display: none; ">
 
-                            <strong>Color World...</strong>				
+                            <strong>Agricorp</strong>				
 
-                            <br>A vast variety of different sets of colors including Oil-Pastels,
-
-                            Pencil Colors, Poster Colors, Acrylic Colors and many more...
+                            <br>Con la más amplia variedad de productos básicos para el hogar. Tendremos ofertas por la 
+                            
+                            compra de un paquete de Agricorp recibes un 10% de descuento en tu próxima compra superior 
+                            
+                            a C$ 50,000.
 
                         </span>
 
@@ -187,7 +185,7 @@
                     <h2><br/>Anuncios publicitarios</h2>
                     <p>Tu negocio puede anunciarse aqui,contáctanos </p>
 
-                    <h2><br/>ATENTO !</h2>
+                    <h2><br/>Atento !</h2>
                     <p>Se acerca la Navidad! Grandes descuentos solo en MayoristasNicas </p>
 
                 </div>

@@ -152,36 +152,36 @@
             <div class="grid_12 push_2" id="whiteBox" style="margin-top: 30px;">
                 <div class="grid_6">
                     <div class="grid_2">
-                        To ;
+                        Para ;
                     </div>
                     <div class="clear">
                     </div>
                     <div class="grid_2">
-                        Name :
+                        Nombre :
                     </div>
                     <div class="grid_3">
                         <%= name%>
                     </div>
                     <div class="grid_2">
-                        Email:
+                        Correo:
                     </div>
                     <div class="grid_3">
                         <%= email%>
                     </div>
                     <div class="grid_2">
-                        Address:
+                        Dirección:
                     </div>
                     <div class="grid_3">
                         <%= address%>
                     </div>
                     <div class="grid_2">
-                        Mobile:
+                        Celuar:
                     </div>
                     <div class="grid_3">
                         <%= mobileNum%>
                     </div>
                     <div class="grid_2">
-                        Ordered On:
+                        Orden Número:
                     </div>
                     <div class="grid_3">
                         <%= ordered_on_date + ":" + ordered_on_time%>
@@ -190,7 +190,7 @@
             <div class="grid_5" id="whiteBox" style="margin-top: 30px;">
                 <div class="grid_5">
                     <div class="grid_1">
-                        From;
+                        De;
                     </div>
                     <div class="grid_3">
                         MayoristasNicas
@@ -301,7 +301,7 @@
                                     <%= product_name%>
                                 </div>
                                 <div class="grid_2">
-                                    Rs. <%= product_price%> x<%= product_quantity%>
+                                    C$ <%= product_price%> x<%= product_quantity%>
                                 </div>
                             </div>
                             <div class="grid_3">
@@ -325,7 +325,7 @@
                                 <%= product_name%> 
                             </div>
                             <div class="grid_2">
-                                Rs. <%= product_price%> x<%= product_quantity%>
+                                C$ <%= product_price%> x<%= product_quantity%>
                             </div>
                         </div>
                         <div class="grid_3">
@@ -347,10 +347,10 @@
                     <div class="grid_12">
                         <hr class="grid_11"/>
                         <div class="grid_4">
-                            Total Order Price
+                            Valor Final de la Factura
                         </div>
                         <div class="grid_4 push_4">
-                            <h1>Rs. <%= totalPrice%></h1> 
+                            <h1>C$ <%= totalPrice%></h1> 
                         </div>
                     </div>
                     <div class="clear"></div>
@@ -363,7 +363,7 @@
         %>
         <div class="container_16">
             <div class="grid_12 push_2" id="whiteBox">
-                <br/><h1>No Product Invoice to Print</h1><hr/><br/>
+                <br/><h1>No hay productos facturados para mostrar</h1><hr/><br/>
             </div>
         </div>
         <%            }

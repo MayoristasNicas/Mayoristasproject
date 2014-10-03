@@ -1,6 +1,5 @@
 <%-- 
     Document   : showMyBill
-    Created on : 21 Nov, 2012, 10:13:42 PM
     Author     : MayoristasNicas
 --%>
 <%@page import="java.util.ArrayList"%>
@@ -134,31 +133,31 @@
             <div class="grid_12 push_2" id="whiteBox">
                 <div class="grid_7">
                     <div class="grid_2">
-                        Name :
+                        Nombre :
                     </div>
                     <div class="grid_3">
                         <%= name %>
                     </div>
                     <div class="grid_2">
-                        Email:
+                        Correo Electrónico:
                     </div>
                     <div class="grid_3">
                         <%= email %>
                     </div>
                     <div class="grid_2">
-                        Address:
+                        Dirección
                     </div>
                     <div class="grid_3">
                         <%= address %>
                     </div>
                     <div class="grid_2">
-                        Mobile:
+                        Celular
                     </div>
                     <div class="grid_3">
                         <%= mobileNum %>
                     </div>
                     <div class="grid_2">
-                        Ordered On:
+                        Fecha de Orden:
                     </div>
                     <div class="grid_3">
                         <%= ordered_on_date +":"+ordered_on_time %>
@@ -171,7 +170,7 @@
                         <% if (status.equals("delivered"))
                         {
                             %>
-                    <a target="_blank" id="status" class="grid_3" href="showMyBill_Print.jsp?oid=<%= OrderId %>">Print my bill</a>
+                    <a target="_blank" id="status" class="grid_3" href="showMyBill_Print.jsp?oid=<%= OrderId %>">Imprimir factura</a>
                     <%
                             
                            }
@@ -187,20 +186,20 @@
             <div id="whiteBox" class="grid_12 push_2">
                         <div id="CartTable" style="padding:10px 00px" class="grid_12">
                                     <div class="grid_1">
-                                         <h3>Order No</h3>
+                                         <h3>Order Némuero</h3>
                                     </div> 
                                     <div class="grid_7">
-                                        <h3 class="push_3">Order Summary</h3> 
+                                        <h3 class="push_3">Detalle de Ordern</h3> 
                                             <div class="clear"></div>
                                             <div class="grid_4">
-                                                Item 
+                                                Producto 
                                             </div>
                                             <div class="grid_2">
-                                                Price x Quantity
+                                                Precio x Cantidad
                                             </div>
                                     </div>
                                     <div class="grid_3 ">
-                                        <h3>Total Value</h3>
+                                        <h3>Valor Total</h3>
                                     </div>
                             
                                     <div class="clear"></div>
@@ -266,7 +265,7 @@ WHERE o.`user_id` =4
                                                                 <%= product_name %>
                                                             </div>
                                                             <div class="grid_2">
-                                                                Rs. <%= product_price %> x<%= product_quantity %>
+                                                                C$ <%= product_price %> x<%= product_quantity %>
                                                             </div>
                                                     </div>
                                                     <div class="grid_3">
@@ -290,7 +289,7 @@ WHERE o.`user_id` =4
                                                             <%= product_name %> 
                                                         </div>
                                                         <div class="grid_2">
-                                                            Rs. <%= product_price %> x<%= product_quantity %>
+                                                            C$ <%= product_price %> x<%= product_quantity %>
                                                         </div>
                                                 </div>
                                                 <div class="grid_3">
@@ -312,10 +311,10 @@ WHERE o.`user_id` =4
                                             <div class="grid_12">
                                                 <hr class="grid_11"/>
                                                 <div class="grid_4">
-                                                   Total Order Price
-                                                </div>
+                                                   Precio Final de la Orden 
+                                               </div>
                                                 <div class="grid_4 push_4">
-                                                    <h1>Rs. <%= totalPrice %></h1> 
+                                                    <h1>C$ <%= totalPrice %></h1> 
                                                 </div>
                                             </div>
                                             <div class="clear"></div>
@@ -328,7 +327,7 @@ WHERE o.`user_id` =4
                       %>
                       <div class="container_16">
                           <div class="grid_12 push_2" id="whiteBox">
-                              <br/><h1>No Product Invoice to Display</h1><hr/><br/>
+                              <br/><h1>No hay productos facturados para mostrar</h1><hr/><br/>
                           </div>
                       </div>
         <%

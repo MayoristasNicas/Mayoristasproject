@@ -54,7 +54,7 @@
     <div class="container_16">
         <div class="grid_16" id="productStrip">
             <div class="grid_16">
-                <h1 class="bold underlined center" style="font-size:35px; margin:20px auto;" >Add Product</h1>
+                <h1 class="bold underlined center" style="font-size:35px; margin:20px auto;" >Agregar un producto</h1>
             </div>
             <div class="grid_10 push_3">
                 <form method="GET" action="addProduct">
