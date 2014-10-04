@@ -16,7 +16,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <label>Email</label>
+                                <label>Correo Electrónico</label>
                             </td>
                             <td>
                                 <label><input type="text" name="email" placeholder="correo@xyz.com" /><br/></label>
@@ -24,7 +24,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <label>Password</label>
+                                <label>Contraseña</label>
                             </td>
                             <td>
                                 <input type="password" name="pass" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;" /><br/>
@@ -54,7 +54,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <label>Email</label>
+                                <label>Correo Electrónico</label>
                             </td>
                             <td>
                                 <label><input type="text" name="email" placeholder="john_lee@xyz.com" /><br/></label>
@@ -62,7 +62,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <label>Password</label>
+                                <label>Contraseña</label>
                             </td>
                             <td>
                                 <input type="password" name="pass" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;" /><br/>
@@ -70,7 +70,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <label>Repetir Password</label>
+                                <label>Repetir Contraseña</label>
                             </td>
                             <td>
                                 <input type="password" name="passAgain" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;" /><br/>

@@ -29,7 +29,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <label>Email</label>
+                                <label>Correo Electrónico</label>
                             </td>
                             <td>
                                 <label><input type="email" name="email" placeholder="abc@xyz.com" required/><br/></label>
@@ -37,7 +37,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <label>Password</label>
+                                <label>Contraseña</label>
                             </td>
                             <td>
                                 <input type="password" name="pass" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;" required/><br/>
@@ -47,7 +47,7 @@
 
                             </td>
                             <td>
-                                <input type="submit" value="Iniciar Sesión!!" id="greenBtn" /><br/>
+                                <input type="submit" value="Iniciar Sesión" id="greenBtn" /><br/>
                             </td>
                         </tr>
                     </table>
@@ -59,7 +59,7 @@
                     <table>
                         <tr>
                             <td colspan="2">
-                                <strong><h1 style="font-wieght:bold; text-align:right; padding:20px 0px; color:#FFF;">Registrate!!</h1></strong>
+                                <strong><h1 style="font-wieght:bold; text-align:right; padding:20px 0px; color:#FFF;">Registrate</h1></strong>
                             </td>
                             <td>
 
@@ -67,7 +67,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <label>Email</label>
+                                <label>Correo Electrónico</label>
                             </td>
                             <td>
                                 <label><input type="email" name="emailReg" placeholder="john_lee@xyz.com" required/><br/></label>
@@ -75,7 +75,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <label>Password</label>
+                                <label>Contraseña</label>
                             </td>
                             <td>
                                 <input type="password" name="passReg" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;" required/><br/>
@@ -83,7 +83,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <label>Repetir Password</label>
+                                <label>Repetir Contraseña</label>
                             </td>
                             <td>
                                 <input type="password" name="passAgainReg" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;" required/><br/>
