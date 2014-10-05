@@ -29,7 +29,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <label>Correo Electrónico</label>
+                                <label><br />
+                                Correo Electrónico</label>
                             </td>
                             <td>
                                 <label><input type="email" name="email" placeholder="abc@xyz.com" required/><br/></label>
@@ -68,7 +69,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <label>Correo Electrónico</label>
+                                <label><br />
+                                Correo Electrónico</label>
                             </td>
                             <td>
                                 <label><input type="email" name="emailReg" placeholder="john_lee@xyz.com" required/><br/></label>
