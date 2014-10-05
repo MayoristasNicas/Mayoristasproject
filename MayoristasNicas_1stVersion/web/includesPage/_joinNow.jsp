@@ -37,7 +37,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <label>Contraseña</label>
+                                <label><br />
+                                Contraseña</label>
                             </td>
                             <td>
                                 <input type="password" name="pass" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;" required/><br/>
@@ -75,7 +76,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <label>Contraseña</label>
+                                <label><br />
+                                Contraseña</label>
                             </td>
                             <td>
                                 <input type="password" name="passReg" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;" required/><br/>
@@ -83,7 +85,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <label>Repetir Contraseña</label>
+                                <label><br />
+                                Repetir Contraseña</label>
                             </td>
                             <td>
                                 <input type="password" name="passAgainReg" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;" required/><br/>
