@@ -99,7 +99,7 @@
         </div>
         
         <div class="container_16">
-            <div id="whiteBox" class="grid_16" style="padding: 10px;">
+            <div id="whiteBox" class="grid_16" style="padding: 5px;">
              
                 <div class="grid_7 push_1">
                     <div class="grid_5" id="whiteBox" style="margin: 15px;">
