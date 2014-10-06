@@ -111,8 +111,9 @@ public class registerServlet extends HttpServlet {
             Connection c = con.getConnection();
             if ((request.getParameter("emailReg") != null) || (request.getParameter("emailReg") != null)){
                 if (isEmailValid) {
-                    if (pass.length() > 16) {//contraseña de 16 caractereres
-                        if (pass.equals(passAgain)) {
+                    if (pass.length() > 12) {//contraseña de 12 caractereres
+                        if (pass.length() <= 16) { //validacion de contrase;a maxima de 16 caracteres
+                            if (pass.equals(passAgain)) {
                             // then the user is registered and a session is 
 
                             String sql = "INSERT INTO  `mayoristasnic`.`user` "
@@ -145,14 +146,22 @@ public class registerServlet extends HttpServlet {
                             message = "Passwords no son iguales";
                             messageDetail = "Por favor ingresa el password correcto en ambas casillas";
                             out.print("Registro sin éxito!  ambos passwords no coinciden!");
-
                         }
                     } //or the paasword length is less than 7
+                        else
+                        {
+                            isRegistered = false;
+                        message = "La cantidad de caracteres del password debe ser maximo de 16 caracteres";
+                        messageDetail = "Por favor ingresa un password con una longitud maxima de 16 caracteres alfanuméricos";
+                        out.print("Registro sin éxito!!! La longitud de la contraseña es mayor a 16 caracteres");
+                    
+                        }
+                    }
                     else {
                         isRegistered = false;
-                        message = "La cantidad de caracteres del password debe ser al menos 16 caracteres";
-                        messageDetail = "Por favor ingresa un password con una longitud mínima de 16 caracteres alfanuméricos";
-                        out.print("Registro sin éxito!!! La longitud de la contraseña es menor a 16 caracteres");
+                        message = "La cantidad de caracteres del password debe ser al menos 12 caracteres";
+                        messageDetail = "Por favor ingresa un password con una longitud mínima de 12 caracteres alfanuméricos";
+                        out.print("Registro sin éxito!!! La longitud de la contraseña es menor a 12 caracteres");
                     }
                 } //or email is wrong
                 else {
