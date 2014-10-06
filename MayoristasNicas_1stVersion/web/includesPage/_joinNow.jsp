@@ -22,7 +22,7 @@
                     <table>
                         <tr>
                             <td colspan="2">
-                                <strong><h1 style="font-wieght:bold; text-align:left; padding:20px 0px; color:#F2F2F2;">Inicio de Sesión</h1></strong>
+                                <strong><h1 style="font-wieght:bold; text-align:left; padding:20px 0px; color:#000;">Inicio de Sesión</h1></strong>
                             </td>
                             <td>
                             </td>
@@ -61,7 +61,7 @@
                     <table>
                         <tr>
                             <td colspan="2">
-                                <strong><h1 style="font-wieght:bold; text-align:right; padding:20px 0px; color:#F2F2F2;">Registrate</h1></strong>
+                                <strong><h1 style="font-wieght:bold; text-align:right; padding:20px 0px; color:#000;">Registrate</h1></strong>
                             </td>
                             <td>
 

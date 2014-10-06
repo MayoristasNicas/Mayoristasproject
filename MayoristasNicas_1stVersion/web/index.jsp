@@ -110,7 +110,7 @@
 
                     <li class="sliderImage" style="display: none; ">
 
-                        <img src="images/banner/b7.jpeg" width="900" height="300" /> 
+                        <img src="images/banner/b7.jpg" width="900" height="300" /> 
 
                         <span class="top" style="display: none; ">
 
