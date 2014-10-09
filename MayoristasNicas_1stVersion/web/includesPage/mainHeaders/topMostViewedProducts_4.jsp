@@ -28,7 +28,7 @@
                            </div>
                        </a>
                        <div class="clear"></div>
-<%--<% 
+<%
  
  String sqlTopMostProds = "SELECT * "
 +" FROM  `products` p"
@@ -57,13 +57,13 @@
       subCategory = rs.getString("sub-category-name");
       category = rs.getString("category-name");
       company = rs.getString("company-name");
-      %> --%>
-            <%--    <div id="productList" class="grid_3 prodGrid"> 
+      %> 
+              <div id="productList" class="grid_3 prodGrid"> 
                     <a href="product.jsp?id=<%= productId %>"><img src="<%= imageName %>" /></a>
                     <p id="info">
                         <a href="product.jsp?id="><span class="blue"><%= name %></span></a><br/>
                         By <%= company %> <%= category %><br/>
-                        <span class="red">Rs. <%= price %></span>
+                        <span class="red">C$. <%= price %></span>
                     </p>            
                 </div>
                        <%
@@ -82,10 +82,10 @@
                     <p id="info">
                         <a href="product.jsp?id="><span class="blue">No Product Added in Database</span></a><br/>
                         <br/>
-                        <span class="red">Rs. 0</span>
+                        <span class="red">C$. 0</span>
                     </p>            
                 </div>
                        <%
 }
 %> 
-            </div> --%>
+            </div> 
