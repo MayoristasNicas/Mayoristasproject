@@ -91,7 +91,7 @@
                         <h5>Proveedor :<a href="#"><span class="blue"><%= category_name%></span></a> > <a href="#"><span class="blue"><%= sub_category_name%></span></a></h5>
                         <div class="clear"></div>
                         <br/>
-                        <h5>Precio <span class="BigRed">Rs. <%= price%></span></h5>
+                        <h5>Precio <span class="BigRed">C$. <%= price%></span></h5>
                         <br/>
                         <br/>
                         <%
