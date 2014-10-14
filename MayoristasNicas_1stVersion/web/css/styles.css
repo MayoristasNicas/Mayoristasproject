@@ -2,7 +2,7 @@
 
 
 body {
-		background:#E0E0E0;
+        background:#FFFFFF;
 	font-family:'Droid';
 	}
 	
@@ -25,7 +25,7 @@ text-shadow: none;
     text-shadow: 0 1px 0 white;
 	background:#FFF;
   	//background: -webkit-linear-gradient(top, #222, #000);
-        background: -webkit-linear-gradient(top, #AAAAAA, #FFF);
+        background: -webkit-linear-gradient(top, #FFF);
   	background: -moz-linear-gradient(top, #222, #000);
 	height:90px;
 	}
@@ -33,23 +33,23 @@ text-shadow: none;
 #topLogin {
     text-shadow: 0 1px 0 white;
 	background:#FFFFF;
-  	background: -webkit-linear-gradient(top, #222, #FFF);
-  	background: -moz-linear-gradient(top, #222, #FFF);
-	box-shadow:  0px 0px 10px #000;
+  	background: -webkit-linear-gradient(top, #FFF);
+  	background: -moz-linear-gradient(top, #FFF);
+	box-shadow:  0px 0px 10px #E0E0E0;
 	display: none;
 	}
 	
 #LoginBox {
-	box-shadow: inset 0px 0px 10px #000;
+	box-shadow: inset 0px 0px 10px #EEE;
 	border-radius:10px;
 	border-top: 2px solid #373737;
 	padding:20px;
 	margin:10px;
 	font-family:"Arial";
 	font-family:"Droid";
-  	background: -webkit-linear-gradient(top, #FFFCFC, #222);
-  	background: -moz-linear-gradient(top, #FFFCFC, #222);
-	color:#000;
+  	background: -webkit-linear-gradient(top, #FFF, #222);
+  	background: -moz-linear-gradient(top, #FFF);
+	color:#FFF;
 	text-shadow:none;
 }	
 #LoginBox label {
@@ -152,8 +152,8 @@ text-shadow: none;
 	background:#000;
   	//background: -webkit-linear-gradient(top, #222, #000);
   	//background: -moz-linear-gradient(top, #222, #000);
-        background: -webkit-linear-gradient(top, #E0E0E0, #E0E0E0);
-  	background: -moz-linear-gradient(top, #E0E0E0, #E0E0E0);
+        background: -webkit-linear-gradient(top, #FFF, #FFF);
+  	background: -moz-linear-gradient(top, #FFF, #FFF);
 	/*background:url(../images/textures/linen.png);*/
 	font-size:13px;
 	box-shadow: 0px 7px 20px #666;
@@ -172,10 +172,10 @@ text-shadow: none;
 
 
 #banner {
-	background:#CCC;
+	background:#FFF;
 	/*background:url(../images/textures/linen.png);*/
 	height:335px;
-	box-shadow: 0px 0px 40px #000000;
+	box-shadow: 0px 0px 40px #FFF;
 	}
 	
 #sliderContent {

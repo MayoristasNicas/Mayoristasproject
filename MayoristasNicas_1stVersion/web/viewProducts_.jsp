@@ -84,6 +84,7 @@
                         
                         category = "";
                         subcategory = "";
+                        
                         if(session.getAttribute("cat") != null ){
                             category = (String) session.getAttribute("cat");
                             ArrayList subCat = product.getSubcategory(category);
@@ -91,7 +92,7 @@
                             %>
                             <div>
                                 <ul id="leftsideNav">
-                                    <li><a href="#"><strong>Categor�as</strong></a></li>
+                                    <li><a href="#"><strong>Categorias</strong></a></li>
                             <%
                             for (int i =0; i< subCat.size(); i++){
                                 %>
