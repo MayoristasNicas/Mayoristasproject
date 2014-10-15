@@ -92,8 +92,8 @@
                             %>
                             <div>
                                 <ul id="leftsideNav">
-                                    <li><a href="#"><strong>Categorias</strong></a></li>
-                            <%
+                                    <li><center><strong>Categorias</strong></center></li>
+                            <%             
                             for (int i =0; i< subCat.size(); i++){
                                 %>
                                 <li><a href="addProductFilters.jsp?scat=<%= subCat.get(i) %>"><%= subCat.get(i) %></a></li>      
@@ -227,6 +227,7 @@ GROUP BY  `product-name` */
                         Connection c = con.getConnection();
                         Statement st = c.createStatement();
                         ResultSet rs ;
+                        
                          if (sql.toString().equalsIgnoreCase("SELECT * FROM  `products` p "
                                                             + "INNER JOIN  `images` i "
                                                             + "USING (  `product-name` ) "
@@ -291,6 +292,7 @@ product-name	product_id	sub-category-name	category-name	company-name	price	summa
                                 <p><%=sub_category_name %>  <a href="addToCart.jsp?id=<%= product_id %>" id="greenBtn">Agregar al catrito</a></p><p>Ser� entregado en los pr�ximos 3 d�as h�biles</p>
                             </div>
                         </div>
+                        
                         <div class="clear"></div>
                         <%
                                 }

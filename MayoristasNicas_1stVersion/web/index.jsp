@@ -65,7 +65,7 @@
 
                             <strong>Kimberly Clark</strong>	
 
-                            <br>Aprovechá las promociones que Kimberly Clark te trae en toda su linea de productos de higiene 
+                            <br>Aprovechï¿½ las promociones que Kimberly Clark te trae en toda su linea de productos de higiene 
                             
                             MayoristasNicas.
 
@@ -78,11 +78,11 @@
 
                         <span class="top" style="display: none; ">
 
-                            <strong>Café Soluble</strong>				
+                            <strong>Cafï¿½ Soluble</strong>				
 
-                            <br>Aprovechá las promociones del mejor café de Nicaragua, ideal para que lo brindes a tus clientes.
+                            <br>Aprovechï¿½ las promociones del mejor cafï¿½ de Nicaragua, ideal para que lo brindes a tus clientes.
                            
-                            Café Soluble brinda su línea de productos completa a un mejor precio que en cualquier otra
+                            Cafï¿½ Soluble brinda su lï¿½nea de productos completa a un mejor precio que en cualquier otra
                             
                             tienda.
 
@@ -100,9 +100,9 @@
 
                             <strong>Parmalat</strong>				
 
-                            <br>Con la línea más completa de productos lácteos, Parmalata está presente en MayoristasNicas
+                            <br>Con la lï¿½nea mï¿½s completa de productos lï¿½cteos, Parmalata estï¿½ presente en MayoristasNicas
                             
-                            para brindarte un precio mejor que en cualquier otro lugar del país.
+                            para brindarte un precio mejor que en cualquier otro lugar del paï¿½s.
 
                         </span>
 
@@ -116,7 +116,7 @@
 
                             <strong>NESTLE</strong>				
 
-                            <br>Nestlé te trae precio de ganga en la compra al por mayor de los siguientes productos
+                            <br>Nestlï¿½ te trae precio de ganga en la compra al por mayor de los siguientes productos
 
                         </span>
 
@@ -132,9 +132,9 @@
 
                             <strong>Agricorp</strong>				
 
-                            <br>Con la más amplia variedad de productos básicos para el hogar. Tendremos ofertas por la 
+                            <br>Con la mï¿½s amplia variedad de productos bï¿½sicos para el hogar. Tendremos ofertas por la 
                             
-                            compra de un paquete de Agricorp recibes un 10% de descuento en tu próxima compra superior 
+                            compra de un paquete de Agricorp recibes un 10% de descuento en tu prï¿½xima compra superior 
                             
                             a C$ 50,000.
 
@@ -167,23 +167,25 @@
             <div id="leftside" class="grid_3">
                 <div>
                     <ul id="leftsideNav">
-                        <li><a href="#" class="strong-white"><strong>Proveedores</strong></a></li>
+                        <li><a href="viewProducts_.jsp"><strong><center>Productos de Proveedores</center></strong></a></li>
+                         
                         
-                        <%
+                        
+                        <%--<%
                         while (rs.next()){
                             String category = rs.getString ("category_name");
                             %>
                             <li><a href="viewProducts_.jsp" class="strong-white"><%= category %></a></li>
                         <%
                         }
-                        %>
+                        %> --%>
                       
                     </ul>
                 </div>
                 <div class="adv">
 
                     <h2><br/>Anuncios publicitarios</h2>
-                    <p>Tu negocio puede anunciarse aqui,contáctanos </p>
+                    <p>Tu negocio puede anunciarse aqui,contï¿½ctanos </p>
 
                     <h2><br/>Atento !</h2>
                     <p>Se acerca la Navidad! Grandes descuentos solo en MayoristasNicas </p>

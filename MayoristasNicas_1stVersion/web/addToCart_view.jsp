@@ -123,13 +123,13 @@
                             <%=productNames.get(i)%>
                         </div>
                         <div class="grid_2">
-                            Rs. <%=productPrices.get(i)%>
+                            C$. <%=productPrices.get(i)%>
                         </div>
                         <div class="grid_1">
                             x<%=Qty.get(i)%>
                         </div>
                         <div class="grid_2">
-                            Rs. <%= Qty.get(i) * productPrices.get(i)%>
+                            C$. <%= Qty.get(i) * productPrices.get(i)%>
                         </div>
 
                         <%
@@ -145,7 +145,7 @@
                         </div>
 
                         <div class="grid_3 push_3">
-                            Rs <%= Math.ceil(cart.getTotalPriceOfCart()) %>
+                            C$ <%= Math.ceil(cart.getTotalPriceOfCart()) %>
                         </div>
                         <div class="clear"></div>
 
