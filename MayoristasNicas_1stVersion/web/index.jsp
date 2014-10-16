@@ -9,11 +9,12 @@
         <title>MayoristasNicas</title>
         <!-- Default Stylesheets -->
         <%@include file="includesPage/_stylesheets.jsp" %>
-
+        
         <link rel="stylesheet" href="css/slider.css"  />
-
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
         <script type="text/javascript" src="js/jquery.js"></script>
-
+        
         <script type="text/javascript" src="js/slider.js"></script>
 
 
@@ -207,6 +208,7 @@
     <jsp:include page="includesPage/_footer.jsp"></jsp:include>
 
 
+    
 
 
 

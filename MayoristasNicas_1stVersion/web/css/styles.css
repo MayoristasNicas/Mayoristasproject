@@ -131,9 +131,8 @@ text-shadow: none;
 	}
 
 #topNav ul li a {
-		padding:10px;
+		padding:4px;
 		color:#FFF;
-  		
                 -webkit-transition:.3s all ease-in-out;
                 -moz-transition:.3s all ease-in-out;
 		border-radius:10px 0px 10px 0px;

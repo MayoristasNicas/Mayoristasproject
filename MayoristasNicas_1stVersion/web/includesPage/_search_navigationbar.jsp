@@ -5,17 +5,15 @@
         <div class="grid_16">
             <div class="grid_9">
 
-
                 <input type="text" id="search" class="searchBox" placeholder="Búsqueda por artículos ..." autofocus="true"/>
 
             </div>
             <div class="grid_6" id="topNav">
                 <div class="mainmenu pull-left">
-							<ul class="nav navbar-nav collapse navbar-collapse">
-                <ul>
+                    <ul>
                     <li><a href="index.jsp">Inicio</a></li>
-                    <li class="dropdown"><a href="viewProducts_.jsp">Productos<i class="fa fa-angle-down"></i></a>
-                </li>
+                    <li><a href="viewProducts_.jsp">Productos</a></li>
+                    <li><a href="viewSales_.jsp">Promociones</a></li>
                     <li><a href="contact-support.jsp">Contactanos</a></li>
                     <li><a href="faq.jsp">Preguntas</a></li>
                 </ul>
