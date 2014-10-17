@@ -167,7 +167,7 @@
                     <div id="status" class="grid_3">
                         Status <%= status %>
                     </div>
-                        <% if (status.equals("delivered"))
+                        <% if (status.equals("Entregado"))
                         {
                             %>
                     <a target="_blank" id="status" class="grid_3" href="showMyBill_Print.jsp?oid=<%= OrderId %>">Imprimir factura</a>

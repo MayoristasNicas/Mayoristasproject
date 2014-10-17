@@ -6,7 +6,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>MayoristasNicas</title>
         <jsp:useBean class="product.product" id="product" scope="session"></jsp:useBean>
-
+        <jsp:include page="removeProductFilter_P.jsp"></jsp:include>
         <%@page import="java.sql.*, database.*" %>
         <link rel="shortcut icon" href="images/logo/ico.ico"/>
         <link rel="stylesheet" type="text/css" href="css/reset.css"/>
@@ -25,6 +25,7 @@
     <body>
         
         
+
         <%
         if (session.getAttribute("user") == null ){// THen new user, show join now
             %>
@@ -36,10 +37,10 @@
         <%
         }
         %>
-
+        
         <jsp:include page="includesPage/_search_navigationbar.jsp"></jsp:include>
         <jsp:include page="includesPage/_facebookJoin.jsp"></jsp:include>
-
+        
         <div class="container_16">
             <div id = "contents">
                 <!-- LeftSide -->
@@ -74,7 +75,7 @@
                 %>
                 
                 <div id="leftside" class="grid_3">
-                    
+
                     <%
                         String category, subcategory;
                         StringBuffer sql = new StringBuffer();
@@ -84,12 +85,14 @@
                         + "WHERE ( `sub-category-name` = 'Promocion')");
                         
                         category = "";
-                        subcategory = "";
-                        
+                        subcategory = ""; 
+                       
                         if(session.getAttribute("cat") != null ){
+                            
                             category = (String) session.getAttribute("cat");
+                           
                             ArrayList subCat = product.getSubcategory(category);
-                                
+                               
                             %>
                             <div>
                                 <ul id="leftsideNav">

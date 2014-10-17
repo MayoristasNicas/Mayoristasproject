@@ -52,7 +52,7 @@
 
             <div class="grid_16" style="padding: 10px;" id="whiteBox">
                 <br/>
-                <h1 class="grid_15">Pending Orders</h1><hr/>
+                <h1 class="grid_15">Ordenes pendiente</h1><hr/>
             </div>
                 <div class="clear"></div>
                 <jsp:include page="includesPage/hesders_sidebars/admin_menuSideBar.jsp"></jsp:include>
@@ -66,7 +66,7 @@
             <form method="post" action="changeProductStatus">
                 <div class="grid_16">
                     <div class="grid_16"  id="CartTable" style="padding:10px 00px;">
-                        <h1 class="grid_15" style ="text-align: center; padding: 10px 0px 10px 0px;  border-top: 20px #444 solid;">Pending Orders</h1>  
+                        <h1 class="grid_15" style ="text-align: center; padding: 10px 0px 10px 0px;  border-top: 20px #444 solid;">Ordenes pendientes</h1>  
                         
                         <div class="clear"></div>
                         <div class="grid_10">
@@ -131,7 +131,7 @@
                                     + "FROM `order` o\n"
                                     + "INNER JOIN `sales` s\n"
                                     + "USING ( `order_id` )"
-                                    + " WHERE `status` = 'pending' \n"
+                                    + " WHERE `status` = 'pendiente' \n"
                                     + "ORDER BY `order_id` ";
 
                             Connection c = new database.DB_Conn().getConnection();

@@ -39,6 +39,7 @@
 
         <jsp:include page="includesPage/_search_navigationbar.jsp"></jsp:include>
         <jsp:include page="includesPage/_facebookJoin.jsp"></jsp:include>
+        <jsp:include page="removeProductFilter_P.jsp"></jsp:include>
 
         <div class="container_16">
             <div id = "contents">
@@ -207,7 +208,7 @@ GROUP BY  `product-name` */
                                             sql.append(" AND  `sub-category-name` =  '"+subcategory+"' ");
                                             %>
                                                 <div class="grid_4 ">
-                                                    <a id="greenBtn" href="removeProductFilter.jsp?scat=<%= subcategory %>">Sub-Category : <%= subcategory %> [x]</a>
+                                                    <a id="greenBtn" href="removeProductFilter_P.jsp?scat=<%= subcategory %>">Sub-Category : <%= subcategory %> [x]</a>
                                                 </div>
                                             <%
                                         }
@@ -227,6 +228,10 @@ GROUP BY  `product-name` */
                         Connection c = con.getConnection();
                         Statement st = c.createStatement();
                         ResultSet rs ;
+                        
+                         
+                    
+                  
                         
                          if (sql.toString().equalsIgnoreCase("SELECT * FROM  `products` p "
                                                             + "INNER JOIN  `images` i "
@@ -286,10 +291,10 @@ product-name	product_id	sub-category-name	category-name	company-name	price	summa
                         </div>
                         <div class="grid_9">
                             <div class="grid_5">
-                                <p id="info"><a href="product.jsp?id=<%=product_id%>"><h3><span class="blue"> <%=product_name %></span></h3></a>By <%= company_name+" "+ category_name %><br/><span class="red">Rs. <%= price %></span></p>
+                                <p id="info"><a href="product.jsp?id=<%=product_id%>"><h3><span class="blue"> <%=product_name %></span></h3></a> Por <%= company_name+" "+ category_name %><br/><span class="red">CS. <%= price %></span></p>
                             </div>
                             <div class="grid_3 push_2">
-                                <p><%=sub_category_name %>  <a href="addToCart.jsp?id=<%= product_id %>" id="greenBtn">Agregar al catrito</a></p><p>Ser� entregado en los pr�ximos 3 d�as h�biles</p>
+                                <p><%=sub_category_name %>  <a href="addToCart.jsp?id=<%= product_id %>" id="greenBtn">Agregar al catrito</a></p><p>Seria entregado en los proximos 3 dias habiles</p>
                             </div>
                         </div>
                         

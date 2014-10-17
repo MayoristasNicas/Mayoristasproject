@@ -49,7 +49,7 @@
                                 <%
                                     }
                                 %>
-                                <a href="addToCart_view.jsp"><li class ="Btn showForm"><span class="backRed"><%= totalQty %></span>Carrito: </li></a>
+                                <a href="addToCart_view.jsp"><li class ="Btn showForm" ><span class="backRed"><%= totalQty %></span>Carrito: </li></a>
                             </ul>
                         </div>
                 </div>
