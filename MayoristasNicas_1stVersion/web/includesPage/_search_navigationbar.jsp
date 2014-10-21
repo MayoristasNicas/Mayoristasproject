@@ -35,9 +35,13 @@
             <!-- <p><span>Mahavir Paints</span> is the one of the most best places in Mira Bhyyandar to find <span>First Class Paints</span></p>
            
             </div> -->
-            <div class="grid_6" id="top">
-                <a href="http://www.facebook.com"> <div id="greenBtn" align="center" class ="Btn">Sé miembro de nuestra comunidad en Facebook!!</div></a>
+            <div class="grid_6" id="top" style="margin-top: 5px">
+            <div class="fb-like" data-href="https://facebook.com/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
             </div>
+            
+            <!--<div class="grid_6" id="top">
+                <a href="http://www.facebook.com"> <div id="greenBtn" align="center" class ="Btn">Sé miembro de nuestra comunidad en Facebook!!</div></a>
+            </div>-->
         </div>
     </div>
 </div>
