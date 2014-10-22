@@ -109,7 +109,7 @@
 
                         <a href="addToCart.jsp?id=<%= product_id %>">
                             <div class="grid_3" id="buy">
-                                Comprar ahora
+                                Comprar ahora <img src="C:\Users\ADRIANA\Documents\GitHub\Mayoristasproject\MayoristasNicas_1stVersion\web\images\logo\Carrito.png\"/> 
                             </div>
                         </a>
                            

@@ -133,7 +133,7 @@ body {
 }
 
 .container_16 .grid_16 {
-  width: 940px;
+  width: 960px;
 }
 
 /* Prefix Extra Space >> 16 Columns
@@ -266,7 +266,7 @@ body {
 ----------------------------------------------------------------------------------------------------*/
 
 .container_16 .push_1 {
-  left: 60px;
+  left: 50px;
 }
 
 .container_16 .push_2 {

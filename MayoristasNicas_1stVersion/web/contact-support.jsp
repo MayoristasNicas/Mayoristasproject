@@ -91,20 +91,37 @@
         <jsp:include page="includesPage/_facebookJoin.jsp"></jsp:include>
 
         <div class="container_16">
-            <div id="whiteBox" style="padding: 10px;">
+            <div id="whiteBox" style="padding: 10px;"><center>
                 <br/>
-                <h1>Contactanos</h1>
+                <h8> Misión y Visión </h8>
                 <hr/>
-            </div>
+                </center></div>
         </div>
         
         <div class="container_16">
-            <div id="whiteBox" class="grid_16" style="padding: 5px;">
+            <div id="whiteBox" class="grid_16" style="padding: 0px; margin-left: 0px">
              
                 <div class="grid_7 push_1">
-                    <div class="grid_5" id="whiteBox" style="margin: 15px;">
-                <div class="grid_5">
                     
+                    <table border="2" cellpadding="0" cellspacing="0" >
+<tr>
+<td><p style="color: #000;font-size: 14px"><strong>Misión:</strong>
+                            Brindar una canal de distribución en línea a empresas productoras de alimentos como una alternativa de canal de venta. Asimismo ofrecer a clientes finales productos al por mayor a un mejor precio de compra.</p></div>
+                        </td>
+<td>Foto</td>
+</tr>
+<tr>
+<td>  </td>
+<td><p style="color: #000;font-size: 14px"><strong>Visión:</strong>
+Ser una empresa de servicios de distribución robusta con capacidad de adaptarse
+a la globalización y implantar un estilo en mercado de canal de distribución de 
+productos al por mayor.</p></td>
+</tr>
+</table>
+                    <div>
+                  
+                    <div class="grid_5" id="whiteBox" style="margin: 10px;">
+                <div class="grid_5">
                     <div class="grid_3 ">
                         MayoristasNicas
                     </div>
@@ -116,13 +133,13 @@
                     <div class="grid_3">
                         support@mayoristasnicas.com
                     </div>
-                    <div class="grid_1">
+                    <div class="grid_3">
                         Dirección:
                     </div>
                     <div class="grid_3">
                         Lomas del Valle, Av. Henares, casa #A-8
                     </div>
-                    <div class="grid_1">
+                    <div class="grid_3">
                         Celular:
                     </div>
                     <div class="grid_3">
@@ -130,9 +147,7 @@
                     </div>
                 </div>
             </div>
-                    <img src="images/textures/linen.png" style="width: 388px;
-height: 218px;
-margin: 38px 0px;"/>
+                    
                      
                 </div>
             </div>
