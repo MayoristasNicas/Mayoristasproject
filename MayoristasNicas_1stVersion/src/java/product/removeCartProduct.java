@@ -73,13 +73,13 @@ public class removeCartProduct extends HttpServlet {
             String id =  request.getParameter("id");
             int intId = Integer.parseInt(id);
             PrintWriter out = response.getWriter();
-            out.println ("Id of the product "+id );
+            out.println ("Id del producto "+id );
             HttpSession session = request.getSession();
             cart cart;
             cart = (cart) session.getAttribute("cart");
             
             response.setContentType("text/html;charset=UTF-8");
-                    out.println("<br/>Total value price of the cart " + cart.getTotalPriceOfCart());
+                    out.println("<br/>Valor total del carrito es " + cart.getTotalPriceOfCart());
                     ArrayList<String> productNames = new ArrayList();
                     ArrayList<Double> productPrices = new ArrayList();
                     ArrayList<Integer> Qty = new ArrayList();

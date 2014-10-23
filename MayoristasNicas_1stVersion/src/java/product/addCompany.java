@@ -82,7 +82,7 @@ public class addCompany extends HttpServlet {
         PrintWriter out = response.getWriter();
         //out.print(companyName +" "+productName);
         if (companyName.equals("")){
-            out.println("Please enter in All the Values");
+            out.println("Ingresa todos los valores");
         }
         else {
             try {
@@ -91,14 +91,13 @@ public class addCompany extends HttpServlet {
                 DB_Conn conn = new DB_Conn();
                 con = conn.getConnection();
                 String sqlInsertCompany = "INSERT INTO  `mayoristasnic`.`product-company` (`company-id` ,`company-name`)VALUES (NULL ,  '"+companyName+"');";  
-                //String sqlInsertProduct = "INSERT INTO  `saikiran enterprises`.`category` (`category_id` ,`category_name`)VALUES (NULL ,  '"+companyName+"'); ";
                 Statement st = con.createStatement();
                 int rows = st.executeUpdate(sqlInsertCompany);
                 
                 if (rows != 1){
-                    out.println("Company not inserted");
+                    out.println("Compañia no agregada");
                 }else {
-                    out.println(companyName+" Product Company Inserted");
+                    out.println(companyName+" Compañía agregada");
                 }
                 st.close();
                 con.close();
@@ -106,16 +105,16 @@ public class addCompany extends HttpServlet {
             } 
             
             catch (SQLSyntaxErrorException ex){
-                out.println("Please provide names without quotes");
+                out.println("Por favor ingrese un nombre sin caracteres especiales");
             }
             catch (SQLIntegrityConstraintViolationException ex){
-                out.println("Company With the same name exists...");
+                out.println("Ya existe una compañia con este nombre");
             }
             
             catch (SQLException ex) {
-                out.println("There was a problem in Connectiong DB <br/> Exception has occoured "+ex);
+                out.println("Hubo un error en la conexión a la base de datos <br/> Ha ocurrido una excepción "+ex);
             } catch (ClassNotFoundException ex) {
-                out.println("Application Cannot find the Class <br/> Exception has occoured "+ex);
+                out.println("La aplicación no encuentra la clase <br/> Ha ocurrido una excepción "+ex);
             }
         }
         

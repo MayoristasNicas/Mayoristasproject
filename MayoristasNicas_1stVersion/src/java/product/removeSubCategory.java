@@ -125,8 +125,8 @@ public class removeSubCategory extends HttpServlet {
             response.sendRedirect("/MayoristasNicas_1stVersion/admin_settings.jsp");
         } catch (SQLException ex) {
             Logger.getLogger(removeCategory.class.getName()).log(Level.SEVERE, null, ex);
-            message = "An Error occoured during the process of Deletion";
-            messageDetail = "There was an error during the deletion of the process, Please try after some time";
+            message = "Ha ocurrido un error durante el proceso de eliminación.";
+            messageDetail = "Ha ocurrido un error durante el proceso de eliminación, por favor intenta más tarde";
                    
             request.setAttribute("message", message);
             request.setAttribute("messageDetail", messageDetail);
@@ -134,8 +134,8 @@ public class removeSubCategory extends HttpServlet {
         
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(removeCategory.class.getName()).log(Level.SEVERE, null, ex);
-            message = "An Error occoured during the process of Deletion";
-            messageDetail = "There was an error during the deletion of the process, Please try after some time";
+            message = "Ha ocurrido un error durante el proceso de eliminación.";
+            messageDetail = "Ha ocurrido un error durante el proceso de eliminación, por favor intenta más tarde";
 
             request.setAttribute("message", message);
             request.setAttribute("messageDetail", messageDetail);

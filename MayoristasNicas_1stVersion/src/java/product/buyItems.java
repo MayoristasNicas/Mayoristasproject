@@ -216,8 +216,6 @@ public class buyItems extends HttpServlet {
                         
                         executeQueryGetOrderId.close();
 
-                        //out.println("you user :" + User.getUserEmail() + " has bought items worth " + Cart.getTotalPriceOfCart() + "gffdgfgvgedfrggfdre and order id of " + order_id);
-
                         ArrayList<String> productCategorys = Cart.getProductCategorys();
                         ArrayList<String> productNames = Cart.getProductNames();
                         ArrayList<Double> prices = Cart.getPrices();
@@ -258,10 +256,10 @@ public class buyItems extends HttpServlet {
                             int executeUpdateSalesTable = insertIntoSalesTable.executeUpdate();
                             
                             if (executeUpdateSalesTable == 1) {
-                                out.println("Success");
+                                out.println("Exitoso");
                                 
                             } else {
-                                out.println("Failed for now Product name " + productNames.get(i));
+                                out.println("Ha fallado el producto " + productNames.get(i));
                             }
                         }
                         //DECREMENT THE QUANTITY in the CART FROM products TABLE 
@@ -314,14 +312,13 @@ public class buyItems extends HttpServlet {
                             String messageUrl = "/message.jsp";
                             RequestDispatcher dispatchMessage =
                                  request.getServletContext().getRequestDispatcher(messageUrl);
-                            message = "Oops, Less Product Stock...!";
-                            messageDetail = "We see that your demand for the product was critically higher than what we had in our inventory, We respect your purchase but your purchase was cancelled, We are sorry, but please in a urgent requirement do order less stock right now!!";
+                            message = "No tenemos suficientes productos disponibles";
+                            messageDetail = "Vemos que la demanda del producto es mayor a lo que contamos en inventario, Su orden será cancelada";
                             request.setAttribute("message", message);
                             request.setAttribute("messageDetail", messageDetail);
                             dispatchMessage.forward(request, response);
                                             //response.sendError(500);
                             
-                                //response.sendRedirect("/saikiranBookstoreApp/buyItems.jsp");
                             } catch (SQLException ex1) {
                                 //Logger.getLogger(buyItems.class.getName()).log(Level.SEVERE, null, ex1);
                                 
@@ -329,27 +326,24 @@ public class buyItems extends HttpServlet {
                             String messageUrl = "/message.jsp";
                             RequestDispatcher dispatchMessage =
                                  request.getServletContext().getRequestDispatcher(messageUrl);
-                            message = "Oops, Less Product Stock...!";
-                            messageDetail = "We see that your demand for the product was critically higher than what we had in our inventory, We respect your purchase but your purchase was cancelled, We are sorry, but please in a urgent requirement do order less stock right now!!";
+                            message = "No tenemos suficientes productos disponibles";
+                            messageDetail = "Vemos que la demanda del producto es mayor a lo que contamos en inventario, Su orden será cancelada";
                             request.setAttribute("message", message);
                             request.setAttribute("messageDetail", messageDetail);
                             dispatchMessage.forward(request, response);
                                             //response.sendError(500);
                             }
                 } catch (ClassNotFoundException ex) {
-                    out.println("you user " + ex);
-                    //response.sendRedirect("/saikiranBookstoreApp/buyItems.jsp");
+                    out.println(" usuario " + ex);
                     
                 }
-                session.removeAttribute("cart");
+                session.removeAttribute("carro");
             } else {
-                //response.sendRedirect("/saikiranBookstoreApp/index.jsp");
-                out.println ("No items in cart");
+                out.println ("No hay articulos en el carro");
             }
             
         } else {
-            //response.sendRedirect("/saikiranBookstoreApp/buyItems.jsp");
-            out.println ("NOt validated");
+            out.println ("Sin validación");
         }
         
     }

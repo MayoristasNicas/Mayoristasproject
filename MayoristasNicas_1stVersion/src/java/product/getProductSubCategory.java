@@ -73,11 +73,7 @@ public class getProductSubCategory extends HttpServlet {
             String category = request.getParameter ("category");
             Connection c = new DB_Conn().getConnection();
             Statement st = c. createStatement();
-            /*
-             SELECT * 
-            FROM  `sub-category` 
-            WHERE  `category_name` =  'Books'
-             */
+            
             ResultSet executeQuery = st.executeQuery("SELECT * " +
                                                 " FROM  `sub-category` " +
                                                 " WHERE  `category_name` =  '"+category+"' ");
