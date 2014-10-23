@@ -146,6 +146,10 @@
                                 <td>Sub-categoría </td>
                                 <td><%= company_name%></td>
                             </tr>
+                            <tr class="grid_6">
+                                <td>Cantidad </td>
+                                <td><form action="" > <input type="text" name="FirstName" value="Mickey"> </form></td>
+                            </tr>
                         </table>
                     </div>
                 </div>
