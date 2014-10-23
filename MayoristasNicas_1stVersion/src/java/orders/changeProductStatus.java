@@ -85,14 +85,14 @@ public class changeProductStatus extends HttpServlet {
         String order [] = request.getParameterValues("order");
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
-        out.println ("So you wanna "+ChangeStatus+" For the Item nos of, ");
+        out.println ("Quieres cambiar el status "+ChangeStatus+" para los artículos, ");
         
         if (order !=  null){
             for (int i=0; i<order.length; i++){
                 out.println (" <br/>"+order[i]);
             }
             
-            if (ChangeStatus.equals("approved")){
+            if (ChangeStatus.equals("Aprobado")){
                 try {
                     //Approve the pending oreders
                     /*
@@ -112,7 +112,7 @@ public class changeProductStatus extends HttpServlet {
                     
                     out.print(" "+sqlBuffer.toString());
                     int[] executeBatch = st.executeBatch();
-                    out.println (executeBatch.length +" Products Approved");
+                    out.println (executeBatch.length +" Productos aprobados");
                     
                     
                 } catch (SQLException ex) {
@@ -126,7 +126,7 @@ public class changeProductStatus extends HttpServlet {
                 
                 response.sendRedirect(request.getContextPath()+"/admin_pendingOrders.jsp");
                 
-            }else if (ChangeStatus.equals("delivered")){
+            }else if (ChangeStatus.equals("Enviado")){
                 //cancel the pending oreders
                 try {
                     //Approve the pending oreders
@@ -147,7 +147,7 @@ public class changeProductStatus extends HttpServlet {
                     
                     out.print(" "+sqlBuffer.toString());
                     int[] executeBatch = st.executeBatch();
-                    out.println (executeBatch.length +" Products Approved");
+                    out.println (executeBatch.length +" Productos aprobados");
                     
                     
                 } catch (SQLException ex) {
@@ -158,9 +158,9 @@ public class changeProductStatus extends HttpServlet {
                     Logger.getLogger(changeProductStatus.class.getName()).log(Level.SEVERE, null, ex);
                 }
                 
-                response.sendRedirect("/saikiranBookstoreApp/admin_approvedOrders.jsp");
+                response.sendRedirect("/MayoristasNicas_1stVersion/admin_approvedOrders.jsp");
             }
-            else if (ChangeStatus.equals("cancel")){
+            else if (ChangeStatus.equals("Cancelar")){
                 //cancel the pending oreders
                 
                 try {
@@ -184,7 +184,7 @@ public class changeProductStatus extends HttpServlet {
                     
                     out.print(" "+sqlBuffer.toString());
                     int[] executeBatch = st.executeBatch();
-                    out.println (executeBatch.length +" Products Deleted");
+                    out.println (executeBatch.length +" Productos cancelados");
                     
                     
                 } catch (SQLException ex) {
@@ -196,7 +196,7 @@ public class changeProductStatus extends HttpServlet {
                     Logger.getLogger(changeProductStatus.class.getName()).log(Level.SEVERE, null, ex);
                 }
                 
-                response.sendRedirect("/saikiranBookstoreApp/admin_Performance.jsp");
+                response.sendRedirect("/MayoristasNicas_1stVersion/admin_Performance.jsp");
             
             }
        }

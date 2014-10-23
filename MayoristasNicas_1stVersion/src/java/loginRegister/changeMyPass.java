@@ -105,22 +105,22 @@ public class changeMyPass extends HttpServlet {
             int i = psmt.executeUpdate(changePassword);
             PrintWriter out =response.getWriter();
             if(i==1){
-                out.println("Password actualizado... Intenta iniciar sesión nuevamente!!"+email+pass);
+                out.println("Contraseña actualizada... Intenta iniciar sesión nuevamente!!"+email+pass);
             }
             if (i==0){
-                out.println("Password No actualizado... Intenta iniciar sesión nuevamente!!"+email+pass);
+                out.println("Contraseña No actualizada... Intenta iniciar sesión nuevamente!!"+email+pass);
             }
             response.sendRedirect(request.getContextPath()+"/userinfo.jsp");
             
         } catch (SQLException ex) {
             Logger.getLogger(changeMyPassword.class.getName()).log(Level.SEVERE, null, ex);
             PrintWriter out =response.getWriter();
-            out.println("Eror in Process "+ex);
+            out.println("Eror en el procese "+ex);
             response.sendError(404);
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(changeMyPassword.class.getName()).log(Level.SEVERE, null, ex);
             PrintWriter out =response.getWriter();
-            out.println("Eror in Process "+ex);
+            out.println("Eror en el proceso "+ex);
             response.sendError(404);
         }
           

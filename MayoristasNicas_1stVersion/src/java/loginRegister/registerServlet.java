@@ -111,7 +111,7 @@ public class registerServlet extends HttpServlet {
             Connection c = con.getConnection();
             if ((request.getParameter("emailReg") != null) || (request.getParameter("emailReg") != null)){
                 if (isEmailValid) {
-                    if (pass.length() > 12) {//contraseña de 12 caractereres
+                    if (pass.length() >= 12) {//contraseña de 12 caractereres
                         if (pass.length() <= 16) { //validacion de contrase;a maxima de 16 caracteres
                             if (pass.equals(passAgain)) {
                             // then the user is registered and a session is 
@@ -143,17 +143,17 @@ public class registerServlet extends HttpServlet {
                         } //Else both passwords do not match
                         else {
                             isRegistered = false;
-                            message = "Passwords no son iguales";
-                            messageDetail = "Por favor ingresa el password correcto en ambas casillas";
-                            out.print("Registro sin éxito!  ambos passwords no coinciden!");
+                            message = "Contraseñas no son iguales";
+                            messageDetail = "Por favor ingresa la contraseña correcta en ambas casillas";
+                            out.print("Registro sin éxito!  ambas contraseñas no coinciden!");
                         }
                     } //or the paasword length is less than 7
                         else
                         {
                             isRegistered = false;
-                        message = "La cantidad de caracteres del password debe ser maximo de 16 caracteres";
-                        messageDetail = "Por favor ingresa un password con una longitud maxima de 16 caracteres alfanuméricos";
-                        out.print("Registro sin éxito!!! La longitud de la contraseña es mayor a 16 caracteres");
+                        message = "La cantidad de caracteres del password debe contener un mínimo de 12 caracteres y máximo de 16 caracteres";
+                        messageDetail = "Por favor ingresa un password con una longitud mínima de 12 y máxima de 16 caracteres alfanuméricos";
+                        out.print("Registro sin éxito!!! La longitud de la contraseña es mayor a 11 caracteres y menor de 17");
                     
                         }
                     }
@@ -187,7 +187,7 @@ public class registerServlet extends HttpServlet {
         } catch (SQLIntegrityConstraintViolationException ex) {
             // user exsts but wrong passwotd ask to CHANGE THE PASSWORD
             messageDetail = ex.getMessage();
-            message = "Ya había sido registradi previamente. Ingresa el password correcto nuevamente, sino intenta cambiar tu password...";
+            message = "Ya había sido registrado previamente. Ingresa el password correcto nuevamente, sino intenta cambiar tu password...";
             out.print("Registro sin éxito!!!" + ex);
             request.setAttribute("message", message);
             request.setAttribute("messageDetail", messageDetail);

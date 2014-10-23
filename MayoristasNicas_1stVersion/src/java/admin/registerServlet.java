@@ -112,11 +112,11 @@ public class registerServlet extends HttpServlet {
             Connection c = con.getConnection();
             if ((request.getParameter("email") != null) || (request.getParameter("email") != null)){
                 if (isEmailValid) {
-                    if (pass.length() > 7) {
+                    if (pass.length() > 11) {
                         if (pass.equals(passAgain)) {
                             // then the user is registered and a session is 
 
-                            String sql = "INSERT INTO  `saikiran enterprises`.`user` "
+                            String sql = "INSERT INTO  `mayoristasnic`.`user` "
                                     + "(`user_id` ,`email` ,`pass` ,`registeredOn`) "
                                     + "VALUES (NULL ,  ?, SHA1(  ? ) , NOW( )); ";
 
@@ -130,43 +130,43 @@ public class registerServlet extends HttpServlet {
 
                             if (i == 1) {
                                 isRegistered = true;
-                                out.println("You are registered ");
+                                out.println("Ya estas registrado");
                                 user User = new user();
                                 User.setUserEmail(email);
                                 userSession.setAttribute("user", User);
-                                response.sendRedirect("/saikiranBookstoreApp/index.jsp");
+                                response.sendRedirect("/MayoristasNicas_1stVersion/index.jsp");
                             } else {
                                 isRegistered = false;
-                                out.println("You are not registered");
+                                out.println("No estas registrado");
                             }
 
                         } //Else both passwords do not match
                         else {
                             isRegistered = false;
-                            message = "Passwords do not match";
-                            messageDetail = "Please provide a matching passwords";
-                            out.print(" nOT Success!  both passwords do not match!");
+                            message = "Contraseñas no coinciden";
+                            messageDetail = "Por favor ingresa una contraseña correcta";
+                            out.print(" Sin éxito. Las contraseñas no coinciden");
 
                         }
                     } //or the paasword length is less than 7
                     else {
                         isRegistered = false;
-                        message = "Password length is less than 7 characters";
-                        messageDetail = "Please provide a passwords that has password length of minimum of seven alphanumeric characters";
-                        out.print(" nOT Success!! the paasword length is less than 7");
+                        message = "La longitud de la contraseña es menor de 12 caracteres";
+                        messageDetail = "Por favor ingresa una contraseña con un mínimo de 12 caracteres alfanuméricos";
+                        out.print("Sin éxito. La longitud de la contraseña es menor de 12 caracteres");
                     }
                 } //or email is wrong
                 else {
                     isRegistered = false;
-                    message = "No email address typed";
-                    messageDetail = "Please provide a valid email address";
-                    out.print(" nOT Success!! email is wrong");
+                    message = "No has ingresado un correo electrónico";
+                    messageDetail = "Por favor ingresa un correo electrónico";
+                    out.print(" Sin éxito. Correo electrónico no válido");
                 }
             }
             else {
                 isRegistered = false;
-                message = "Please enter values";
-                messageDetail = "Please provide an email address. Your account currently is not registered";
+                message = "Ingesa información válida";
+                messageDetail = "Ingresa un correo electrónico. Tu cuenta aun no ha sido creada";
             }
             
             if (isRegistered == false) {
@@ -179,15 +179,15 @@ public class registerServlet extends HttpServlet {
         } catch (SQLIntegrityConstraintViolationException ex) {
             // user exsts but wrong passwotd ask to CHANGE THE PASSWORD
             messageDetail = ex.getMessage();
-            message = "You have been registered earlier please try your right password again, else change your password...<a href=''>Change My Password</a>";
-            out.print(" nOT Success!!" + ex);
+            message = "Ya estas registrado, ingresa la contraseña correcta, sino cambia de contraseña...<a href=''>Cambiar contraseña</a>";
+            out.print("Sin éxito" + ex);
             request.setAttribute("message", message);
             request.setAttribute("messageDetail", messageDetail);
             dispatchMessage.forward(request, response);
         } catch (Exception ex) {
             messageDetail = ex.getMessage();
-            message = "There was a problem in registering your account please do retry again later...";
-            out.print(" nOT Success!!" + ex);
+            message = "Hubo un problema durante tu registración. Por favor intenta más tarde";
+            out.print("Sin éxito" + ex);
             request.setAttribute("message", message);
             request.setAttribute("messageDetail", messageDetail);
             dispatchMessage.forward(request, response);
