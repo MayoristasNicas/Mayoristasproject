@@ -162,15 +162,15 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response)
         } catch (SQLIntegrityConstraintViolationException ex) {
             // user exsts but wrong passwotd ask to CHANGE THE PASSWORD
             messageDetail = ex.getMessage();
-            message = "Ya estas registrado. Ingresa la contraeña correcta, sino cambia tu contraseña";
+            message = "Ya estas registrado. Ingresa la contraseña correcta, sino cambia tu contraseña";
             out.print("Sin éxito" + ex);
             request.setAttribute("message", message);
             request.setAttribute("messageDetail", messageDetail);
             dispatchMessage.forward(request, response);
         } catch (Exception ex) {
             messageDetail = ex.getMessage();
-            message = "There was a problem in registering your account please do retry again later...";
-            out.print(" nOT Success!!" + ex);
+            message = "Hubo un problema mientras se creaba tu cuenta. Por favor intenta más tarde.";
+            out.print("Sin éxito" + ex);
             request.setAttribute("message", message);
             request.setAttribute("messageDetail", messageDetail);
             dispatchMessage.forward(request, response);
