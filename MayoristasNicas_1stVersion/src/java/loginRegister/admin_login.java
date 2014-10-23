@@ -133,8 +133,8 @@ public class admin_login extends HttpServlet {
                     else {
                         isLoggedIn = false;
                         // user exsts but wrong passwotd ask to CHANGE THE PASSWORD
-                        message = "Password incorrecto...!";
-                        messageDetail = "El password no coincide con el que se ingresó durante la registración... Por favor ingrese el password correcto";
+                        message = "Contraseña incorrecta...!";
+                        messageDetail = "La contraseña no coincide con el que se ingresó durante la registración... Por favor ingrese la contraseña correcta";
                         //out.println("wrong password Change the password now <a href = 'changeMyPassword.jsp'>Change</a>");
                         break;
                     }
@@ -156,14 +156,14 @@ public class admin_login extends HttpServlet {
         } 
         catch (SQLException e) {
             message = "Error en el proceso de registración";
-                    messageDetail = "Tenemos un proceso con su registración. Por favor intente nuevamente!";
+                    messageDetail = "Tenemos un problema con su registración. Por favor intente nuevamente!";
                     
             request.setAttribute("message", message);
             request.setAttribute("messageDetail", messageDetail);
             //dispatchMessage.forward(request, response);
         } catch (Exception e) {
            message = "Error en el proceso de registración";
-                    messageDetail = "Tenemos un proceso con su registración. Por favor intente nuevamente!";
+                    messageDetail = "Tenemos un problema con su registración. Por favor intente nuevamente!";
                   
             request.setAttribute("message", message);
             request.setAttribute("messageDetail", messageDetail);
