@@ -89,7 +89,7 @@ public class addSubCategory extends HttpServlet {
         
         if (SubCategoryName.equals("")){
             //out.println("Please enter in All the Values");
-            message ="Please enter in a SubCategory name for "+categoryName ;
+            message ="Por favor ingresa un nombre para la nueva clasificación "+categoryName ;
         }
         else {
             try {
@@ -106,29 +106,29 @@ public class addSubCategory extends HttpServlet {
                 
                 if (rows != 1){
                    // out.println("Company not inserted");
-                    message = "Sub Category insertion cancelled.";
+                    message = "Nueva clasificación cancelada.";
                 }else {
                     //out.println(companyName+" Company Inserted");
-                    message = SubCategoryName+" Sub-Category inserted" ;
+                    message = SubCategoryName+" Clasificación agregada" ;
                 }
                 st.close();
                 con.close();
             } 
             catch (SQLIntegrityConstraintViolationException ex){
                 //out.println("A comany name with the same name exists in your database... Try being specific.");
-                message = "A SubCategory Name with the same name exists in your database... Try being specific.";
+                message = "Ya existe esta clasificación en la base de datos.";
             }
             catch (SQLSyntaxErrorException ex){
                 //out.println("A comany name with the same name exists in your database... Try being specific.");
-                message = "Please provide names without quotes";
+                message = "Por favor ingresa un nombre sin caracteres especiales";
             }
             catch (SQLException ex) {
                 //out.println("There was a problem in Connectiong DB <br/> Exception has occoured "+ex);
-                message = "There was a problem in Connectiong DB <br/> Exception has occoured "+ex;
+                message = "Hubo un problema de conexion a la base de datos<br/> Ocurrió una excepción "+ex;
            
             } catch (ClassNotFoundException ex) {
                 //out.println("Application Cannot find the Class <br/> Exception has occoured "+ex);
-                message = "Application Cannot find the Class <br/> Exception has occoured "+ex;
+                message = "La aplicación no encuentra la clase <br/> Ocurrió una excepción "+ex;
             }
         }
         return message;

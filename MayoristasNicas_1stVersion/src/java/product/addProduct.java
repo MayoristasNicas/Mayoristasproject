@@ -144,10 +144,10 @@ public class addProduct extends HttpServlet {
                     HttpSession session = request.getSession();
                     session.setAttribute("productName", productName);
                     session.setAttribute("productId", ProductId);
-                    out.print("Product inserted");
-                    message = "Product Inserted...";
+                    out.print("Producto agregado");
+                    message = "Producto agregado...";
                     messageDetails = company +" "+ productName+ ""
-                            + " Product Inserted Successfully... ";
+                            + " Producto agregado exitosamente... ";
                     //"http://localhost/uploadProductFile/"
                     url ="/productInsertImages.jsp";
                     request.setAttribute("productName", productName);
@@ -162,10 +162,10 @@ public class addProduct extends HttpServlet {
             }
             catch (SQLException ex) {
                 //out.println("SQL Exception "+ex);
-                    message = "Product Not Inserted...";
+                    message = "Producto no agregado...";
                     messageDetails = company +" "+ productName+ ""
-                            + " Product not Inserted because of a Database error";
-                    out.print("Product not inserted "+ ex);
+                            + " El producto no se agregó debido a un error en la base de datos";
+                    out.print("Producto no agregado "+ ex);
                     url ="/productInsertImages.jsp";
                     request.setAttribute("message", message);
                     request.setAttribute("messageDetails", messageDetails);
@@ -177,9 +177,9 @@ public class addProduct extends HttpServlet {
             } catch (ClassNotFoundException ex) {
                 //out.println("Class Not Found Exception "+ex);
                 
-                    message = "Product Not Inserted...";
+                    message = "Producto no agregado...";
                     messageDetails = company +" "+ productName+ ""
-                            + " Product not Inserted because of an error";
+                            + " Ocurrió un error al momento de agregar el producto";
                     
                     url ="/productInsertImages.jsp";
                     request.setAttribute("message", message);
@@ -193,9 +193,9 @@ public class addProduct extends HttpServlet {
         }
         else {
             //out.println("Please Enter Product-name and Price");
-                    message = "Product Not Inserted...";
-                    messageDetails = "Please Enter Product-name and Price";
-                    out.print("Product not inserted " + " "+message);
+                    message = "Producto no agregado...";
+                    messageDetails = "Por favor ingrese un nombre y precio para el nuevo producto";
+                    out.print("Producto no agregado " + " "+message);
                     url ="/productInsertImages.jsp";
                     request.setAttribute("message", message);
                     request.setAttribute("messageDetails", messageDetails);

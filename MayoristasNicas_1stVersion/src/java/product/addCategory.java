@@ -91,7 +91,7 @@ public class addCategory extends HttpServlet {
         
         if (categoryName.equals("")){
             //out.println("Please enter in All the Values");
-            message ="Please enter in a Category Name";
+            message ="Por favor ingresa un nombre de un proveedor";
         }
         else {
             try {
@@ -100,35 +100,33 @@ public class addCategory extends HttpServlet {
                 DB_Conn conn = new DB_Conn();
                 con = conn.getConnection();
                 String sqlInsertCompany ="INSERT INTO  `mayoristasnic`.`category` (`category_id` ,`category_name`)VALUES (NULL ,  '"+categoryName+"');"; 
-               // "INSERT INTO  `saikiran enterprises`.`product-company` (`company-id` ,`company-name`)VALUES (NULL ,  '"+companyName+"');";                
-                //String sqlInsertProduct = "INSERT INTO  `saikiran enterprises`.`category` (`category_id` ,`category_name`)VALUES (NULL ,  '"+companyName+"'); ";
                 Statement st = con.createStatement();
                 int rows = st.executeUpdate(sqlInsertCompany);
                 
                 if (rows != 1){
                    // out.println("Company not inserted");
-                    message = "category insertion failed.";
+                    message = "Falló la creación del proveedor";
                 }else {
                     //out.println(companyName+" Company Inserted");
-                    message = categoryName+" category inserted";
+                    message = categoryName+" Proveedor a crear";
                 }
                 st.close();
                 con.close();
             } 
             catch (SQLSyntaxErrorException ex){
-                message = ("Please provide names without quotes");
+                message = ("Por favor ingresa un nombre sin caracteres especiales");
             }
             catch (SQLIntegrityConstraintViolationException ex){
                 //out.println("A comany name with the same name exists in your database... Try being specific.");
-                message = "A category name with the same name exists in your database... Try being specific.";
+                message = "Un proveedor con el mismo nombre ya existe en la base de datos Por favor intenta ser más específico.";
             }
             catch (SQLException ex) {
                 //out.println("There was a problem in Connectiong DB <br/> Exception has occoured "+ex);
-                message = "There was a problem in Connectiong DB <br/> Exception has occoured "+ex;
+                message = "Hubo un problema con la conexión a la base de datos <br/> Ha ocurrido una excepción "+ex;
            
             } catch (ClassNotFoundException ex) {
                 //out.println("Application Cannot find the Class <br/> Exception has occoured "+ex);
-                message = "Application Cannot find the Class <br/> Exception has occoured "+ex;
+                message = "La aplicación no encuentra la clase <br/> Ha ocurrido una excepción "+ex;
             }
         }
         return message;
