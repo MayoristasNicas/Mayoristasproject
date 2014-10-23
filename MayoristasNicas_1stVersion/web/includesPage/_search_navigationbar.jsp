@@ -8,16 +8,17 @@
                 <input type="text" id="search" class="searchBox" placeholder="Búsqueda por artículos ..." autofocus="true"/>
 
             </div>
-            <div class="grid_6" id="topNav">
+            <div class="grid_6" id="topNav" style=" width: 380px;">
                 <div class="mainmenu pull-left">
                     <ul>
                     <li><a href="index.jsp">Inicio</a></li>
+                    <li><a href="contact-support.jsp">Acerca de nosotros</a></li>
                     <li><a href="viewProducts_.jsp">Productos</a></li>
                     <li><a href="viewSales_.jsp">Promociones</a></li>
-                    <li><a href="contact-support.jsp">Contactanos</a></li>
-                    <li><a href="faq.jsp">Preguntas</a></li>
+                    
+                    <li><a href="faq.jsp">FAQ</a></li>
                 </ul>
-                                                        </ul>
+                                                       
                 </div>
             </div>
         </div>

@@ -91,7 +91,7 @@
         <jsp:include page="includesPage/_facebookJoin.jsp"></jsp:include>
 
         <div class="container_16">
-            <div id="whiteBox" style="padding: 10px;"><center>
+            <div id="whiteBox" style="padding: 5px"><center>
                 <br/>
                 <h8> Misión y Visión </h8>
                 <hr/>
@@ -103,16 +103,16 @@
              
                 <div class="grid_7 push_1">
                     
-                    <table border="2" cellpadding="0" cellspacing="0" >
+                    <table border="2" cellpadding="3" cellspacing="5">
 <tr>
-<td><p style="color: #000;font-size: 14px"><strong>Misión:</strong>
+    <td><p style="color: #000;font-size: 17px; margin-top: 70px"><strong>Misión:</strong>
                             Brindar una canal de distribución en línea a empresas productoras de alimentos como una alternativa de canal de venta. Asimismo ofrecer a clientes finales productos al por mayor a un mejor precio de compra.</p></div>
                         </td>
-<td>Foto</td>
+                        <td><img src="images\logo\Mision.png"></td>
 </tr>
 <tr>
-<td>  </td>
-<td><p style="color: #000;font-size: 14px"><strong>Visión:</strong>
+    <td> <img src="images\logo\Vision.png" style=" padding-left: 100px"></td></td>
+<td><p style="color: #000;font-size: 17px; margin-top: 70px"><strong>Visión:</strong>
 Ser una empresa de servicios de distribución robusta con capacidad de adaptarse
 a la globalización y implantar un estilo en mercado de canal de distribución de 
 productos al por mayor.</p></td>
@@ -121,7 +121,7 @@ productos al por mayor.</p></td>
                     <div>
                   
                     <div class="grid_5" id="whiteBox" style="margin: 10px;">
-                <div class="grid_5">
+                        <div class="grid_5" style=" font-size: 15px; color: #000">
                     <div class="grid_3 ">
                         MayoristasNicas
                     </div>
