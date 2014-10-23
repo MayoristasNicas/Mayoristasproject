@@ -111,7 +111,7 @@ public class registerServlet extends HttpServlet {
             Connection c = con.getConnection();
             if ((request.getParameter("emailReg") != null) || (request.getParameter("emailReg") != null)){
                 if (isEmailValid) {
-                    if (pass.length() > 12) {//contraseña de 12 caractereres
+                    if (pass.length() >= 12) {//contraseña de 12 caractereres
                         if (pass.length() <= 16) { //validacion de contrase;a maxima de 16 caracteres
                             if (pass.equals(passAgain)) {
                             // then the user is registered and a session is 
@@ -187,7 +187,7 @@ public class registerServlet extends HttpServlet {
         } catch (SQLIntegrityConstraintViolationException ex) {
             // user exsts but wrong passwotd ask to CHANGE THE PASSWORD
             messageDetail = ex.getMessage();
-            message = "Ya había sido registradi previamente. Ingresa el password correcto nuevamente, sino intenta cambiar tu password...";
+            message = "Ya había sido registrado previamente. Ingresa el password correcto nuevamente, sino intenta cambiar tu password...";
             out.print("Registro sin éxito!!!" + ex);
             request.setAttribute("message", message);
             request.setAttribute("messageDetail", messageDetail);

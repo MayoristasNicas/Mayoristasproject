@@ -95,7 +95,7 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response)
             Connection c = con.getConnection();
             if ((request.getParameter("email") != null) || (request.getParameter("email") != null)){
                 if (isEmailValid) {
-                    if (pass.length() > 7) {
+                    if (pass.length() > 11) {
                         if (pass.equals(passAgain)) {
                             // then the user is registered and a session is 
 
@@ -113,43 +113,43 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response)
 
                             if (i == 1) {
                                 isRegistered = true;
-                                out.println("You are registered ");
+                                out.println("Estas registrado ");
                                 user User = new user();
                                 User.setUserEmail(email);
                                 userSession.setAttribute("user", User);
                                 response.sendRedirect("/MayoristasNicas_1stVersion/admin_settings.jsp");
                             } else {
                                 isRegistered = false;
-                                out.println("You are not registered");
+                                    out.println("No estas registrado");
                             }
 
                         } //Else both passwords do not match
                         else {
                             isRegistered = false;
-                            message = "Passwords do not match";
-                            messageDetail = "Please provide a matching passwords";
-                            out.print(" nOT Success!  both passwords do not match!");
+                            message = "Passwords no coincide";
+                            messageDetail = "Por favor ingresa el password correctamente";
+                            out.print("No se completó. Las contraseñas no coinciden");
 
                         }
                     } //or the paasword length is less than 7
                     else {
                         isRegistered = false;
-                        message = "Password length is less than 7 characters";
-                        messageDetail = "Please provide a passwords that has password length of minimum of seven alphanumeric characters";
-                        out.print(" nOT Success!! the paasword length is less than 7");
+                        message = "Loongitud de la contraseña es menor de 12 caracteres";
+                        messageDetail = "Por favor ingresa una contraseña con al menos 12 caracteres alfanuméricos";
+                        out.print(" No se completó. La contraseña es menor de 12 caracteres");
                     }
                 } //or email is wrong
                 else {
                     isRegistered = false;
-                    message = "No email address typed";
-                    messageDetail = "Please provide a valid email address";
-                    out.print(" nOT Success!! email is wrong");
+                    message = "No se ha ingresado un correo electrónico";
+                    messageDetail = "Por favor ingresa un correo electrónico válido";
+                    out.print("No se completó. El correo electrónico no es válido");
                 }
             }
             else {
                 isRegistered = false;
-                message = "Please enter values";
-                messageDetail = "Please provide an email address. Your account currently is not registered";
+                message = "Por favor ingresa la información";
+                messageDetail = "Por favro ingresa un correo electrónico. Tu cuenta aun no ha sido creada";
             }
             
             if (isRegistered == false) {
@@ -162,8 +162,8 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response)
         } catch (SQLIntegrityConstraintViolationException ex) {
             // user exsts but wrong passwotd ask to CHANGE THE PASSWORD
             messageDetail = ex.getMessage();
-            message = "You have been registered earlier please try your right password again, else change your password...";
-            out.print(" nOT Success!!" + ex);
+            message = "Ya estas registrado. Ingresa la contraeña correcta, sino cambia tu contraseña";
+            out.print("Sin éxito" + ex);
             request.setAttribute("message", message);
             request.setAttribute("messageDetail", messageDetail);
             dispatchMessage.forward(request, response);
