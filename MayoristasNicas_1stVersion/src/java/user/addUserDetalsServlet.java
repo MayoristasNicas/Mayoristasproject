@@ -136,7 +136,7 @@ public class addUserDetalsServlet extends HttpServlet {
                                             psmt.setString(4, gender);
                                             psmt.setString(5, mobileNum_s);
                                             psmt.executeUpdate();
-                                            out.println ("done!");
+                                            out.println ("Hecho!");
                                             User.setUserEmail(User.getUserEmail());
                                          } else { // UPDATE THE EXISTING USER DETAILS
                                         /*
@@ -156,7 +156,7 @@ public class addUserDetalsServlet extends HttpServlet {
                                             psmt.setString(3, gender);
                                             psmt.setString(4, mobileNum_s);
                                             psmt.executeUpdate();
-                                            out.println ("done! Updating");
+                                            out.println ("Hecho! Actualizando");
                                             User.setUserEmail(User.getUserEmail());
                                     }   
                                     out.println ("<a href='userinfo.jsp'>User Info</a>");
