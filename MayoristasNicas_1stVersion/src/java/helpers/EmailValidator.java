@@ -55,7 +55,7 @@ public class EmailValidator {
     
     public static void main(String arg[]){
         EmailValidator valid = new EmailValidator();
-        System.out.print("Correo electronico a validar...");
+        System.out.print("Correo electrónico a validar...");
         Scanner sc = new Scanner(System.in);
         String email = sc.next();
         

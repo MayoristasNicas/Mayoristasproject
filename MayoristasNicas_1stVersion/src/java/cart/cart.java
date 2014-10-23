@@ -199,7 +199,7 @@ public class cart {
         } else {
             //get out the function
             //Because no product in in the db with that id
-            System.out.println("No product with that id exist in database");
+            System.out.println("No existe un producto con ese ID en la base de datos");
             added = false;
         }
         return added;
@@ -266,13 +266,13 @@ public class cart {
             String choice = "1";
             while (choice.equals("1")) {
 
-                System.out.println("What do u want to buy? Give me ID");
+                System.out.println("¿Que quieres comprar? Ingresa el ID");
 
                 int id = sc.nextInt();
 
                 c.addProduct(id); //Good
 
-                System.out.println("Do u wish to continue?");
+                System.out.println("¿Desea continuar?");
 
                 choice = sc.next();
             }
@@ -287,24 +287,24 @@ public class cart {
             for (int i = 0; i < productNames.size(); i++) {
                 System.out.println(p_Category.get(i) + " " + productNames.get(i) + "              \t\t" + prices1.get(i) + " \t\t" + qty1.get(i) + " \t\t" + prices1.get(i) * qty1.get(i));
             }
-            System.out.println("Total Price of the cart is :" + c.getTotalPriceOfCart());
+            System.out.println("El precio total del carro es :" + c.getTotalPriceOfCart());
 
             choice = "1";
             while ("1".equals(choice)) {
 
-                System.out.println("Give Product id to remove");
+                System.out.println("Ingresa el ID del producto a eliminar");
                 int id = sc.nextInt();
                 boolean removeProduct = c.removeProduct(id);
                 if (removeProduct){
                     for (int i = 0; i < productNames.size(); i++) {
                         System.out.println(p_Category.get(i) + " " + productNames.get(i) + "              \t\t" + prices1.get(i) + " \t\t" + qty1.get(i) + " \t\t" + prices1.get(i) * qty1.get(i));
                         
-                        System.out.println("Total Price of the cart is :" + c.getTotalPriceOfCart());
+                        System.out.println("El precio total del carro es :" + c.getTotalPriceOfCart());
 
                     }
                 }
                 else {
-                    System.out.println("No Product to remove!!");
+                    System.out.println("No has seleccionado productos a eliminar");
                 }
             }
             
