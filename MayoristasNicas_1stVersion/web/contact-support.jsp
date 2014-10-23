@@ -106,7 +106,7 @@
                     <table border="2" cellpadding="3" cellspacing="5">
 <tr>
     <td><p style="color: #000;font-size: 17px; margin-top: 70px"><strong>Misión:</strong>
-                            Brindar una canal de distribución en línea a empresas productoras de alimentos como una alternativa de canal de venta. Asimismo ofrecer a clientes finales productos al por mayor a un mejor precio de compra.</p></div>
+                            Brindar una canal de distribución online a comercios de productos varios, como una alternativa de canal de venta. Asimismo ofrecer a clientes finales productos al por mayor a un mejor precio de compra.</p></div>
                         </td>
                         <td><img src="images\logo\Mision.png"></td>
 </tr>
@@ -114,8 +114,8 @@
     <td> <img src="images\logo\Vision.png" style=" padding-left: 100px"></td></td>
 <td><p style="color: #000;font-size: 17px; margin-top: 70px"><strong>Visión:</strong>
 Ser una empresa de servicios de distribución robusta con capacidad de adaptarse
-a la globalización y implantar un estilo en mercado de canal de distribución de 
-productos al por mayor.</p></td>
+a la globalización e implantar un estilo en mercado de canal de distribución de 
+productos varios al por mayor.</p></td>
 </tr>
 </table>
                     <div>
