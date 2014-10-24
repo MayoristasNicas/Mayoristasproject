@@ -79,6 +79,9 @@
             String summary = rs.getString("summary");
 
             String image_name = rs.getString("image-name");
+            String Quantity = rs.getString("product_qty");
+                    
+            
 
         %>
 
@@ -99,6 +102,7 @@
                         <div class="clear"></div>
                         <br/>
                         <h5>Precio <span class="BigRed">C$. <%= price%></span></h5>
+                      
                         <br/>
                         <br/>
                         <%
@@ -112,13 +116,12 @@
                         <%
                             }
                         %>
-                       
-
-                        <a href="addToCart.jsp?id=<%= product_id %>">
-                            <div class="grid_3" id="buy">
-                                Comprar ahora <img src="C:\Users\ADRIANA\Documents\GitHub\Mayoristasproject\MayoristasNicas_1stVersion\web\images\logo\Carrito.png\"/> 
-                            </div>
-                        </a>
+                                               
+                            
+                                
+                            
+                      
+                        
                            
                         <h1>Detalle del producto</h1>
                         <div class="clear"></div>
@@ -139,18 +142,30 @@
                                 <td><%= category_name%></td>
                             </tr>
                             <tr class="grid_6">
-                                <td>Categoría</td>
+                                <td>Categorï¿½a</td>
                                 <td><%= sub_category_name%></td>
                             </tr>
                             <tr class="grid_6">
-                                <td>Sub-categoría </td>
+                                <td>Sub-categorï¿½a </td>
                                 <td><%= company_name%></td>
                             </tr>
                             <tr class="grid_6">
-                                <td>Cantidad </td>
-                                <td><form action="" > <input type="text" name="FirstName" value="Mickey"> </form></td>
+                                <td>Cantidad en existencia</td>
+                                <td><%= Quantity %></td>
+                                </tr>
+                            
+                            <tr class="grid_6">
+                                <td>Cantidad a comprar </td>
+                                <td><form> <input type="numeric" name="Cantidad" value="1"> </form></td>
                             </tr>
                         </table>
+
+                       
+                    <a                                
+                        href="addToCart.jsp?id=<%=product_id%>">
+                           <div class="grid_3" id="buy">Comprar ahora <img src="images\logo\Carrito.png">
+                            </div>
+                                    </a>
                     </div>
                 </div>
 

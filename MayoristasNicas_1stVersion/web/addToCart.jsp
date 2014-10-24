@@ -91,11 +91,14 @@
 
                     <%
                         String sid = request.getParameter("id");
+                        
                         int id;
+                        
                         if (request.getParameter("id") == null) {
                             response.sendRedirect("viewProduct_.jsp");
                         } else {
                             id = Integer.parseInt(sid);
+                            
 
                             boolean b = cart.addProduct(id);
 

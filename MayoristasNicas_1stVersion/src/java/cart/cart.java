@@ -269,7 +269,7 @@ public class cart {
                 System.out.println("¿Que quieres comprar? Ingresa el ID");
 
                 int id = sc.nextInt();
-
+int Qty= sc.nextInt();
                 c.addProduct(id); //Good
 
                 System.out.println("¿Desea continuar?");
