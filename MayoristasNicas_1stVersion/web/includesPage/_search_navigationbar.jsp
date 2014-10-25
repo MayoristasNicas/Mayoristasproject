@@ -37,7 +37,7 @@
            
             </div> -->
             <div class="grid_6" id="top" style="margin-top: 5px">
-            <div class="fb-like" data-href="https://facebook.com/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+            <div class="fb-like" data-href="https://www.facebook.com/mayoristasnicas" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
             </div>
             
             <!--<div class="grid_6" id="top">
