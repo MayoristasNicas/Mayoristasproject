@@ -80,7 +80,7 @@
 
             String image_name = rs.getString("image-name");
             String Quantity = rs.getString("product_qty");
-            String WebPage = rs.getString("web_page");
+            String Web = rs.getString("web_page");
                     
             
 
@@ -198,11 +198,7 @@
                             <img class="SmallProductBox" alt="<%= image_name %> 1 of 8 thumb" src="<%= image_name %>" />
                         </a>
                         
-                        <table class="grid_6" id="descripTable">
-                            <tr class="grid_6">
-                                <td>Página web</td>
-                                <td><%= WebPage%></td>
-                            </tr></table>
+                        
                         
                         <%                            
                             }
@@ -217,10 +213,14 @@
                             <img class="SmallProductBox" alt="Assassins Creed 1 of 8 thumb" src="images/productImages/t1.jpeg" />
                         </a>
 -->
+                            </tr></table>
                     </div>
+
                     <div class="clear"></div>
-                    
                 </div>
+
+
+
 
             </div>
 
