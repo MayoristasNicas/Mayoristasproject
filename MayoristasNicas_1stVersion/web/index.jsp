@@ -83,17 +83,15 @@
                     </li>  
                     <li class="sliderImage" style="display: none; ">
 
-                        <img src="images/banner/b2.jpg" width="900" height="300" /> 
+                        <img src="images/banner/CocaZeroWP.jpg" width="900" height="300" /> 
 
                         <span class="top" style="display: none; ">
 
-                            <strong>Cafï¿½ Soluble</strong>				
+                            <strong>Coca Cola Zero</strong>				
 
-                            <br>Aprovechï¿½ las promociones del mejor cafï¿½ de Nicaragua, ideal para que lo brindes a tus clientes.
+                            <br>Descubre el sabor de la coca cola ZERO calorias, aprovechá las promociones que FEMSA te trae, coca cola zero al precio mas bajo
+                            del mercado
                            
-                            Cafï¿½ Soluble brinda su lï¿½nea de productos completa a un mejor precio que en cualquier otra
-                            
-                            tienda.
 
                         </span>
 
@@ -103,11 +101,11 @@
 
                     <li class="sliderImage" style="display: none; ">
 
-                        <img src="images/banner/b5.jpg" width="900" height="300" /> 
+                       <img src="images/banner/Pringles.jpg" width="900" height="300" /> 
 
                         <span class="top" style="display: none; ">
 
-                            <strong>Parmalat</strong>				
+                            <strong>Pringles</strong>				
 
                             <br>Con la lï¿½nea mï¿½s completa de productos lï¿½cteos, Parmalata estï¿½ presente en MayoristasNicas
                             
