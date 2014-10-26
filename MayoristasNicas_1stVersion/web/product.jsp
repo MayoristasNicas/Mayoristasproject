@@ -80,6 +80,7 @@
 
             String image_name = rs.getString("image-name");
             String Quantity = rs.getString("product_qty");
+            String WebPage = rs.getString("web_page");
                     
             
 
@@ -174,7 +175,7 @@
                         <!-- Images with T are thumbs Images While with Q are The actual source Images -->
 
                         <img class="BigProductBox" alt="<%= product_name %>" src="<%= image_name%>" />
-
+                        
                         <div class="clear"></div>
                         
                         <%
@@ -193,9 +194,15 @@
                         %>
  
                            
-                        <a href="<%= image_name %>" rel="lightbox[product]" title="Click on the right side of the image to move forward.">
+                        <a href="<%= image_name %>" rel="lightbox[product]" title="Click derecho para seguir a la siguiente">
                             <img class="SmallProductBox" alt="<%= image_name %> 1 of 8 thumb" src="<%= image_name %>" />
                         </a>
+                        
+                        <table class="grid_6" id="descripTable">
+                            <tr class="grid_6">
+                                <td>Página web</td>
+                                <td><%= WebPage%></td>
+                            </tr></table>
                         
                         <%                            
                             }
