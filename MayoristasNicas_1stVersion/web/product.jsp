@@ -216,9 +216,9 @@
 -->
                           
                         </p>
-                        
-                        <div class="grid_6" id="top" style="margin-top: 5px">
-                            <p>&nbsp;<table><td style=" font-size: 16px; animation: infinite"><a href="http://<%= Web%>"> Sitio oficial</a></td> </table </p>
+                    
+                        <div class="grid_6" id="top" ">
+                          <a href="http://<%= Web%>"><div id="greenBtn" align="center" class ="Btn">Ver más en sitio oficial</div></a>
                  
                         </div>
                     <%}%>
