@@ -62,7 +62,7 @@
                     <a href="product.jsp?id=<%= productId %>"><img src="<%= imageName %>" /></a>
                     <p id="info">
                         <a href="product.jsp?id="><span class="blue"><%= name %></span></a><br/>
-                        Por <%= company %> <%= category %><br/>
+                        By <%= company %> <%= category %><br/>
                         <span class="red">C$. <%= price %></span>
                     </p>            
                 </div>
@@ -80,7 +80,7 @@
                 <div class="clear"></div><div id="productList" class="grid_3 prodGrid"> 
                     <a href="product.jsp"><img src="images/textures/linen.png" /></a>
                     <p id="info">
-                        <a href="product.jsp?id="><span class="blue">No existe ese producto en la base de datos</span></a><br/>
+                        <a href="product.jsp?id="><span class="blue">No Product Added in Database</span></a><br/>
                         <br/>
                         <span class="red">C$. 0</span>
                     </p>            
