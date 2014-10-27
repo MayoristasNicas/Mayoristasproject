@@ -131,7 +131,7 @@
                             <%= summary%>
 
 
-                        <h1>Breve Descripción</h1>
+                        <h1>Breve Descripciï¿½n</h1>
                         <br/>
                         <table class="grid_6" id="descripTable">
                             <tr class="grid_6">
@@ -178,7 +178,8 @@
                         
                         <div class="clear"></div>
                         
-                        <%
+                        <p>
+                          <%
                             String getImages = "SELECT  `image-name` FROM  `products` INNER JOIN  `images` USING (  `product-name` ) WHERE  `product_id` =" + product_id + "";
                             
                             rs.close();
@@ -192,28 +193,35 @@
                                  image_name = rs.getString("image-name");
 
                         %>
- 
-                           
-                        <a href="<%= image_name %>" rel="lightbox[product]" title="Click derecho para seguir a la siguiente">
+                          
+                          
+                          <a href="<%= image_name %>" rel="lightbox[product]" title="Click derecho para seguir a la siguiente">
                             <img class="SmallProductBox" alt="<%= image_name %> 1 of 8 thumb" src="<%= image_name %>" />
-                        </a>
-                        
-                        
-                        
-                        <%                            
+                          </a>
+                          
+                          
+                          
+                          <%                            
                             }
                             st.execute("UPDATE  `products` "
 +" SET  `hits` =  '"+(product_hits+1)+"' "
 +" WHERE  `products`.`product_id` ="+product_id+" ");
                             st.close();
-                        }
+                        
                         %>
-<!--
+  <!--
                         <a href="images/productImages/q1.jpeg" rel="lightbox[product]" title="Click on the right side of the image to move forward.">
                             <img class="SmallProductBox" alt="Assassins Creed 1 of 8 thumb" src="images/productImages/t1.jpeg" />
                         </a>
 -->
-                            </tr></table>
+                          
+                        </p>
+                        
+                        <div class="grid_6" id="top" style="margin-top: 5px">
+                            <p>&nbsp;<table><td style=" font-size: 16px; animation: infinite"><a href="http://<%= Web%>"> Sitio oficial</a></td> </table </p>
+                 
+                        </div>
+                    <%}%>
                     </div>
 
                     <div class="clear"></div>

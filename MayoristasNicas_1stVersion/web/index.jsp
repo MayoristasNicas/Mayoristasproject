@@ -74,7 +74,7 @@
 
                             <strong>Kimberly Clark</strong>	
 
-                            <br>Aprovechï¿½ las promociones que Kimberly Clark te trae en toda su linea de productos de higiene 
+                            <br>Aprovechá las promociones que Kimberly Clark te trae en toda su linea de productos de higiene 
                             
                             MayoristasNicas.
 
@@ -107,9 +107,9 @@
 
                             <strong>Pringles</strong>				
 
-                            <br>Con la lï¿½nea mï¿½s completa de productos lï¿½cteos, Parmalata estï¿½ presente en MayoristasNicas
+                            <br>Con la linea mï¿½s completa de productos lácteos, Parmalat está presente en MayoristasNicas
                             
-                            para brindarte un precio mejor que en cualquier otro lugar del paï¿½s.
+                            para brindarte un precio mejor que en cualquier otro lugar del país
 
                         </span>
 
