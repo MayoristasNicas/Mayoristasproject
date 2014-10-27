@@ -294,7 +294,7 @@ product-name	product_id	sub-category-name	category-name	company-name	price	summa
                                 <p id="info"><a href="product.jsp?id=<%=product_id%>"><h3><span class="blue"> <%=product_name %></span></h3></a> Por <%= company_name+" "+ category_name %><br/><span class="red">CS. <%= price %></span></p>
                             </div>
                             <div class="grid_3 push_2">
-                                <p><%=sub_category_name %>  <a href="addToCart.jsp?id=<%= product_id %>" id="greenBtn">Agregar al catrito</a></p><p>Seria entregado en los proximos 3 dias habiles</p>
+                                <p><%=sub_category_name %>  <a href="addToCart.jsp?id=<%= product_id %>" id="greenBtn"> Agregar al carrito</a></p><p>Seria entregado en los proximos 3 dias habiles</p>
                             </div>
                         </div>
                         

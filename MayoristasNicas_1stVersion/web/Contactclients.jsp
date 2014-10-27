@@ -93,7 +93,7 @@
         <div class="container_16">
             <div id="whiteBox" style="padding: 5px"><center>
                 <br/>
-                <h8> Misión y Visión </h8>
+                <h8> Algunos de nuestros clientes </h8>
                 <hr/>
                 </center></div>
         </div>
@@ -105,54 +105,22 @@
                     
                     <table border="2" cellpadding="3" cellspacing="5">
 <tr>
-    <td><p style="color: #000;font-size: 17px; margin-top: 70px"><strong>Misión:</strong>
-                            Brindar una canal de distribución online a comercios de productos varios, como una alternativa de canal de venta. Asimismo ofrecer a clientes finales productos al por mayor a un mejor precio de compra.</p></div>
+    <td>
+        <img src="images\Clients\PG.gif">
+    </td>
+                        <td>
+                            <img src="images\Clients\nestle.jpg">
                         </td>
-                        <td><img src="images\logo\Mision.png"></td>
 </tr>
 <tr>
-    <td> <img src="images\logo\Vision.png" style=" padding-left: 100px"></td></td>
-<td><p style="color: #000;font-size: 17px; margin-top: 70px"><strong>Visión:</strong>
-Ser una empresa de servicios de distribución robusta con capacidad de adaptarse
-a la globalización e implantar un estilo en mercado de canal de distribución de 
-productos varios al por mayor.</p></td>
+    <td> 
+    </td>
+    <td>
+        
+    </td>
 </tr>
 </table>
-                    <table border="2" cellpadding="5" cellspacing="10">
-                        <td> <div>
-                  
-                    <div class="grid_5" id="whiteBox" style="margin: 10px; height: 100px">
-                        <div class="grid_5" style=" font-size: 15px; color: #000">
-                    <div class="grid_3 ">
-                        MayoristasNicas
-                    </div>
-                    <div class="clear ">
-                    </div>
-                    <div class="grid_1">
-                        Email:
-                    </div>
-                    <div class="grid_3">
-                        support@mayoristasnicas.com
-                    </div>
-                    <div class="grid_3">
-                        Dirección:
-                    </div>
-                    <div class="grid_3">
-                        Lomas del Valle, Av. Henares, casa #A-8
-                    </div>
-                    <div class="grid_3">
-                        Celular:
-                    </div>
-                    <div class="grid_3">
-                        +505-887-63345
-                    </div>
-                </div>
-            </div>
                     
-                     
-                            </div></td>
-                            <td><a href="Contactclients.jsp"><img src="images\logo\clientes.png"></a></td>
-                    </table>
             </div>
         </div>
     </body>

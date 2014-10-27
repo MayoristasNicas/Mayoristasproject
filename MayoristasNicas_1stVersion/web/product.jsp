@@ -128,11 +128,11 @@
                         <div class="clear"></div>
                         <p>Detalle de <%= product_name%>
 
-                            <%= summary%>
-
-
-                        <h1>Breve Descripciï¿½n</h1>
+                            <%= summary%></p>
+                        <h1>Breve Descripción</h1>
+                        <div class="clear"></div>
                         <br/>
+                        
                         <table class="grid_6" id="descripTable">
                             <tr class="grid_6">
                                 <td>Nombre</td>
