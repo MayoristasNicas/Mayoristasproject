@@ -74,7 +74,7 @@
 
                             <strong>Kimberly Clark</strong>	
 
-                            <br>Aprovechï¿½ las promociones que Kimberly Clark te trae en toda su linea de productos de higiene 
+                            <br>Aprovecha las promociones que Kimberly Clark te trae en toda su línea de productos de higiene 
                             
                             MayoristasNicas.
 
@@ -89,7 +89,7 @@
 
                             <strong>Coca Cola Zero</strong>				
 
-                            <br>Descubre el sabor de la coca cola ZERO calorias, aprovechá las promociones que FEMSA te trae, coca cola zero al precio mas bajo
+                            <br>Descubre el sabor de la coca cola ZERO calorias, aprovechá las promociones que FEMSA te trae, coca cola zero al precio más bajo
                             del mercado
                            
 
@@ -107,9 +107,9 @@
 
                             <strong>Pringles</strong>				
 
-                            <br>Con la lï¿½nea mï¿½s completa de productos lï¿½cteos, Parmalata estï¿½ presente en MayoristasNicas
+                            <br>Con la línea más completa de productos lácteos, Parmalata está presente en MayoristasNicas
                             
-                            para brindarte un precio mejor que en cualquier otro lugar del paï¿½s.
+                            para brindarte un precio mejor que en cualquier otro lugar del país.
 
                         </span>
 
@@ -123,7 +123,7 @@
 
                             <strong>NESTLE</strong>				
 
-                            <br>Nestlï¿½ te trae precio de ganga en la compra al por mayor de los siguientes productos
+                            <br>Nestlé te trae precio de ganga en la compra al por mayor de los siguientes productos
 
                         </span>
 
@@ -139,9 +139,9 @@
 
                             <strong>Agricorp</strong>				
 
-                            <br>Con la mï¿½s amplia variedad de productos bï¿½sicos para el hogar. Tendremos ofertas por la 
+                            <br>Con la más amplia variedad de productos básicos para el hogar. Tendremos ofertas por la 
                             
-                            compra de un paquete de Agricorp recibes un 10% de descuento en tu prï¿½xima compra superior 
+                            compra de un paquete de Agricorp recibes un 10% de descuento en tu próxima compra superior 
                             
                             a C$ 50,000.
 
@@ -192,9 +192,9 @@
                 <div class="adv">
 
                     <h2><br/>Anuncios publicitarios</h2>
-                    <p>Tu negocio puede anunciarse aqui,contï¿½ctanos </p>
+                    <p>Tu negocio puede anunciarse aqui,contátanos </p>
 
-                    <h2><br/>Atento !</h2>
+                    <h2><br/>Atento</h2>
                     <p>Se acerca la Navidad! Grandes descuentos solo en MayoristasNicas </p>
 
                 </div>
