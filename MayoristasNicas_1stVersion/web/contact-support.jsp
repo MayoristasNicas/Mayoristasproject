@@ -151,7 +151,7 @@ productos varios al por mayor.</p></td>
                     
                      
                             </div></td>
-                            <td><center><a href="Contactclients.jsp"><img src="images\logo\Ver.png"></a></center></td>
+                            <td><center><a href="Contactclients.jsp"><img src="images\logo\Ver1.png"></a></center></td>
                     </table>
             </div>
         </div>
