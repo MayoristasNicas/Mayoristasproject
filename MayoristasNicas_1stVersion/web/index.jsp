@@ -111,15 +111,14 @@
 
                             <strong>Pringles</strong>				
 
-<<<<<<< HEAD
+
                             <br>Con la linea mï¿½s completa de productos lácteos, Parmalat está presente en MayoristasNicas
                             
                             para brindarte un precio mejor que en cualquier otro lugar del país
-=======
                             <br>Con la línea más completa de productos lácteos, Parmalata está presente en MayoristasNicas
                             
                             para brindarte un precio mejor que en cualquier otro lugar del país.
->>>>>>> origin/master
+
 
                         </span>
 
@@ -223,7 +222,9 @@
 
     <jsp:include page="includesPage/_footer.jsp"></jsp:include>
 
-
+<script type='text/javascript'>
+(function () {	 var done = false;	 var script = document.createElement('script'); script.async = true;	 script.type = 'text/javascript';	 script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) {	 if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: 'e54859fd-12c5-44a3-869d-4978579d3e70', f: true }); done = true;	 }	 };	 })();
+</script>
     
 
 
