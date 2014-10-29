@@ -113,15 +113,24 @@
                         </td>
 </tr>
 <tr>
-    <td> 
+    <td> <img src="images\Clients\Coca.jpg">
     </td>
     <td>
-        
+        <img src="images\Clients\kc.jpg">
+    </td>
+</tr>
+
+<tr>
+    <td> <img src="images\Clients\parmalat.png">
+    </td>
+    <td>
+<center><img src="images\Clients\CSSA.png"></center>
     </td>
 </tr>
 </table>
                     
             </div>
+        </div>
         </div>
     </body>
 </html>
