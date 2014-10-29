@@ -172,7 +172,7 @@
 
             <!-- Middle -->
             <div id="middle"class="grid_13">
-                <div class="grid_13" id="whiteBox">
+                <div class="grid_13" id="whiteBox" style="width: 780px">
                     <div class="ProductHeading">
                         <div class="grid_12">
                                 <h2 class="heading">Productos >
@@ -289,16 +289,16 @@ product-name	product_id	sub-category-name	category-name	company-name	price	summa
                         <div class="grid_2">
                             <a href="product.jsp?id=<%=product_id%>"><img src="<%= image_name %>" /></a>
                         </div>
-                        <div class="grid_9">
-                            <div class="grid_5">
+                        <div class="grid_9"" >
+                            <div class="grid_5 ">
                                 <p id="info"><a href="product.jsp?id=<%=product_id%>"><h3><span class="blue"> <%=product_name %></span></h3></a> Por <%= company_name+" "+ category_name %><br/><span class="red">C$. <%= price %></span></p>
                             </div>
-                            <div class="grid_3 push_2">
-<<<<<<< HEAD
-                                <p><%=sub_category_name %>  <a href="addToCart.jsp?id=<%= product_id %>" id="greenBtn"> Agregar al carrito</a></p><p>Seria entregado en los proximos 3 dias habiles</p>
-=======
-                                <p><%=sub_category_name %>  <a href="addToCart.jsp?id=<%= product_id %>" id="greenBtn">Agregar al carrito</a></p><p>Sería entregado en los proximos 3 días hábiles</p>
->>>>>>> origin/master
+                            <div class="grid_3 push_2" style=" left: 70px;">
+
+                                <p style=" color: black"><strong><%=sub_category_name %></strong><a href="addToCart.jsp?id=<%= product_id %>" id="greenBtn"> Agregar al carrito</a></p><p style=" color: black">Fecha de entrega de tres dias habiles</p>
+
+                                <p style=" color: black"><strong><%=sub_category_name %></strong><a href="addToCart.jsp?id=<%= product_id %>" id="greenBtn">Agregar al carrito</a></p><p style=" color: black"> Fecha de entrega de tres días hábiles</p>
+
                             </div>
                         </div>
                         
