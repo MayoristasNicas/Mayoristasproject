@@ -74,11 +74,9 @@
 
                             <strong>Kimberly Clark</strong>	
 
-<<<<<<< HEAD
                             <br>Aprovechá las promociones que Kimberly Clark te trae en toda su linea de productos de higiene 
-=======
                             <br>Aprovecha las promociones que Kimberly Clark te trae en toda su línea de productos de higiene 
->>>>>>> origin/master
+
                             
                             MayoristasNicas.
 
