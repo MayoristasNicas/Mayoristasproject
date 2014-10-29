@@ -224,7 +224,7 @@
 
 <script type='text/javascript'>	 (function () { var done = false;	
 var script = document.createElement('script');	 script.async = true;
-script.type = 'text/javascript';
+script.type = 'text/j<avascript';
 script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript';
 document.getElementsByTagName('HEAD').item(0).appendChild(script); 
 script.onreadystatechange = script.onload = function (e) 
