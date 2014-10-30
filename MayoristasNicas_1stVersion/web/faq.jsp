@@ -51,33 +51,34 @@
             <div id="whiteBox" class="grid_16" style="padding: 0px; margin-left: 0px">
                 <div name="top" class="push_1" style=" font-size: 16px">
                 <br/><br/>
-            <a href="#1">1. Que es MayoristasNicas?</a>
+                <a href="#1"><strong>1. Que es MayoristasNicas?</strong></a>
                 <br/><br/>
-                <a href="#2" ><p style=" font-size: 16px">&bull; Es un sitio de comercio electrónico donde encontrarás la venta de productos varios al por mayor a un menor precio en el mercado de mayoristas</p></a>
+                <a href="#2" style="margin-right: 10px" >&bull; Es un sitio de comercio electrónico donde encontrarás la venta de productos varios al por mayor a un menor precio en el mercado de mayoristas</a>
                 <br/><br/>
-            <a href="#3" >2. ¿Que linea de productos se venden en la página? </a>
+                <a href="#3" ><strong>2. ¿Que linea de productos se venden en la página?</strong> </a>
                 <br/><br/>
-            <a href="#4" >&bull; </a>
+            <a href="#4" >&bull; MayoristasNicas vende una gran variedad de productos, desde alimentos, articulos para el hogar, hasta productos de uso personal. </a>
                 <br/><br/>
-            <a href="#5" >3. ¿Se necesita el registro de usuarios para comprar?</a>
+                <a href="#5" ><strong>3. ¿Se necesita el registro de usuarios para comprar?</strong></a>
                 <br/><br/>
-            <a href="#6" >&bull; </a>
+            <a href="#6" style="margin-right: 10px" >&bull;Si. MayoristasNicas te brinda la oportunidad de observar productos sin registrarte, pero si deseas
+                realizar un pedido, es obligatorio el registro en el sitio web </a>
                 <br/><br/>
-            <a href="#7" >4. ¿Cual es el costo del registro en la página? </a>
+                <a href="#7" ><strong>4. ¿Cual es el costo por el registro en MayoristasNicas?</strong> </a>
                 <br/><br/>
-            <a href="#8" >&bull; </a>
+            <a href="#8" >&bull; El registro en el sitio es totalmente gratis para los clientes.</a>
                 <br/><br/>
-            <a href="#9" >5. ¿A que ciudades de Nicaragua aplica el domicilio de productos? </a>
+                <a href="#9" ><strong>5. ¿A que ciudades de Nicaragua aplica el domicilio de productos?</strong> </a>
                 <br/><br/>
-            <a href="#10">&bull; </a>
+            <a href="#10">&bull; El domicilio del los productos dependerá de la empresa que está vendiendo sus productos </a>
                 <br/><br/>
-            <a href="#11" >5. ¿El domicilio tiene un costo adicional al precio de la compra? </a>
+                <a href="#11" ><strong>6. ¿El domicilio tiene un costo adicional al precio de la compra?</strong> </a>
                 <br/><br/>
-            <a href="#12">&bull; </a>
+            <a href="#12">&bull; El domicilio es totalmente gratis. </a>
             <br/><br/>
-            <a href="#13" >5. ¿Cuantos dias dura el domicilio en llegar a la puerta del cliente? </a>
+            <a href="#13" ><strong>7. ¿Cuantos días dura el domicilio en llegar a la puerta del cliente?</strong> </a>
                 <br/><br/>
-            <a href="#14">&bull; </a>
+            <a href="#14">&bull; Esto dependerá de la empresa a quien se le compre el producto, sin embargo la estimación de dias es alrededor de 1 a 3 dias</a>
                 <br/><br/>
        </div> 
                 <br/><br/>
