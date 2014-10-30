@@ -49,11 +49,11 @@
 
         <div class="container_16">
             <div id="whiteBox" class="grid_16" style="padding: 0px; margin-left: 0px">
-                <div name="top" class="push_1">
+                <div name="top" class="push_1" style=" font-size: 16px">
                 <br/><br/>
             <a href="#1">1. Que es MayoristasNicas?</a>
                 <br/><br/>
-            <a href="#2" >&bull; </a>
+                <a href="#2" ><p style=" font-size: 16px">&bull; Es un sitio de comercio electrónico donde encontrarás la venta de productos varios al por mayor a un menor precio en el mercado de mayoristas</p></a>
                 <br/><br/>
             <a href="#3" >2. ¿Que linea de productos se venden en la página? </a>
                 <br/><br/>
