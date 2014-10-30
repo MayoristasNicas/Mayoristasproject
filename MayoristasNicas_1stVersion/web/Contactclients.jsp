@@ -114,9 +114,19 @@
 </tr>
 <tr>
     <td> 
+        <img src="images\Clients\kc.jpg">
     </td>
     <td>
-        
+        <img src="images\Clients\CSSA.png">
+    </td>
+</tr>
+
+<tr>
+    <td> 
+        <img src="images\Clients\parmalat.png">
+    </td>
+    <td>
+        <img src="images\Clients\Coca.jpg">
     </td>
 </tr>
 </table>
