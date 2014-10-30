@@ -155,5 +155,14 @@ productos varios al por mayor.</p></td>
                     </table>
             </div>
         </div>
+        <script type='text/javascript'>	 
+(function () { var done = false;
+    var script = document.createElement('script');
+    script.async = true;	
+    script.type = 'text/javascript'; 
+    script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; 
+    document.getElementsByTagName('HEAD').item(0).appendChild(script); 
+    script.onreadystatechange = script.onload = function (e) {	 if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) {	 var w = new PCWidget({ c: 'e54859fd-12c5-44a3-869d-4978579d3e70', f: true });	 
+            done = true;	 }	 };	 })();	 </script>
     </body>
 </html>
