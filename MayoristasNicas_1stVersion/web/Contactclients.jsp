@@ -117,7 +117,7 @@
         <img src="images\Clients\kc.jpg">
     </td>
     <td>
-        <img src="images\Clients\CSSA.png">
+<center><img src="images\Clients\CSSA.png"></center>
     </td>
 </tr>
 
