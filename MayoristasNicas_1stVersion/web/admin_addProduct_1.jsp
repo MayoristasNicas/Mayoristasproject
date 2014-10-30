@@ -106,21 +106,21 @@
             <div class="container_16">
                 <div class="grid_16" style="padding: 10px;" id="whiteBox">
                     <div class="grid_3">
-                        <br/><h1>Add Product</h1><hr/>
+                        <br/><h1>Añadir Producto</h1><hr/>
                     </div>
                     <div>
 
                         <div class="grid_3 highlight">
-                            <br/><h1>Step 1. Enter Product Company</h1><hr/>
+                            <br/><h1>Paso 1. ingresa un producto</h1><hr/>
                         </div>
                         <div class="grid_3">
-                            <br/><h1>Step 2. Enter Category</h1><hr/>
+                            <br/><h1>Paso 2. Ingresa categoria</h1><hr/>
                         </div>
                         <div class="grid_3">
-                            <br/><h1>Step 3. Enter in Product Name, Tags</h1><hr/>
+                            <br/><h1>Paso 3. Ingresa nombre del producto, Tags</h1><hr/>
                         </div>
                         <div class="grid_3">
-                            <br/><h1>Step 4. Enter in Pricing & Quantity and Description</h1><hr/>
+                            <br/><h1>Paso 4. Ingresa precio & cantidad y descripción</h1><hr/>
                         </div>
 
                     </div>
@@ -143,18 +143,18 @@
                 
             <div class="grid_13"  style="padding: 10px 0px;" id="whiteBox">
                 <div class="grid_13">
-                    <br/><h1>Step 1. Start selecting Product Company Or, Enter a one...</h1><hr/>
+                    <br/><h1>Paso 1. Inicia seleccionando un producto de la compañia o ingresando uno...</h1><hr/>
                 </div>
                 <div class="clear"></div>
                 <form method="post" action="admin_addProduct_controller.jsp">
                     <input type="hidden" name="page" value="admin_addProduct_2.jsp"/>
                     <div class="grid_2">
-                        <h3>Select Company</h3>
+                        <h3>Seleccionar una compañia</h3>
                     </div>
                     <div class="grid_5">
                         <select name="company" id="company">
 
-                            <option value="" selected>Select a Company</option>
+                            <option value="" selected>Seleccionar una compañia</option>
 
                             <%
                                 ResultSet company = st.executeQuery(sql_getCompany);
@@ -181,7 +181,7 @@
                     </div>
                     <div class="clear"></div><br/>
                     <div class="grid_2">
-                        <h3>Add A Company</h3>
+                        <h3>Añadir una compañia</h3>
                     </div>
                     <div class="grid_5">
                         <input id="companyName" type="text" name= "companyName" placeholder="Company Name here"/>

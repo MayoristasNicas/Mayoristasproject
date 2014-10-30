@@ -123,16 +123,16 @@
                 <div>
                         
                 <div class="grid_3">
-                        <br/><h1>Step 1. Enter Product Company</h1><hr/>
+                        <br/><h1>Paso 1. Ingresar producto</h1><hr/>
                     </div>
                 <div class="grid_3">
-                        <br/><h1>Step 2. Enter Category</h1><hr/>
+                        <br/><h1>Paso 2. Ingresar categoria</h1><hr/>
                     </div>
                 <div class="grid_3">
-                        <br/><h1>Step 3. Enter in Product Name, Tags</h1><hr/>
+                        <br/><h1>Paso 3. Ingregar nombre del producto, Tags</h1><hr/>
                     </div>
                 <div class="grid_3">
-                        <br/><h1>Step 4. Enter in Pricing & Quantity and Description</h1><hr/>
+                        <br/><h1>Paso 4. Ingresar precio & Cantidad y descripción</h1><hr/>
                     </div>
                 
                     </div>
@@ -144,13 +144,13 @@
                 
                 <div class="grid_13"  style="padding: 10px 0px;" id="whiteBox">
                     <div class="grid_13">
-                        <br/><h1>4 Step Process for Adding Products...</h1><hr/>
+                        <br/><h1>4 Pasos para añadir productos...</h1><hr/>
                     </div>
                     
                     <div class="grid_7">
                         <a style="
 border: 1px solid black;
-box-shadow: 0px 2px 10px #333;" href="admin_addProduct_1.jsp" class="grid_5 push_2" id="buy">Start Adding Products right Now...!</a>
+box-shadow: 0px 2px 10px #333;" href="admin_addProduct_1.jsp" class="grid_5 push_2" id="buy">Inicia a agregar tus productos ya...!</a>
                     </div>
                 </div>
                     
