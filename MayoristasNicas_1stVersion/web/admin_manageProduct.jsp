@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin_manageProduct
-    Created on : 26 Nov, 2012, 7:48:56 PM
     Author     : MayoristasNicas
 --%>
 
@@ -58,7 +57,7 @@
             <div class="grid_16" style="padding: 10px;" id="whiteBox">
 
                 <br/>
-                <h1 class="grid_15">Manage Product Information</h1><hr/>
+                <h1 class="grid_15">Administrar información del producto</h1><hr/>
 
             </div>
             <jsp:include page="includesPage/hesders_sidebars/admin_menuSideBar.jsp"></jsp:include>
@@ -98,7 +97,7 @@
                     <div class="ProductHeading">
                         <div class="grid_12">
                             <h1 class="grid_8">
-                                    Choose a Product to <span class="blue">Edit</span>
+                                    Eligir producto <span class="blue">Editar</span>
                                 </h1>
                             
                             <script type="text/javascript">
@@ -122,12 +121,12 @@
                             </script>
                             <div class="grid_2">
                                 <select id="sortBy" style="margin:  -2px;">
-                                    <option value="qa">Sort By Quantity Low to High</option>
-                                    <option  value="qd">Sort By Quantity High to Low</option>
-                                    <option value="pa">Sort By Price Low to High</option>
-                                    <option  value="pd">Sort By Price High to Low</option>
-                                    <option  value="ha">Sort By Hits Low to High</option>
-                                    <option  value="hd">Sort By Hits High to Low</option>
+                                    <option value="qa">ordenar por cantidad de menor a mayor</option>
+                                    <option  value="qd">odenar por cantidad de mayor a menor</option>
+                                    <option value="pa">ordenar por precio de menor a mayor</option>
+                                    <option  value="pd">ordenar por precio de mayor a menor</option>
+                                    <option  value="ha">ordenar por visitas de menor a mayor</option>
+                                    <option  value="hd">ordenar por visitas de mayor a menor</option>
                                 </select>
                             </div>
                         </div>
@@ -181,16 +180,16 @@
             <a href="admin_manageProduct.jsp?pid=<%=product_id%>"><img src="<%= image_name%>" /></a>
         </div>
             <div class="grid_6">
-                <p id="info"><a href="admin_manageProduct.jsp?pid=<%=product_id%>"><h3><span class="blue"> <%=product_name%></span></h3></a>By <%= company_name + " " + category_name%><br/><span class="red">Rs. <%= price%></span></p>
-                <p style="display: inline;">Views <span class="blue"><%= hits %></span></p>
+                <p id="info"><a href="admin_manageProduct.jsp?pid=<%=product_id%>"><h3><span class="blue"> <%=product_name%></span></h3></a>Por <%= company_name + " " + category_name%><br/><span class="red">C$. <%= price%></span></p>
+                <p style="display: inline;">Visto <span class="blue"><%= hits %></span></p>
                 
             </div>
             <div class="grid_4">
                 <p><%=sub_category_name%></p>
                 <div class="grid_3" style="display: inline;">
-                    <h1 style="display: inline;"><%= qty %></h1> <a href="admin_manageProduct.jsp?pid=<%= product_id%>" id="greenBtn" style="display: inline;">Edit Product</a> 
+                    <h1 style="display: inline;"><%= qty %></h1> <a href="admin_manageProduct.jsp?pid=<%= product_id%>" id="greenBtn" style="display: inline;">Editar producto</a> 
                 </div>
-                <p>Quantity</p>
+                <p>Cantidad</p>
             </div>
         </div>
         <div class="clear"></div>
@@ -251,7 +250,7 @@
                     <h3 style="padding: 10px; "><%=category%> > <%=subCategory%></h3>
                 </div>
                 <div class="grid_5">
-                    <a href="admin_deleteProduct.jsp?pid=<%= productId%>" id="greenBtn">[x] Delete this Item</a>
+                    <a href="admin_deleteProduct.jsp?pid=<%= productId%>" id="greenBtn">[x] Eliminar producto</a>
                 </div><!--
                 <div class="grid_5">
                     <h3  style="padding: 10px; float: right;" class="red">Selling Meter : 956</h3>
@@ -260,21 +259,21 @@
 
                 <div class="grid_13"  style="padding: 10px; ">
                     <div class="grid_2">
-                        Search Tags
+                        Buscar etiquetas
                     </div>
                     <div class="grid_5">
                         <textarea name="tags"><%=searchTags%></textarea>
                     </div>
                     <div class="clear"></div><br/>
                     <div class="grid_2">
-                        Product Name
+                        Nombre del producto
                     </div>
                     <div class="grid_5">
                         <input type="text" name="productName" value="<%=productName%>"/>
                     </div>
                     <div class="clear"></div><br/>
                     <div class="grid_2">
-                        Product Quantity in Stock<%
+                        Cantidad de producto en inventario<%
                         session.setAttribute("quantity", quantity);
                         %>
                     </div>
@@ -283,21 +282,21 @@
                     </div>
                     <div class="clear"></div>
                     <div class="grid_2">
-                        Add Product Quantity
+                        Agregar cantidad de producto
                     </div>
                     <div class="grid_5">
                         <input type="text" name="addQuantity" value="0" style="width: 75px;"/>
                     </div>
                     <div class="clear"></div><br/>
                     <div class="grid_2">
-                        Product Price: Rs.
+                        Precio del producto: C$.
                     </div>
                     <div class="grid_5">
                         <input type="text" name="productPrice" value="<%=price%>">
                     </div>
                     <div class="clear"></div><br/>
                     <div class="grid_2">
-                        Description / Summary
+                        Descripción
                     </div>
                     <div class="grid_5">
                         <textarea name="summary" cols="50" rows="20"><%= summary%></textarea>
@@ -305,7 +304,7 @@
                 </div>
 
                 <div class="grid_5">
-                    <input type="submit" id="greenBtn" value="Save Changes" />
+                    <input type="submit" id="greenBtn" value="Guardar cambios" />
                 </div>
             </form>
         </div>
@@ -336,9 +335,9 @@
         </script>
         <div class="grid_16" id="whiteBox">
             <br/>
-            <h1 class="grid_7">Product Image Gallery <span class="red">Click to delete</span></h1>
+            <h1 class="grid_7">Galería de imágenes del producto <span class="red">Seleccione para eliminar</span></h1>
             <div class="grid_5">
-                <a href="productInsertImages.jsp?pid=<%= productId%>" id="greenBtn"> [+] Start Adding Images for this Item</a>
+                <a href="productInsertImages.jsp?pid=<%= productId%>" id="greenBtn"> [+] Agregar imágenes para este producto</a>
             </div><div class="clear"></div><br/>
             <hr/>
 

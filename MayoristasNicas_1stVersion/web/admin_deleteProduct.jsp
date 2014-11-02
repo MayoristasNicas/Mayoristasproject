@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin_deleteProduct
-    Created on : 28 Nov, 2012, 9:43:57 PM
     Author     : MayoristasNicas
 --%>
 <!DOCTYPE html>
@@ -75,11 +74,11 @@ DELETE FROM `images` WHERE `product-name` = 'Assasssins Book';# 1 row affected.
                     <div class="grid_16" style="padding: 10px;" id="whiteBox">
 
                         <br/>
-                        <h1 class="grid_15" style="text-align: center;">Product Deleted</h1><hr/>
+                        <h1 class="grid_15" style="text-align: center;">Producto eliminado</h1><hr/>
 
                                 <div class="grid_13 push_3">
                                     <div class="grid_5">
-                                        <a href="admin_manageProduct.jsp" id="buy">Manage Products</a>
+                                        <a href="admin_manageProduct.jsp" id="buy">Adiministrar productos</a>
                                     </div>
                                 </div>
                     </div>
@@ -89,14 +88,14 @@ DELETE FROM `images` WHERE `product-name` = 'Assasssins Book';# 1 row affected.
                     <div class="grid_16" style="padding: 10px;" id="whiteBox">
 
                         <br/>
-                        <h1 class="grid_15" style="text-align: center;">Are you sure, Do you want to delete the product<br/><br/><span class="blue">Product Name</span> : <%= session.getAttribute("productName")%><br/> and all the respective images?</h1><hr/>
+                        <h1 class="grid_15" style="text-align: center;">¿Está seguro que desea eliminar el producto<br/><br/><span class="blue">Nombre del producto</span> : <%= session.getAttribute("productName")%><br/> and all the respective images?</h1><hr/>
 
                         <div class="grid_13 push_1">
                             <div class="grid_5">
-                                <a href="admin_deleteProduct.jsp?pid=<%= session.getAttribute("productId")  %>&del=y" id="buy">Yes Delete it Right Away</a>
+                                <a href="admin_deleteProduct.jsp?pid=<%= session.getAttribute("productId")  %>&del=y" id="buy">Si, deseo eliminarlo</a>
                             </div>
                             <div class="grid_5">
-                                <a href="admin_manageProduct.jsp?pid=<%= session.getAttribute("productId")  %>" id="buy">No, Cancel Deletion</a>
+                                <a href="admin_manageProduct.jsp?pid=<%= session.getAttribute("productId")  %>" id="buy">No, cancelar eliminación</a>
                             </div>
                         </div>
                     </div>

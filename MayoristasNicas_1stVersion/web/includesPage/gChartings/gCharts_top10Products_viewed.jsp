@@ -83,7 +83,7 @@ ORDER BY solds DESC */
                                 ['15',  1234,      667]
                               ]);--%>
                   <% out.print("([ "
-                                          + "['Product Name', 'Number of Hits' ], ");
+                                          + "['Nombre del producto', 'Cantidad de veces visto' ], ");
                                 int i = 0 ;
                                  while (i<= hits.size()-1){
                                       if (i< hits.size()-1){
@@ -101,9 +101,9 @@ ORDER BY solds DESC */
                                 out.print("]);");
                       %>
                       var options = {
-                                title: 'Top 10 products viewed currently',
-                                  vAxis: {title: "No of hits in counts"},
-                                  hAxis: {title: "Product Names"}
+                                title: 'Los 10 productos más vistos',
+                                  vAxis: {title: "Número de visitas"},
+                                  hAxis: {title: "Nombre del producto"}
                               };
 
                               var chart = new google.visualization.LineChart(document.getElementById('chart_div_lineTop10'));

@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin_settings
-    Created on : 25 Nov, 2012, 5:01:42 PM
     Author     : MayoristasNicas
 --%>
 
@@ -48,7 +47,7 @@
 
                 <br/>    
                 <div class="grid_15 ">
-                    <h1>Administrator Settings </h1>
+                    <h1>Configuración de admnistrador </h1>
                 </div>
                 <hr/>
             </div>
@@ -64,13 +63,13 @@
 
                 <br/>    
                 <div class="grid_13 ">
-                    <h1>Add an Administrator</h1>
+                    <h1>Agregar administrador</h1>
                 </div>
                 <hr/>
                 <div class="grid_9 push_2" style="padding:10px;">
                     <form method="post" action="addAnAdministrator">
                         <div class="grid_2">
-                            Select Email 
+                            Seleccione correo electrónico 
                         </div>
                         <div class="grid_5">
                             <select name="email">
@@ -85,18 +84,18 @@
                         </div>
                         <div class="clear"></div><br/>
                         <div class="grid_2">
-                            Password
+                            Contraseña
                         </div>
                         <div class="grid_5">
                             <input type="password" name="pass" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;" /><br/><br/> 
                         </div>
                         <div class="clear"></div>
                         <div class="grid_2">
-                            Password Again
+                            Repetir Contraseña
                         </div>
                         <div class="grid_5">
                             <input type="password" name="passAgain" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;" /><br/><br/> 
-                            <input id="greenBtn" type="submit" value="Add As Administrator"/>
+                            <input id="greenBtn" type="submit" value="Agregar como administrador"/>
                         </div>
                         <div class="clear"></div><br/>
                     </form>
@@ -123,13 +122,13 @@
 
 
                 <div class="grid_13 ">
-                    <h1>Remove Company</h1>
+                    <h1>Eliminar compañía</h1>
                 </div>
                 <hr/>
                 <div class="grid_9 push_1">
                     <form method="post" action="removeCompany">
                         <div class="grid_4 push_2">
-                            <input type="submit" value="Delete Marked Company" id="buy"/>
+                            <input type="submit" value="Eliminar compañías marcadas" id="buy"/>
                         </div>
                         <br/><div class="clear"></div>
                     <%
@@ -155,13 +154,13 @@
 
 
                 <div class="grid_13 ">
-                    <h1>Remove Category</h1>
+                    <h1>Eliminar proveedor</h1>
                 </div>
                 <hr/>
                 <div class="grid_9 push_1 ">
                     <form method="post" action="removeCategory">
                             <div class="grid_4 push_2">
-                                <input type="submit" value="Delete Marked Category" id="buy"/>
+                                <input type="submit" value="Eliminar proveedores marcados" id="buy"/>
                             </div>
                             <br/><div class="clear"></div>
                         <%
@@ -186,13 +185,13 @@
                 </div>
                 <br/>    
                 <div class="grid_13 ">
-                    <h1>Remove Sub-Category >> for following Category</h1>
+                    <h1>Eliminar categorías</h1>
                 </div>
                 <hr/>
                 <div class="grid_9 push_1">
                     <form method="post" action="removeSubCategory">
                         <div class="grid_4 push_2">
-                            <input type="submit" value="Delete Marked Sub-Category" id="buy"/>
+                            <input type="submit" value="Eliminar categorías marcadas" id="buy"/>
                         </div>
                         <br/><div class="clear"></div>
                     <%

@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin_approvedOrders
-    Created on : Nov 24, 2012, 2:07:17 PM
     Author     : MayoristasNicas
 --%>
 
@@ -54,7 +53,7 @@
             <div class="grid_16" style="padding: 10px;" id="whiteBox">
                     
                 <br/>
-                <h1 class="grid_15">Delivered Orders</h1><hr/>
+                <h1 class="grid_15">Órdenes entregadas</h1><hr/>
                     
             </div>
                 <div class="clear"></div>
@@ -71,38 +70,38 @@
             <form method="post" action="changeProductStatus">
                 <div class="grid_16">
                     <div class="grid_16"  id="CartTable" style="padding:10px 00px;">
-                        <h1 class="grid_15" style ="text-align: center; padding: 10px 0px 10px 0px;  border-top: 20px #444 solid;">Delivered Orders</h1>  
+                        <h1 class="grid_15" style ="text-align: center; padding: 10px 0px 10px 0px;  border-top: 20px #444 solid;">Órdenes entregadas</h1>  
                         
                         <div class="clear"></div>
                         <div class="grid_10">
                         <input id="greenBtn" type="submit" value="Change Product Status">
                         <select name="ChangeStatus">
-                            <option value="delivered">Delivered</option>
-                            <option value="cancel">Cancel</option>
+                            <option value="delivered">Entregadas</option>
+                            <option value="cancel">Canceladas</option>
                         </select></div>
                         <div class="clear"></div>
                         <%-----------------%>
                         <div class="grid_1">
-                            <h3>Order No</h3>
+                            <h3>Número de órden</h3>
                         </div>
                         <div class="grid_7">
-                            <h3 class="push_3">Order Summary</h3> 
+                            <h3 class="push_3">Resumen de la órden</h3> 
                             <div class="clear"></div>
                             <div class="grid_4">
-                                Item 
+                                Producto 
                             </div>
                             <div class="grid_2">
-                                Price x Quantity
+                                Precio x Cantidad
                             </div>
                         </div>
                         <div class="grid_2">
-                            <h3 style ="text-align: center;">Date</h3>
+                            <h3 style ="text-align: center;">Fecha</h3>
                         </div>   
                         <div class="grid_2">
-                            <h3 style ="text-align: center;">Mobile No</h3>
+                            <h3 style ="text-align: center;">Número de telefono</h3>
                         </div>
                         <div class="grid_3">
-                            <h3 >Address</h3>
+                            <h3 >Dirección</h3>
                         </div>       
                         <div class="clear"></div>
 
@@ -190,7 +189,7 @@
                                         <%= product_name%>
                                     </div>
                                     <div class="grid_2">
-                                        Rs. <%= product_price%> x<%= product_quantity%>
+                                        C$. <%= product_price%> x<%= product_quantity%>
                                     </div>
                                 </div>
                                 <div class="grid_2 ">
@@ -215,7 +214,7 @@
                                     <%= product_name%>
                                 </div>
                                 <div class="grid_2">
-                                    Rs. <%= product_price%> x<%= product_quantity%>
+                                    C$. <%= product_price%> x<%= product_quantity%>
                                 </div>
                             </div>
                             <div class="grid_2" style="border-top: 2px #444 solid; ">

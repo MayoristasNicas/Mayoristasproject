@@ -50,10 +50,10 @@
                 <hr/> <br/><div class="grid_9 push_2" style="padding:10px;">
                         <form method="post" action="admin_login">
                             <div class="grid_2">
-                                Cprreo Electrónico
+                                Correo Electrónico
                             </div>
                             <div class="grid_5">
-                                <input type="text" name="email" placeholder="abc@xyz.com" />
+                                <input type="text" name="email" placeholder="admin@hotmail.com" />
                             </div>
                             <div class="clear"></div><br/>
                             

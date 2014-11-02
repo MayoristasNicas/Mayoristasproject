@@ -126,10 +126,10 @@
                         <br/><h1>Paso 1. Ingresar producto</h1><hr/>
                     </div>
                 <div class="grid_3">
-                        <br/><h1>Paso 2. Ingresar categoria</h1><hr/>
+                        <br/><h1>Paso 2. Ingresar provedor</h1><hr/>
                     </div>
                 <div class="grid_3">
-                        <br/><h1>Paso 3. Ingregar nombre del producto, Tags</h1><hr/>
+                        <br/><h1>Paso 3. Ingregar nombre del producto</h1><hr/>
                     </div>
                 <div class="grid_3">
                         <br/><h1>Paso 4. Ingresar precio & Cantidad y descripción</h1><hr/>
@@ -150,7 +150,7 @@
                     <div class="grid_7">
                         <a style="
 border: 1px solid black;
-box-shadow: 0px 2px 10px #333;" href="admin_addProduct_1.jsp" class="grid_5 push_2" id="buy">Inicia a agregar tus productos ya...!</a>
+box-shadow: 0px 2px 10px #333;" href="admin_addProduct_1.jsp" class="grid_5 push_2" id="buy">Agregar productos</a>
                     </div>
                 </div>
                     

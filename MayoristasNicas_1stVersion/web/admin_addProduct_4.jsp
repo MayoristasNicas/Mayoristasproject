@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin_performance
-    Created on : 22 Nov, 2012, 10:20:00 PM
     Author     : MayoristasNicas
 --%>
 
@@ -74,21 +73,21 @@
         <div class="container_16">
             <div class="grid_16" style="padding: 10px;" id="whiteBox">
                 <div class="grid_3">
-                    <br/><h1>Add Product</h1><hr/>
+                    <br/><h1>Añadir Producto</h1><hr/>
                 </div>
                 <div>
 
                     <div class="grid_3">
-                        <br/><h1>Step 1. Enter Product Company</h1><hr/>
+                        <br/><h1>Paso 1. ingresa un producto</h1><hr/>
                     </div>
                     <div class="grid_3">
-                        <br/><h1>Step 2. Enter Category</h1><hr/>
+                        <br/><h1>Paso 2. Ingresa categoría</h1><hr/>
                     </div>
                     <div class="grid_3">
-                        <br/><h1>Step 3. Enter in Product Name, Tags</h1><hr/>
+                        <br/><h1>Paso 3. Ingresa nombre del producto, Tags</h1><hr/>
                     </div>
                     <div class="grid_3 highlight">
-                        <br/><h1>Step 4. Enter in Pricing & Quantity and Description</h1><hr/>
+                        <br/><h1>Paso 4. Ingresa precio & cantidad y descripción</h1><hr/>
                     </div>
 
                 </div>
@@ -197,7 +196,7 @@
 
             <div class="grid_13"  style="padding: 10px 0px;" id="whiteBox">
                 <div class="grid_13">
-                    <br/><h1>Step 4. Enter in Pricing & Quantity and Description</h1><hr/>
+                    <br/><h1>Paso 4. Ingresa precio & cantidad y descripción</h1><hr/>
                 </div>
                 <form method="post" action="admin_addProduct_controller.jsp">
                     <input type="hidden" name="company" value="<%= productBean.getCompany() %>"/>
@@ -208,30 +207,30 @@
                     <input type="hidden" name="page" value="admin_addProduct_Insert.jsp"/>
 
                     <div class="grid_4">
-                        <h3>Product Price : Rs. </h3>
+                        <h3>Precio del producto : C$. </h3>
                     </div>
                     <div class="grid_5">
-                        <input id="price" type="number" name= "price" min="1" placeholder="eg.Rs 7899/-" required/><br/>
+                        <input id="price" type="number" name= "price" min="1" placeholder="C$25.00/-" required/><br/>
                        
                     </div>
                     <div class="clear"></div><br/>
                     <div class="grid_4">
-                        <h3>Enter Quantity in Units</h3>
+                        <h3>Ingrese las cantidades en unidades de lotes</h3>
                     </div>
                     <div class="grid_5">
-                        <input id="productQty" type="number" min="1" name= "productQty"  placeholder="Quantity" required/><br/>
+                        <input id="productQty" type="number" min="1" name= "productQty"  placeholder="Cantidad de lotes" required/><br/>
                     </div>
                     <div class="clear"></div><br/>
                     <div class="grid_4">
-                        <h3>Enter Summary/Description</h3>
+                        <h3>Ingrese la descripción del producto</h3>
                     </div>
                     <div class="grid_5">
-                        <textarea id="summary" cols="40" rows="20" name="summary" class="grid_6" required></textarea>
+                        <textarea id="summary" cols="40" rows="20" name="Descripción" class="grid_6" required></textarea>
                     </div>
 
                     <div class="clear"></div><br/>
                     <div class="grid_7">
-                        <input id="buy" class="next" type="submit" value="Next >" disabled/>
+                        <input id="buy" class="next" type="submit" value="Siguiente >" disabled/>
                     </div>
                 </form>
             </div>

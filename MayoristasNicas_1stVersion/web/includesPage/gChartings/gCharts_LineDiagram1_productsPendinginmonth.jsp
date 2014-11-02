@@ -1,6 +1,5 @@
 <%-- 
     Document   : gCharts_pieDiagram1
-    Created on : 2 Dec, 2012, 12:01:13 AM
     Author     : MayoristasNicas
 --%>
 
@@ -33,24 +32,24 @@
         <div class="container_16">
             <div class="grid_16" style="padding: 10px;" id="whiteBox">
                 <br/>
-                <h1 class="grid_15">Google Visualization</h1><hr/>
+                <h1 class="grid_15">Visualización de Google</h1><hr/>
                 <form>
-                     Select Month
+                     Seleccione el mes
                 <select name="month" class="graphLoad" id="month">
-                    <option value="12">December</option>
-                    <option value="11">November</option>
-                    <option value="10">October</option>
-                    <option value="9">September</option>
-                    <option value="8">August</option>
-                    <option value="7">July</option>
-                    <option value="6">June</option>
-                    <option value="5">May</option>
-                    <option value="4">April</option>
-                    <option value="3">March</option>
-                    <option value="2">February</option>
-                    <option value="1">January</option>
+                    <option value="12">Diciembre</option>
+                    <option value="11">Noviembre</option>
+                    <option value="10">Octubre</option>
+                    <option value="9">Septiembre</option>
+                    <option value="8">Agosto</option>
+                    <option value="7">Julio</option>
+                    <option value="6">Junio</option>
+                    <option value="5">Mayo</option>
+                    <option value="4">Abril</option>
+                    <option value="3">Marzo</option>
+                    <option value="2">Febrero</option>
+                    <option value="1">Enero</option>
                 </select>
-                Select Year
+                Seleccione el año
                 <select name="year" class="graphLoad" id="year">
                     <%
                         for (int i =12 ;i<35;i++){
@@ -331,12 +330,12 @@ WHERE  `purchase_date` LIKE  '2012-1%'
                   <%
 
                                 out.print("([ "
-                                          + "['Day', 'Pending', 'Approved', 'Delivered', 'Expenses' ], ");
+                                          + "['Día', 'Pendiente', 'Aprobada', 'Entregas', 'Gastos' ], ");
                                 int i = 0 ;
                                  while (i<= soldOn.size()-1){
                                       if (i< soldOn.size()-1){
                                          out.println(
-                                                 "['Day "+soldOn.get(i) +"',  "
+                                                 "['Día "+soldOn.get(i) +"',  "
                                                  +pricePending.get(i) +", "
                                                  +priceApproved.get(i)+ ", "
                                                  +priceDelivered.get(i)+", "
@@ -344,7 +343,7 @@ WHERE  `purchase_date` LIKE  '2012-1%'
                                       }
                                       else {
                                          out.println(
-                                                 "['Day "+soldOn.get(i) +"',  "
+                                                 "['Día "+soldOn.get(i) +"',  "
                                                  +pricePending.get(i) +", "
                                                  +priceApproved.get(i)+ ", "
                                                  +priceDelivered.get(i)+", "

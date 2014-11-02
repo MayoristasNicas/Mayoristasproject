@@ -22,7 +22,7 @@
                     <li><strong>Misc</strong></li>
                     <li><a href="index.jsp">Inicio</a></li>
                     <li><a href="faq.jsp">Registrate</a></li>
-                    <li><a href="http://www.facebook.html">Facebook</a></li>
+                    <li><a href="https://www.facebook.com/mayoristasnicas">Facebook</a></li>
                 </ul>
             </div>
             <div class="grid_5">

@@ -85,7 +85,7 @@
                         Assassins Creed III
                     </div>
                     <div class="grid_2">
-                        Rs. 999
+                        C$. 999
                     </div>
                     <div class="grid_1">
                          x1

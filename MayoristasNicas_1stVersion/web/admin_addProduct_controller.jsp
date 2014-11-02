@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin_performance
-    Created on : 22 Nov, 2012, 10:20:00 PM
     Author     : MayoristasNicas
 --%>
 
@@ -115,19 +114,19 @@
         <div class="container_16">
             <div class="grid_16" style="padding: 10px;" id="whiteBox">
                     <div class="grid_15">
-                        <br/><h1>Add Product </h1><hr/>
+                        <br/><h1>Agregar producto </h1><hr/>
                     </div>
                 </div>
                 <div class="clear"></div>
                 
                 <div id="leftside" class="grid_3">
                     <ul id="leftsideNav">
-                        <li><a><strong>Dash Home</strong></a></li>
-                        <li><a>Stock</a></li>
-                        <li><a>Performance</a></li>
-                        <li><a>Orders</a></li>
-                        <li><a href="productInsert.jsp">Add Product</a></li>
-                        <li><a>Settings</a></li>
+                        <li><a><strong>Inicio</strong></a></li>
+                        <li><a>Inventario</a></li>
+                        <li><a>Rendimiento</a></li>
+                        <li><a>Órdenes</a></li>
+                        <li><a href="productInsert.jsp">Agregar producto</a></li>
+                        <li><a>Configuración</a></li>
                     </ul>
                 </div>
                 
@@ -146,7 +145,7 @@
                 
                 <div class="grid_13"  style="padding: 10px 0px;" id="whiteBox">
                     <div class="grid_13">
-                        <br/><h1>Add Product Controller</h1><hr/>
+                        <br/><h1>Agregar producto</h1><hr/>
                     <%
                     if (request.getParameter("page") != null){
                         response.sendRedirect(request.getParameter("page"));

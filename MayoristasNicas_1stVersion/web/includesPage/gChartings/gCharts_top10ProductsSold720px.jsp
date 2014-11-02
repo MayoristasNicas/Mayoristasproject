@@ -90,7 +90,7 @@ ORDER BY solds DESC
                                 ['15',  1234,      667]
                               ]);--%>
                   <% out.print("([ "
-                                          + "['Product Name', 'Units Sold' ], ");
+                                          + "['Nombre del producto', 'Unidades vendidas' ], ");
                                 int i = 0 ;
                                  while (i<= hits.size()-1){
                                       if (i< hits.size()-1){
@@ -108,9 +108,9 @@ ORDER BY solds DESC
                                 out.print("]);");
                       %>
                       var options = {
-                                title: 'Top 10 products unit sold',
-                                  vAxis: {title: "Units Sold"},
-                                  hAxis: {title: "Product Names"}
+                                title: '10 productos más vendidos',
+                                  vAxis: {title: "Unidades vendidas"},
+                                  hAxis: {title: "Nombre del producto"}
                               };
 
                               var chart = new google.visualization.LineChart(document.getElementById('chart_div_lineTop10Sold'));

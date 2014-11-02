@@ -376,7 +376,7 @@ WHERE  `purchase_date` LIKE  '2012-1%'
                                  while (i<= soldOn.size()-1){
                                       if (i< soldOn.size()-1){
                                          out.println(
-                                                 "['Day "+soldOn.get(i) +"',  "
+                                                 "['Día "+soldOn.get(i) +"',  "
                                                  +pricePending.get(i) +", "
                                                  +priceApproved.get(i)+ ", "
                                                  +priceDelivered.get(i)+", "
@@ -384,7 +384,7 @@ WHERE  `purchase_date` LIKE  '2012-1%'
                                       }
                                       else {
                                          out.println(
-                                                 "['Day "+soldOn.get(i) +"',  "
+                                                 "['Día "+soldOn.get(i) +"',  "
                                                  +pricePending.get(i) +", "
                                                  +priceApproved.get(i)+ ", "
                                                  +priceDelivered.get(i)+", "

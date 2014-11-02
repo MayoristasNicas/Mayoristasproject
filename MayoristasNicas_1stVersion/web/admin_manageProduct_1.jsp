@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin_manageProduct
-    Created on : 26 Nov, 2012, 7:48:56 PM
     Author     : MayoristasNicas
 --%>
 
@@ -115,16 +114,16 @@
             <a href="admin_manageProduct.jsp?pid=<%=product_id%>"><img src="<%= image_name%>" /></a>
         </div>
             <div class="grid_6">
-                <p id="info"><a href="admin_manageProduct.jsp?pid=<%=product_id%>"><h3><span class="blue"> <%=product_name%></span></h3></a>By <%= company_name + " " + category_name%><br/><span class="red">Rs. <%= price%></span></p>
-                <p style="display: inline;">Views <span class="blue"><%= hits %></span></p>
+                    <p id="info"><a href="admin_manageProduct.jsp?pid=<%=product_id%>"><h3><span class="blue"> <%=product_name%></span></h3></a>Por <%= company_name + " " + category_name%><br/><span class="red">C$. <%= price%></span></p>
+                <p style="display: inline;">Visitas <span class="blue"><%= hits %></span></p>
                 
             </div>
             <div class="grid_4">
                 <p><%=sub_category_name%></p>
                 <div class="grid_3" style="display: inline;">
-                    <h1 style="display: inline;"><%= qty %></h1> <a href="admin_manageProduct.jsp?pid=<%= product_id%>" id="greenBtn" style="display: inline;">Edit Product</a> 
+                    <h1 style="display: inline;"><%= qty %></h1> <a href="admin_manageProduct.jsp?pid=<%= product_id%>" id="greenBtn" style="display: inline;">Editar Producto</a> 
                 </div>
-                <p>Quantity</p>
+                <p>Cantidad</p>
             </div>
         </div>
         <div class="clear"></div>

@@ -1,7 +1,6 @@
 <%-- 
     Document   : gCharts_pieDiagram1
-    Created on : 2 Dec, 2012, 12:01:13 AM
-    Author     : chirag
+    Author     : MayoristasNicas
 --%>
 
 <%@page import="java.util.ArrayList"%>
@@ -85,7 +84,7 @@
                          */
 
                         // Set chart options
-                        var options = {'title':'Items sold by Category',
+                        var options = {'title':'Artículos vendidos por proveedor',
                                        'width':720,
                                        'height':320};
 

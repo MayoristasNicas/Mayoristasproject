@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin_performance
-    Created on : 22 Nov, 2012, 10:20:00 PM
     Author     : MayoristasNicas
 --%>
 
@@ -181,21 +180,21 @@
                     </div>
                     <div class="clear"></div><br/>
                     <div class="grid_2">
-                        <h3>Añadir una compañia</h3>
+                        <h3>Añadir una compañía</h3>
                     </div>
                     <div class="grid_5">
-                        <input id="companyName" type="text" name= "companyName" placeholder="Company Name here"/>
+                        <input id="companyName" type="text" name= "companyName" placeholder="Nombre de la compañía"/>
                     </div>
                     <div class="grid_2">
 
                     </div>
                     <div class="clear"></div><br/>
                     <div class="grid_7">
-                        <input id="addProductNameBtn" class="buy" type="button" value="Add Company"/>
+                        <input id="addProductNameBtn" class="buy" type="button" value="Agregar compañía"/>
 
                     </div>
                     <div class="grid_5">
-                        <input id="buy" type="submit" value="Next >"/>
+                        <input id="buy" type="submit" value="Siguiente >"/>
                     </div>
                 </form>
 

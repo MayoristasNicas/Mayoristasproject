@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin_performance
-    Created on : 22 Nov, 2012, 10:20:00 PM
     Author     : MayoristasNicas
 --%>
 
@@ -104,21 +103,21 @@
         <div class="container_16">
             <div class="grid_16" style="padding: 10px;" id="whiteBox">
                 <div class="grid_3">
-                    <br/><h1>Add Product</h1><hr/>
+                    <br/><h1>Añadir Producto</h1><hr/>
                 </div>
                 <div>
 
                     <div class="grid_3">
-                        <br/><h1>Step 1. Enter Product Company</h1><hr/>
+                        <br/><h1>Paso 1. ingresa un producto</h1><hr/>
                     </div>
                     <div class="grid_3">
-                        <br/><h1>Step 2. Enter Category</h1><hr/>
+                        <br/><h1>Paso 2. Ingresa categoría</h1><hr/>
                     </div>
                     <div class="grid_3 highlight">
-                        <br/><h1>Step 3. Enter in Product Name, Tags</h1><hr/>
+                        <br/><h1>Paso 3. Ingresa nombre del producto, Tags</h1><hr/>
                     </div>
                     <div class="grid_3">
-                        <br/><h1>Step 4. Enter in Pricing & Quantity and Description</h1><hr/>
+                        <br/><h1>Paso 4. Ingresa precio & cantidad y descripción</h1><hr/>
                     </div>
 
                 </div>
@@ -180,7 +179,7 @@
          <div class="grid_13"  style="padding: 10px 0px;" id="whiteBox">
                 
                 <div class="grid_13">
-                    <br/><h1>Step 3. Enter in Product Name, Tags</h1><hr/>
+                    <br/><h1>Paso 3. Ingresa nombre del producto, Tags</h1><hr/>
                 </div>
 
                 <div class="clear"></div>
@@ -191,23 +190,23 @@
                     <input type="hidden" name="page" value="admin_addProduct_4.jsp"/>
 
                     <div class="grid_4">
-                        <h3>Enter Product Name </h3>
+                        <h3>Ingrese el nombre del producto </h3>
                     </div>
                     <div class="grid_5">
-                        <input id="productName" type="text" name= "productName"  placeholder="Product Name" required/><br/>
+                        <input id="productName" type="text" name= "productName"  placeholder="Nombre del producto" required/><br/>
                         
                     </div>
                     <div class="clear"></div><br/>
                     <div class="grid_4">
-                        <h3>Enter Tags [?]</h3>
+                        <h3>Ingrese Tags [?]</h3>
                     </div>
                     <div class="grid_5">
-                        <textarea id="tags" name= "tags" placeholder="Write in tags here without commas" required></textarea>
+                        <textarea id="tags" name= "tags" placeholder="Agregue los tags seguidos de una coma" required></textarea>
                     </div>
                     
                     <div class="clear"></div><br/>
                     <div class="grid_7">
-                        <input id="buy" class="next" type="submit" value="Next >"/>
+                        <input id="buy" class="next" type="submit" value="Siguiente >"/>
                     </div>
                 </form>
 

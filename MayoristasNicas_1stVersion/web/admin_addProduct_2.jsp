@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin_performance
-    Created on : 22 Nov, 2012, 10:20:00 PM
     Author     : MayoristasNicas
 --%>
 
@@ -117,21 +116,21 @@
         <div class="container_16">
             <div class="grid_16" style="padding: 10px;" id="whiteBox">
                 <div class="grid_3">
-                    <br/><h1>Add Product</h1><hr/>
+                    <br/><h1>Añadir Producto</h1><hr/>
                 </div>
                 <div>
 
                     <div class="grid_3">
-                        <br/><h1>Step 1. Enter Product Company</h1><hr/>
+                        <br/><h1>Paso 1. ingresa un producto</h1><hr/>
                     </div>
                     <div class="grid_3 highlight">
-                        <br/><h1>Step 2. Enter Category</h1><hr/>
+                        <br/><h1>Paso 2. Ingresa categoría</h1><hr/>
                     </div>
                 <div class="grid_3">
-                        <br/><h1>Step 3. Enter in Product Name, Tags</h1><hr/>
+                        <br/><h1>Paso 3. Ingresa nombre del producto, Tags</h1><hr/>
                     </div>
                 <div class="grid_3">
-                        <br/><h1>Step 4. Enter in Pricing & Quantity and Description</h1><hr/>
+                        <br/><h1>Paso 4. Ingresa precio & cantidad y descripción</h1><hr/>
                  </div>
 
                 </div>
@@ -167,18 +166,18 @@
 
             <div class="grid_13"  style="padding: 10px 0px;" id="whiteBox">
                 <div class="grid_13">
-                    <br/><h1>Step 2. Enter Category</h1><hr/>
+                    <br/><h1>Paso 2. Ingresa categoria</h1><hr/>
                 </div>
                 <div class="clear"></div>
                 <form method="post" action="admin_addProduct_controller.jsp">
                     <input type="hidden" name="company" value="<%= productBean.getCompany() %>">
                     <input type="hidden" name="page" value="admin_addProduct_3.jsp">
                     <div class="grid_2">
-                        <h3>Select Category</h3>
+                        <h3>Seleccionar categoría</h3>
                     </div>
                     <div class="grid_5">
                         <select id="selectMenuCategory" name="category">
-                            <option value="" selected="">Select Category</option>
+                            <option value="" selected="">Seleccionar categoría</option>
                                         <% 
                                             ResultSet rs = st.executeQuery(sql_getCategory);
                                             while (rs.next()) {
@@ -192,7 +191,7 @@
                     </div>
                     <div class="clear"></div><br/>
                     <div class="grid_2">
-                        Or
+                        Ó
                     </div>
                     <div class="grid_5">
                         <h4 id="step2Feedback" class="grid_8 center">-------------------------------------------------------------<br/></h4>
@@ -200,17 +199,17 @@
                     </div>
                     <div class="clear"></div><br/>
                     <div class="grid_2">
-                        <h3>Add Sub-Category</h3>
+                        <h3>Agregar categoría</h3>
                     </div>
                     <div class="grid_5">
-                        <input id="categoryName" type="text" name= "categoryName" tabindex="1" placeholder="eg. Games, Movies, Books"/>
+                        <input id="categoryName" type="text" name= "categoryName" tabindex="1" placeholder="Lácteos"/>
                     </div>
                     <div class="grid_2">
 
                     </div>
                     <div class="clear"></div><br/>
                     <div class="grid_7">
-                        <input id="addCategoryNameBtn" class="buy" type="button" value="Add Category"/>
+                        <input id="addCategoryNameBtn" class="buy" type="button" value="Agregar categoría"/>
                     </div>
                     <div class="clear"></div>
                     <div class="grid_2">

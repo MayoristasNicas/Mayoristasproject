@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin_changeProductInfo
-    Created on : 5 Dec, 2012, 8:53:35 PM
     Author     : MayoristasNicas
 --%>
 
@@ -120,11 +119,11 @@ UPDATE  `products` SET  `product-name` =  'XPS Seriator v2',
             <div class="grid_16" style="padding: 10px;" id="whiteBox">
 
                 <br/>
-                <h1 class="grid_15" style="text-align: center;">Product information Updated</h1><hr/>
+                <h1 class="grid_15" style="text-align: center;">Información del producto actualizada</h1><hr/>
 
                 <div class="grid_13 push_3">
                     <div class="grid_5">
-                        <a href="admin_manageProduct.jsp" id="buy">Manage Products</a>
+                        <a href="admin_manageProduct.jsp" id="buy">Administrar productos</a>
                     </div>
                 </div>
             </div>
@@ -145,11 +144,11 @@ UPDATE  `products` SET  `product-name` =  'XPS Seriator v2',
                             %>
                 
                                         <br/>
-                                        <h1 class="grid_15" style="text-align: center;">Product cannot be updated because the quantity is less than zero<br/><br/><span class="blue">Product Name</span> : <%= session.getAttribute("productName")%></h1><hr/>
+                                        <h1 class="grid_15" style="text-align: center;">El producto no pudo ser actualizado porque la cantidad es menor que cero<br/><br/><span class="blue">Nombre del producto</span> : <%= session.getAttribute("productName")%></h1><hr/>
 
                                         <div class="grid_13 push_1">
                                             <div class="grid_7">
-                                                <a href="admin_manageProduct.jsp?pid=<%= session.getAttribute("productId")%>" id="buy">Cancel Updating</a>
+                                                <a href="admin_manageProduct.jsp?pid=<%= session.getAttribute("productId")%>" id="buy">Cancelar actualización</a>
                                             </div>
                                         </div>
 
@@ -171,14 +170,14 @@ UPDATE  `products` SET  `product-name` =  'XPS Seriator v2',
                         <input type="hidden" name="del" value="y"/>
                         
                                         <br/>
-                                        <h1 class="grid_15" style="text-align: center;">Are you sure, Do you want to update the product<br/><br/><span class="blue">Product Name</span> : <%= session.getAttribute("productName")%></h1><hr/>
+                                        <h1 class="grid_15" style="text-align: center;">¿Estas seguro que deseas actualizar la información del producto?<br/><br/><span class="blue">Product Name</span> : <%= session.getAttribute("productName")%></h1><hr/>
 
                                         <div class="grid_13 push_1">
                                             <div class="grid_5">
-                                                <input type="submit" id="buy" style="border-color: #FFF; width: 190px;" value="Update Product"/>
+                                                <input type="submit" id="buy" style="border-color: #FFF; width: 190px;" value="Actualizar producto"/>
                                             </div>
                                             <div class="grid_6">
-                                                <a href="admin_manageProduct.jsp?pid=<%= session.getAttribute("productId")%>" id="buy">No, Cancel Updating</a>
+                                                <a href="admin_manageProduct.jsp?pid=<%= session.getAttribute("productId")%>" id="buy">No, cancelar actualización</a>
                                             </div>
                                         </div>
                                 </form>
@@ -186,42 +185,42 @@ UPDATE  `products` SET  `product-name` =  'XPS Seriator v2',
                                         <hr/>
                                         <div class="grid_10 push_3">
                                             <div class="grid_2">
-                                                Search Tags
+                                                Buscar tags
                                             </div>
                                             <div class="grid_5">
                                                 <%= tags %>
                                             </div>
                                             <div class="clear"></div><br/>
                                             <div class="grid_2">
-                                                Product Name
+                                                Nombre del producto
                                             </div>
                                             <div class="grid_5">
                                                 <%= productName %>
                                             </div>
                                             <div class="clear"></div><br/>
                                             <div class="grid_2">
-                                                Product Quantity in Stock
+                                                Cantidad del producto en inventario
                                             </div>
                                             <div class="grid_5">
                                                 <%= quantity %> <br/><h1>+</h1>
                                             </div>
                                             <div class="clear"></div>
                                             <div class="grid_2">
-                                                Added Product Quantity
+                                                Agregar cantidad de producto
                                             </div>
                                             <div class="grid_5">
                                                 <%= addQuantity %>
                                             </div>
                                             <div class="clear"></div><br/>
                                             <div class="grid_2">
-                                                Product Price: Rs.
+                                                Precio del producto: C$.
                                             </div>
                                             <div class="grid_5">
                                                 <%= productPrice %>
                                             </div>
                                             <div class="clear"></div><br/>
                                             <div class="grid_2">
-                                                Description / Summary
+                                                Descripción del producto
                                             </div>
                                             <div class="grid_5">
                                                 <%= summary %>

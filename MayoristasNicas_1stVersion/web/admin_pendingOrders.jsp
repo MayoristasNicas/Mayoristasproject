@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin_pendingOrders
-    Created on : Nov 24, 2012, 2:07:38 PM
     Author     : MayoristasNicas
 --%>
 
@@ -52,7 +51,7 @@
 
             <div class="grid_16" style="padding: 10px;" id="whiteBox">
                 <br/>
-                <h1 class="grid_15">Ordenes pendiente</h1><hr/>
+                <h1 class="grid_15">Ordenes pendientes</h1><hr/>
             </div>
                 <div class="clear"></div>
                 <jsp:include page="includesPage/hesders_sidebars/admin_menuSideBar.jsp"></jsp:include>
@@ -70,35 +69,35 @@
                         
                         <div class="clear"></div>
                         <div class="grid_10">
-                            <input id="greenBtn" type="submit" value="Change Product Status">
+                            <input id="greenBtn" type="submit" value="Cambiar estado del producto">
                             <select name="ChangeStatus">
-                                <option value="approved">I Approve these checked orders</option>
-                                <option value="cancel">Cancel checked orders</option>
+                                <option value="Aprobada">Apruebar las ordenes marcadas</option>
+                                <option value="Cancelada">Cancel checked orders</option>
                             </select>
                         </div>
                         <div class="clear"></div>
                         <%-----------------%>
                         <div class="grid_1">
-                            <h3>Order No</h3>
+                            <h3>Número de orden</h3>
                         </div>
                         <div class="grid_7">
-                            <h3 class="push_3">Order Summary</h3> 
+                            <h3 class="push_3">Resumen de la órden</h3> 
                             <div class="clear"></div>
                             <div class="grid_4">
-                                Item 
+                                Producto 
                             </div>
                             <div class="grid_2">
-                                Price x Quantity
+                                Precio x Cantidad
                             </div>
                         </div>
                         <div class="grid_2">
-                            <h3 style ="text-align: center;">Date</h3>
+                            <h3 style ="text-align: center;">Fecha</h3>
                         </div>   
                         <div class="grid_2">
-                            <h3 style ="text-align: center;">Mobile No</h3>
+                            <h3 style ="text-align: center;">Teléfono celular</h3>
                         </div>
                         <div class="grid_3">
-                            <h3 >Address</h3>
+                            <h3 >Dirección</h3>
                         </div>       
                         <div class="clear"></div>
 
@@ -186,7 +185,7 @@
                                         <%= product_name%>
                                     </div>
                                     <div class="grid_2">
-                                        Rs. <%= product_price%> x<%= product_quantity%>
+                                        C$. <%= product_price%> x<%= product_quantity%>
                                     </div>
                                 </div>
                                 <div class="grid_2 ">
@@ -211,7 +210,7 @@
                                     <%= product_name%>
                                 </div>
                                 <div class="grid_2">
-                                    Rs. <%= product_price%> x<%= product_quantity%>
+                                    C$. <%= product_price%> x<%= product_quantity%>
                                 </div>
                             </div>
                             <div class="grid_2" style="border-top: 2px #444 solid; ">

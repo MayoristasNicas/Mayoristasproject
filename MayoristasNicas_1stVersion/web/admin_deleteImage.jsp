@@ -1,6 +1,5 @@
 <%-- 
     Document   : admin_deleteImage
-    Created on : 27 Nov, 2012, 10:45:41 PM
     Author     : MayoristasNicas
 --%>
 
@@ -63,11 +62,11 @@
         <div class="grid_16" style="padding: 10px;" id="whiteBox">
 
             <br/>
-            <h1 class="grid_15" style="text-align: center;">Please select an Image for deleting...</h1><hr/>
+            <h1 class="grid_15" style="text-align: center;">Seleccione la imagen que desea borrar.</h1><hr/>
 
             <div class="grid_13 push_3">
                 <div class="grid_5">
-                    <a href="admin_manageProduct.jsp" id="buy">Edit products</a>
+                    <a href="admin_manageProduct.jsp" id="buy">Editar productos</a>
                 </div>
             </div>
         </div>
@@ -88,11 +87,11 @@
                             <div class="grid_16" style="padding: 10px;" id="whiteBox">
 
                                 <br/>
-                                <h1 class="grid_15" style="text-align: center;">Product Image deleted</h1><hr/>
+                                <h1 class="grid_15" style="text-align: center;">Imagen del producto eliminada</h1><hr/>
 
                                 <div class="grid_13 push_3">
                                     <div class="grid_5">
-                                        <a href="admin_manageProduct.jsp?pid=<%=session.getAttribute("productId")%>" id="buy">Edit products</a>
+                                        <a href="admin_manageProduct.jsp?pid=<%=session.getAttribute("productId")%>" id="buy">Editar productos</a>
                                     </div>
                                 </div>
                             </div>
@@ -104,11 +103,11 @@
         <div class="grid_16" style="padding: 10px;" id="whiteBox">
 
             <br/>
-            <h1 class="grid_15" style="text-align: center;">Product Image deleted</h1><hr/>
+            <h1 class="grid_15" style="text-align: center;">Imagen del producto eliminada</h1><hr/>
 
             <div class="grid_13 push_3">
                 <div class="grid_5">
-                    <a href="admin_manageProduct.jsp" id="buy">Edit products</a>
+                    <a href="admin_manageProduct.jsp" id="buy">Editar productos</a>
                 </div>
             </div>
         </div>
