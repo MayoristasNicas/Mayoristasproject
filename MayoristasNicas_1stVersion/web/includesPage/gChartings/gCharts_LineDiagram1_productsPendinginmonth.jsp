@@ -72,7 +72,7 @@
                 String status;
                 int month, year;
                 month = (date.getMonth());
-                year = 2012;
+                year = 2014;
                 status = "pending";
                 out.print(""+month+" "+year);
                 if (request.getParameter ("status")!= null || request.getParameter("month") != null ||request.getParameter("year") != null){
@@ -354,9 +354,9 @@ WHERE  `purchase_date` LIKE  '2012-1%'
                                 out.print("]);");
                       %>
                       var options = {
-                                title: 'Products Delivered in the Month of November',
-                                  vAxis: {title: "Items Sold in Rs."},
-                                  hAxis: {title: "Days of November"}
+                                title: 'Productos entregados en el mes de Noviembre',
+                                  vAxis: {title: "Productos vendidos en C$."},
+                                  hAxis: {title: "Días en Noviembre"}
                               };
 
                               var chart = new google.visualization.LineChart(document.getElementById('chart_div_line'));

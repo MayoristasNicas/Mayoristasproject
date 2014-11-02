@@ -33,8 +33,8 @@
                       function drawChart() {
                           //// Create the data table.
                         var data = new google.visualization.DataTable();
-                        data.addColumn('string', 'Category');
-                        data.addColumn('number', 'Sales');
+                        data.addColumn('string', 'Proveedor');
+                        data.addColumn('number', 'Ventas');
                         
 <%                      
     String getPie = "SELECT COUNT(  `category-name` ) AS sales,  `category-name` "

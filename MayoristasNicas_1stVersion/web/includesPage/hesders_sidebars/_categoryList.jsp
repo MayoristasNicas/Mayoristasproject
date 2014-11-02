@@ -12,7 +12,7 @@
     %>
                     <div>
                         <ul id="leftsideNav">
-                            <li><a href="#"><strong>Categorías</strong></a></li>   
+                            <li><a href="#"><strong>Proveedores</strong></a></li>   
     <%
     for (int i=0;i<category.size(); i++){
         %>         

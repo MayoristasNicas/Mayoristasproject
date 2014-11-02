@@ -31,8 +31,8 @@
                       function drawChart() {
                           //// Create the data table.
                         var data = new google.visualization.DataTable();
-                        data.addColumn('string', 'Category');
-                        data.addColumn('number', 'Views');
+                        data.addColumn('string', 'Proveedor');
+                        data.addColumn('number', 'Visitas');
                         
 <%                      
     String getPie = "SELECT  `category-name` , SUM(  `hits` ) as hits"

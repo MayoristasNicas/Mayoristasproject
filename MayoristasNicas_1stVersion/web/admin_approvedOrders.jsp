@@ -63,7 +63,7 @@
             <form method="post" action="changeProductStatus">
                 <div class="grid_16">
                     <div class="grid_16"  id="CartTable" style="padding:10px 00px;">
-                        <h1 class="grid_15" style ="text-align: center; padding: 10px 0px 10px 0px;  border-top: 20px #444 solid;">órdenes aprobadas</h1>  
+                        <h1 class="grid_15" style ="text-align: center; padding: 10px 0px 10px 0px;  border-top: 20px #444 solid;">Órdenes aprobadas</h1>  
                         
                         <div class="clear"></div>
                         <div class="grid_10">

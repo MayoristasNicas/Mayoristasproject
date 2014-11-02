@@ -74,7 +74,7 @@
                         
                         <div class="clear"></div>
                         <div class="grid_10">
-                        <input id="greenBtn" type="submit" value="Change Product Status">
+                        <input id="greenBtn" type="submit" value="Cambiar status de la orden">
                         <select name="ChangeStatus">
                             <option value="delivered">Entregadas</option>
                             <option value="cancel">Canceladas</option>

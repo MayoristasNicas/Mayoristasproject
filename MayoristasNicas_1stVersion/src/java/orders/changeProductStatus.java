@@ -158,9 +158,10 @@ public class changeProductStatus extends HttpServlet {
                     Logger.getLogger(changeProductStatus.class.getName()).log(Level.SEVERE, null, ex);
                 }
                 
-                response.sendRedirect("/MayoristasNicas_1stVersion/admin_approvedOrders.jsp");
+                //response.sendRedirect("/MayoristasNicas_1stVersion/admin_approvedOrders.jsp");
+                response.sendRedirect(request.getContextPath()+"/admin_deliveredOrders.jsp");
             }
-            else if (ChangeStatus.equals("canceled")){
+            else if (ChangeStatus.equals("cancel")){
                 //cancel the pending oreders
                 
                 try {
@@ -196,7 +197,8 @@ public class changeProductStatus extends HttpServlet {
                     Logger.getLogger(changeProductStatus.class.getName()).log(Level.SEVERE, null, ex);
                 }
                 
-                response.sendRedirect("/MayoristasNicas_1stVersion/admin_Performance.jsp");
+                //response.sendRedirect("/MayoristasNicas_1stVersion/admin_Performance.jsp");
+                response.sendRedirect(request.getContextPath()+"/admin_Performance.jsp");
             
             }
        }
