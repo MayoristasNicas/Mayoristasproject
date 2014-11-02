@@ -92,7 +92,7 @@ public class changeProductStatus extends HttpServlet {
                 out.println (" <br/>"+order[i]);
             }
             
-            if (ChangeStatus.equals("Aprobado")){
+            if (ChangeStatus.equals("approved")){
                 try {
                     //Approve the pending oreders
                     /*
@@ -126,7 +126,7 @@ public class changeProductStatus extends HttpServlet {
                 
                 response.sendRedirect(request.getContextPath()+"/admin_pendingOrders.jsp");
                 
-            }else if (ChangeStatus.equals("Enviado")){
+            }else if (ChangeStatus.equals("delivered")){
                 //cancel the pending oreders
                 try {
                     //Approve the pending oreders
@@ -160,7 +160,7 @@ public class changeProductStatus extends HttpServlet {
                 
                 response.sendRedirect("/MayoristasNicas_1stVersion/admin_approvedOrders.jsp");
             }
-            else if (ChangeStatus.equals("Cancelar")){
+            else if (ChangeStatus.equals("canceled")){
                 //cancel the pending oreders
                 
                 try {
