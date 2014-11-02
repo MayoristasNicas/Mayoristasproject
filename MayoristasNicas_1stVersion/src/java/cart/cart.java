@@ -18,6 +18,7 @@ public class cart {
     public ArrayList<String> productName = new ArrayList();
     public ArrayList<Double> prices = new ArrayList();
     public ArrayList<Integer> qty = new ArrayList();
+    public ArrayList<Double> comission = new ArrayList();
     
     
     public ArrayList<String> res = new ArrayList();
