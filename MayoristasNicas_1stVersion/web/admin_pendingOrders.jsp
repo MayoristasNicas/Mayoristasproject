@@ -130,7 +130,7 @@
                                     + "FROM `order` o\n"
                                     + "INNER JOIN `sales` s\n"
                                     + "USING ( `order_id` )"
-                                    + " WHERE `status` = 'pendiente' \n"
+                                    + " WHERE `status` = 'pending' \n"
                                     + "ORDER BY `order_id` ";
 
                             Connection c = new database.DB_Conn().getConnection();
