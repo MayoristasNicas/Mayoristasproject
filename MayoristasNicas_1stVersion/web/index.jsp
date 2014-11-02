@@ -108,7 +108,7 @@
 
                             <strong>Pringles</strong>				
 
-                            <br>Con la linea mï¿½s completa de productos lácteos, Parmalat está presente en MayoristasNicas
+                            <br>Con la linea más completa de productos lácteos, Parmalat está presente en MayoristasNicas
                             
                             para brindarte un precio mejor que en cualquier otro lugar del país
 
@@ -177,9 +177,7 @@
             <div id="leftside" class="grid_3">
                 <div>
                     <ul id="leftsideNav">
-                        <li><a href="viewProducts_.jsp"><strong><center>Productos de Proveedores</center></strong></a></li>
-                         
-                        
+                    <li><a href="viewProducts_.jsp"><white><center>Productos de Proveedores</center></white></a></li>                        
                         
                         <%--<%
                         while (rs.next()){

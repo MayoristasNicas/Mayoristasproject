@@ -93,7 +93,7 @@
                             %>
                             <div>
                                 <ul id="leftsideNav">
-                                    <li><center><strong>Categorias</strong></center></li>
+                                    <li><center><white>CATEGORIAS</white></center></li>
                             <%             
                             for (int i =0; i< subCat.size(); i++){
                                 %>
@@ -114,7 +114,7 @@
                             %>
                             <div>
                                 <ul id="leftsideNav">
-                                    <li><a href="#"><strong>Proveedores</strong></a></li>
+                                    <li><a href="#"><white>PROVEEDORES</white></a></li>
                             <%
                             for (int i =0; i< Cat.size(); i++){
                                 %>
