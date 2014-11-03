@@ -110,16 +110,16 @@
                     <div>
 
                         <div class="grid_3 highlight">
-                            <br/><h1>Paso 1. ingresa un producto</h1><hr/>
+                            <br/><h1>Paso 1. Ingresar un producto</h1><hr/>
                         </div>
                         <div class="grid_3">
-                            <br/><h1>Paso 2. Ingresa categoria</h1><hr/>
+                            <br/><h1>Paso 2. Ingresar categoria</h1><hr/>
                         </div>
                         <div class="grid_3">
-                            <br/><h1>Paso 3. Ingresa nombre del producto, Tags</h1><hr/>
+                            <br/><h1>Paso 3. Ingresar nombre del producto</h1><hr/>
                         </div>
                         <div class="grid_3">
-                            <br/><h1>Paso 4. Ingresa precio & cantidad y descripción</h1><hr/>
+                            <br/><h1>Paso 4. Ingresa precio, cantidad y descripción</h1><hr/>
                         </div>
 
                     </div>

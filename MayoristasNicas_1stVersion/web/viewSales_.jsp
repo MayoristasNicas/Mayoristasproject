@@ -96,7 +96,7 @@
                             %>
                             <div>
                                 <ul id="leftsideNav">
-                                    <li><center><strong>Categorias</strong></center></li>
+                                    <li><center><strong>CATEGORIAS</strong></center></li>
                             <%             
                             for (int i =0; i< subCat.size(); i++){
                                 %>
@@ -117,7 +117,7 @@
                             %>
                             <div>
                                 <ul id="leftsideNav">
-                                    <li><a href="#"><strong>Proveedores</strong></a></li>
+                                    <li><a href="#"><strong>PROVEEDORES</strong></a></li>
                             <%
                             for (int i =0; i< Cat.size(); i++){
                                 %>
@@ -200,7 +200,7 @@ GROUP BY  `product-name` */
                                 sql.append(" AND  `category-name` =  '"+category+"' ");
                                 %>
                                     <div class="grid_4 ">
-                                        <a id="greenBtn" href="removeProductFilter_P.jsp?cat=<%= category %>">Category : <%= category %> [x]</a>
+                                        <a id="greenBtn" href="removeProductFilter_P.jsp?cat=<%= category %>">Proveedor : <%= category %> [x]</a>
                                     </div>
                                 <%
                                 
@@ -212,7 +212,7 @@ GROUP BY  `product-name` */
                                             sql.append(" AND  `sub-category-name` =  '"+subcategory+"' ");
                                             %>
                                                 <div class="grid_4 ">
-                                                    <a id="greenBtn" href="removeProductFilter_P.jsp?scat=<%= subcategory %>">Sub-Category : <%= subcategory %> [x]</a>
+                                                    <a id="greenBtn" href="removeProductFilter_P.jsp?scat=<%= subcategory %>">Categoría : <%= subcategory %> [x]</a>
                                                 </div>
                                             <%
                                         }
@@ -292,10 +292,10 @@ product-name	product_id	sub-category-name	category-name	company-name	price	summa
                         </div>
                         <div class="grid_9">
                             <div class="grid_5">
-                                <p id="info"><a href="product.jsp?id=<%=product_id%>"><h3><span class="blue"> <%=product_name %></span></h3></a>By <%= company_name+" "+ category_name %><br/><span class="red">Rs. <%= price %></span></p>
+                                <p id="info"><a href="product.jsp?id=<%=product_id%>"><h3><span class="blue"> <%=product_name %></span></h3></a>Por <%= company_name+" "+ category_name %><br/><span class="red">C$. <%= price %></span></p>
                             </div>
                             <div class="grid_3 push_2">
-                                <p><%=sub_category_name %>  <a href="addToCart.jsp?id=<%= product_id %>" id="greenBtn">Agregar al catrito</a></p><p>Serï¿½ entregado en los prï¿½ximos 3 dï¿½as hï¿½biles</p>
+                                <p><%=sub_category_name %>  <a href="addToCart.jsp?id=<%= product_id %>" id="greenBtn">Agregar al carrito</a></p><p>Sería entregado en los próximos 3 días hábiles</p>
                             </div>
                         </div>
                         

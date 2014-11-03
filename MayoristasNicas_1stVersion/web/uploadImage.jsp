@@ -1,6 +1,5 @@
 <%-- 
     Document   : myUpload
-    Created on : Sep 6, 2012, 7:59:25 AM
     Author     : MayoristasNicas
 --%>
 
@@ -22,7 +21,7 @@
 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>My File UPload Program</title>
+        <title>Subir imagen</title>
     </head>
     <body>
 
@@ -73,22 +72,22 @@
                                     Statement st = con.createStatement();
                                     int rows = st.executeUpdate(insertImage);
                                     if (rows == 1) {
-                                        result = "File Uploaded with no errors...";
+                                        result = "Archivo actualizado sin errores...";
                                     }
                                     st.close();
                                     con.close();
                                 } catch (SQLException e) {
-                                    result = "Database Problem occoured." + e;
+                                    result = "Problema con la base de datos." + e;
                                 } catch (ClassNotFoundException e) {
-                                    result = "Error occoured." + e;
+                                    result = "Ha ocurrido un problema." + e;
                                 }
 
                                 files.clear();
                             } else {
-                                result = "Please Upload the file size of less than 700 KB";
+                                result = "Ingrese un archivo con peso menor a 700 KB";
                             }
                         } else {
-                            result = "Please upload a filetype of image/jpeg or image/png";
+                            result = "Por favor ingrese archivos de tipo image/jpeg or image/png";
                         }
 
                         request.setAttribute("fileName", fileName);
@@ -105,7 +104,7 @@
                         // Uses the bean now to store specified by jsp:setProperty at the top.
                         upBean.store(mrequest, "uploadfile");
                     } else {
-                        out.println("<li>No uploaded files");
+                        out.println("<li>No archivos actualizados");
                     }
                 } else {
                     out.println("<BR> todo=" + todo);

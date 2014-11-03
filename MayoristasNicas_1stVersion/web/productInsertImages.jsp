@@ -78,11 +78,11 @@
                             if ((session.getAttribute("productName") == null)) {
                                 // if email session is set, Dont show the message redirect to index
                                 //response.sendRedirect("/saikiranBookstoreApp/index.jsp");
-                                out.println("There is no product detected to insert an image for it...");
+                                out.println("No hay productos seleccionado para agregar imagen");
                             }else {
                         %>
                     </h3>        
-                    <h1><% out.print("Start adding Images right now!!<br/>" + session.getAttribute("productName"));%></h1>
+                    <h1><% out.print("Comienza a agregar imagenes ahora!!<br/>" + session.getAttribute("productName"));%></h1>
                     <p>
                         <%
                             out.print("Product :" + session.getAttribute("productName"));
@@ -94,7 +94,7 @@
                         <img class="push_1" id="targetPrev" alt="your image" />
                         <table width="60%" border="0" cellspacing="1" cellpadding="1" align="center" class="style1">
                             <tr>
-                                <td align="left"><b>Select a file to upload :</b></td>
+                                <td align="left"><b>Seleccione el archivo :</b></td>
                             </tr>
                             <tr>
                                 <td align="left">
@@ -114,7 +114,7 @@
                         <%
                             if (request.getAttribute("fileName") != null) {
                         %>
-                        <a href="admin_manageProduct.jsp?pid=<%= (String)session.getAttribute("productId") %>" style="float: left;" id="buy" >Edit Product</a>
+                        <a href="admin_manageProduct.jsp?pid=<%= (String)session.getAttribute("productId") %>" style="float: left;" id="buy" >Editar producto</a>
                         <div class="clear"></div><br/>
                         <h1>Result : <%= request.getAttribute("result")%><br/></h1>
                         File Name : <%= request.getAttribute("fileName")%><br/>
@@ -123,10 +123,10 @@
                         
                         <%
                             String result = (String) request.getAttribute("result");
-                            if (result.equals("File Uploaded with no errors...")) {
+                            if (result.equals("Archivo actualizado sin errores")) {
                         %>
 
-                        File <%= request.getAttribute("fileName")%> was uploaded to <%= path%>
+                        Archivo <%= request.getAttribute("fileName")%> fué actualizado en <%= path%>
 
                         <%
                                 }

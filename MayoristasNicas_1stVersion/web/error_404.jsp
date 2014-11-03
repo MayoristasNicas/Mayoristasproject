@@ -1,6 +1,5 @@
 <%-- 
     Document   : error_404
-    Created on : 10 Dec, 2012, 2:34:20 AM
     Author     : MayoristasNicas
 --%>
 
@@ -42,13 +41,13 @@
 
         <div class="container_16">
             <div class="grid_14 push_1" id="whiteBox" style="padding: 10px;">
-                <br/><h1 style="padding: 10px;">Error Status <span class="blue">404</span> - Page Not found!!
+                <br/><h1 style="padding: 10px;">Error  <span class="blue">404</span> - Página no encontrada!!
                 </h1><hr/><br/>
                 <p  class="grid_4" style="text-align: right; font-size: 52px;">404</p>
                 <p class="grid_7">
-                It seems that the page you've requested has not been found or has a broken link
-                please check the requested web page again or try again Later!! 
-                <br/> We are extremely sorry about the inconvenience for not finding the requested webpage, Please Do co-operate!! We wish you best
+                Al parecer la página a la que intenta acceder ha sido dañada
+                Por favor revise el URL o intente más tarde!! 
+                <br/> Lo sentimos por el inconveniente
                 </p>
             </div>
         </div>

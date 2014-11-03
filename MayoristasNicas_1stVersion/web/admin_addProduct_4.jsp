@@ -78,16 +78,16 @@
                 <div>
 
                     <div class="grid_3">
-                        <br/><h1>Paso 1. ingresa un producto</h1><hr/>
+                        <br/><h1>Paso 1. Ingresar un producto</h1><hr/>
                     </div>
                     <div class="grid_3">
-                        <br/><h1>Paso 2. Ingresa categoría</h1><hr/>
+                        <br/><h1>Paso 2. Ingresar categoría</h1><hr/>
                     </div>
                     <div class="grid_3">
-                        <br/><h1>Paso 3. Ingresa nombre del producto, Tags</h1><hr/>
+                        <br/><h1>Paso 3. Ingresar nombre del producto</h1><hr/>
                     </div>
                     <div class="grid_3 highlight">
-                        <br/><h1>Paso 4. Ingresa precio & cantidad y descripción</h1><hr/>
+                        <br/><h1>Paso 4. Ingresa precio, cantidad y descripción</h1><hr/>
                     </div>
 
                 </div>
@@ -196,7 +196,7 @@
 
             <div class="grid_13"  style="padding: 10px 0px;" id="whiteBox">
                 <div class="grid_13">
-                    <br/><h1>Paso 4. Ingresa precio & cantidad y descripción</h1><hr/>
+                    <br/><h1>Paso 4. Ingresa precio, cantidad y descripción</h1><hr/>
                 </div>
                 <form method="post" action="admin_addProduct_controller.jsp">
                     <input type="hidden" name="company" value="<%= productBean.getCompany() %>"/>

@@ -185,7 +185,7 @@
                 </div>
                 <br/>    
                 <div class="grid_13 ">
-                    <h1>Eliminar categorías</h1>
+                    <h1>Eliminar categoría</h1>
                 </div>
                 <hr/>
                 <div class="grid_9 push_1">

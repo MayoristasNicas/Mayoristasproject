@@ -118,7 +118,7 @@
                 </div>
             <div class="grid_13 push_3" id="whiteBox">
                 <div  class="grid_13">
-                    <h1  style ="text-align: center; padding: 10px 0px 0px 0px;">Hello <%= printName %></h1>  
+                    <h1  style ="text-align: center; padding: 10px 0px 0px 0px;">Bienvenido <%= printName %></h1>  
                     <p  style ="text-align: center;"> 
                        Ingresa la información personal para tu cuenta 
                     </p>

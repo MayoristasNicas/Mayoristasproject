@@ -170,7 +170,7 @@ UPDATE  `products` SET  `product-name` =  'XPS Seriator v2',
                         <input type="hidden" name="del" value="y"/>
                         
                                         <br/>
-                                        <h1 class="grid_15" style="text-align: center;">¿Estas seguro que deseas actualizar la información del producto?<br/><br/><span class="blue">Product Name</span> : <%= session.getAttribute("productName")%></h1><hr/>
+                                        <h1 class="grid_15" style="text-align: center;">¿Estás seguro que deseas actualizar la información del producto?<br/><br/><span class="blue">Product Name</span> : <%= session.getAttribute("productName")%></h1><hr/>
 
                                         <div class="grid_13 push_1">
                                             <div class="grid_5">

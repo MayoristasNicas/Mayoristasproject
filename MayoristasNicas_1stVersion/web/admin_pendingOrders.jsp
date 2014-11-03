@@ -71,7 +71,7 @@
                         <div class="grid_10">
                             <input id="greenBtn" type="submit" value="Cambiar estado del producto">
                             <select name="ChangeStatus">
-                                <option value="approved">Apruebar las ordenes marcadas</option>
+                                <option value="approved">Aprobar las órdenes marcadas</option>
                                 <option value="cancel">Cancelar las órdenes marcadas</option>
                             </select>
                         </div>

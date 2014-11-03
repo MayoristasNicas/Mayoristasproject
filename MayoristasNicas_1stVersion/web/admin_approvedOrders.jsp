@@ -48,7 +48,7 @@
             <div class="grid_16" style="padding: 10px;" id="whiteBox">
                     
                 <br/>
-                <h1 class="grid_15">Órdenes aprobadas</h1><hr/>
+                <h1 class="grid_15">Ordenes aprobadas</h1><hr/>
                     
             </div>
                 <div class="clear"></div>
@@ -69,8 +69,8 @@
                         <div class="grid_10">
                         <input id="greenBtn" type="submit" value="Cambiar estado del producto">
                         <select name="ChangeStatus">
-                            <option value="delivered">Entregado</option>
-                            <option value="cancel">Cancelado</option>
+                            <option value="delivered">Entregada</option>
+                            <option value="cancel">Cancelada</option>
                         </select></div>
                         <div class="clear"></div>
                         <%-----------------%>

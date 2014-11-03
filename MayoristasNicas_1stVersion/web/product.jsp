@@ -143,11 +143,11 @@
                                 <td><%= category_name%></td>
                             </tr>
                             <tr class="grid_6">
-                                <td>Categorï¿½a</td>
+                                <td>Categoría</td>
                                 <td><%= sub_category_name%></td>
                             </tr>
                             <tr class="grid_6">
-                                <td>Sub-categorï¿½a </td>
+                                <td>Sub-categoría </td>
                                 <td><%= company_name%></td>
                             </tr>
                             <tr class="grid_6">

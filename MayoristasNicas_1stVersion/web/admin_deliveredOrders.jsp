@@ -53,7 +53,7 @@
             <div class="grid_16" style="padding: 10px;" id="whiteBox">
                     
                 <br/>
-                <h1 class="grid_15">Órdenes entregadas</h1><hr/>
+                <h1 class="grid_15">Ordenes entregadas</h1><hr/>
                     
             </div>
                 <div class="clear"></div>
@@ -70,14 +70,14 @@
             <form method="post" action="changeProductStatus">
                 <div class="grid_16">
                     <div class="grid_16"  id="CartTable" style="padding:10px 00px;">
-                        <h1 class="grid_15" style ="text-align: center; padding: 10px 0px 10px 0px;  border-top: 20px #444 solid;">Órdenes entregadas</h1>  
+                        <h1 class="grid_15" style ="text-align: center; padding: 10px 0px 10px 0px;  border-top: 20px #444 solid;">Ordenes entregadas</h1>  
                         
                         <div class="clear"></div>
                         <div class="grid_10">
                         <input id="greenBtn" type="submit" value="Cambiar status de la orden">
                         <select name="ChangeStatus">
-                            <option value="delivered">Entregadas</option>
-                            <option value="cancel">Canceladas</option>
+                            <option value="delivered">Entregada</option>
+                            <option value="cancel">Cancelada</option>
                         </select></div>
                         <div class="clear"></div>
                         <%-----------------%>

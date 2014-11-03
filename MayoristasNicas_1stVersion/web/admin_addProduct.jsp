@@ -129,10 +129,10 @@
                         <br/><h1>Paso 2. Ingresar provedor</h1><hr/>
                     </div>
                 <div class="grid_3">
-                        <br/><h1>Paso 3. Ingregar nombre del producto</h1><hr/>
+                        <br/><h1>Paso 3. Ingresar nombre del producto</h1><hr/>
                     </div>
                 <div class="grid_3">
-                        <br/><h1>Paso 4. Ingresar precio & Cantidad y descripción</h1><hr/>
+                        <br/><h1>Paso 4. Ingresar precio, cantidad y descripción</h1><hr/>
                     </div>
                 
                     </div>
@@ -144,7 +144,7 @@
                 
                 <div class="grid_13"  style="padding: 10px 0px;" id="whiteBox">
                     <div class="grid_13">
-                        <br/><h1>4 Pasos para añadir productos...</h1><hr/>
+                        <br/><h1>4 Pasos para añadir productos:</h1><hr/>
                     </div>
                     
                     <div class="grid_7">

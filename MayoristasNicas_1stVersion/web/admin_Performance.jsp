@@ -123,8 +123,8 @@
                     %>
                 <h1 class="grid_15">Página Principal</h1><hr/>
                 <a href="admin_manageProduct.jsp" id="buy"  class="grid_3"><%= qty %> Productos y Cantidades</a>     
-                <a href="admin_approvedOrders.jsp" id="buy"  class="grid_3"><%= approvedOrders %> Productos pendientes de enviar</a>    
-                <a href="admin_pendingOrders.jsp" id="buy" class="grid_3"><%= pendingOrders %> Productos pendientes de aprobar</a>    
+                <a href="admin_approvedOrders.jsp" id="buy"  class="grid_3"><%= approvedOrders %> Ordenes pendientes de enviar</a>    
+                <a href="admin_pendingOrders.jsp" id="buy" class="grid_3"><%= pendingOrders %> Ordenes pendientes de aprobar</a>    
            </div>
                 <div class="clear"></div>
             <!--Loading the AJAX API-->

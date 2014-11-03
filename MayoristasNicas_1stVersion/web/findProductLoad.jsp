@@ -122,10 +122,10 @@ product-name	product_id	sub-category-name	category-name	company-name	price	summa
                         </div>
                         <div class="grid_14">
                             <div class="grid_10">
-                                <p id="info"><a href="product.jsp?id=<%=product_id%>"><h3><span class="blue"> <%=product_name %></span></h3></a>By <%= company_name+" "+ category_name %><br/><span class="red">Rs. <%= price %></span></p>
+                                <p id="info"><a href="product.jsp?id=<%=product_id%>"><h3><span class="blue"> <%=product_name %></span></h3></a>Por <%= company_name+" "+ category_name %><br/><span class="red">C$. <%= price %></span></p>
                             </div>
                             <div class="grid_3">
-                                <p><%=sub_category_name %> <br/> <a href="admin_manageProduct.jsp?pid=<%= product_id %>" id="greenBtn">Edit</a><a style="margin-right: 10px;" href="addToCart.jsp?id=<%= product_id %>" id="greenBtn">Agregar al carrito</a><p>Será entregado dentro de 3 día hábiles</p>
+                                <p><%=sub_category_name %> <br/> <a href="admin_manageProduct.jsp?pid=<%= product_id %>" id="greenBtn">Editar</a><a style="margin-right: 10px;" href="addToCart.jsp?id=<%= product_id %>" id="greenBtn">Agregar al carrito</a><p>Será entregado dentro de 3 día hábiles</p>
                             </div>
                         </div>
                         <div class="clear"></div>

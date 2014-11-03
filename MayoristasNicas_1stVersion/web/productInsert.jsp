@@ -60,14 +60,14 @@
                 <form method="GET" action="addProduct">
                     <div class="grid_10">
                         <div class="grid_9">
-                            <p style="font-size:15px;">Start entering the product information step by step... Into your database</p>
+                            <p style="font-size:15px;">Inicie ingresando la información del producto paso a paso en su base de datos</p>
                             <table class="stepTable">
                                 <tr>
-                                    <td colspan="2"><h1>Step 1. Enter Product Company</h1></td>
+                                    <td colspan="2"><h1>Paso 1. Ingrese la compañía del producto</h1></td>
                                 </tr>
                                 <%//Retrieves The Data From product-company table%>
                                 <tr>
-                                    <td><h4>Select a Company</h4> <br/> <h3 class="center">Or</h3><br/></td>
+                                    <td><h4>Seleccione una compañía</h4> <br/> <h3 class="center">ó</h3><br/></td>
                                     <td><img src= "images/icons/dropDown.png" alt="dropDown"/>
                                         <select name="company">
 
@@ -89,12 +89,12 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><h4>Add a Company</h4></td>
-                                    <td><input id="companyName" type="text" name= "companyName" tabindex="1" placeholder="eg. Ubisoft/Electronic Arts"/></td>
+                                    <td><h4>Agregue una compañía</h4></td>
+                                    <td><input id="companyName" type="text" name= "companyName" tabindex="1" placeholder="ej. Cafe Soluble"/></td>
                                 </tr>
                                 <tr>
                                     <td></td>
-                                    <td><input id="addProductNameBtn" type="button" value="I have done writing name"/>
+                                    <td><input id="addProductNameBtn" type="button" value="Ya he escrito el nombre"/>
                                     </td>
                                 </tr>
                             </table>
@@ -104,11 +104,11 @@
 
                             <table class="stepTable">
                                 <tr>
-                                    <td colspan="2"><h1>Step 2. Enter Category</h1></td>
+                                    <td colspan="2"><h1>Paso 2. Ingrese un proveedor</h1></td>
                                 </tr>
                                 <%//Retrieves The Data From category table%>
                                 <tr>
-                                    <td><h4>Select a Category</h4> <br/> 
+                                    <td><h4>Seleccione proveedor</h4> <br/> 
                                         <h3 class="center">Or</h3><br/></td>
                                 <script type="text/javascript" src="js/jquery.js"></script>
                                 <script type="text/javascript">
@@ -140,20 +140,20 @@
                                 </tr>
 
                                 <tr>
-                                    <td><h4>Add Category</h4></td>
+                                    <td><h4>Agregue un proveedor</h4></td>
                                     <td>
-                                        <input id="categoryName" type="text" name= "categoryName" tabindex="1" placeholder="eg. Games, Movies, Books"/><br/></td>
+                                        <input id="categoryName" type="text" name= "categoryName" tabindex="1" placeholder="ej. Cafe Soluble"/><br/></td>
                                 </tr>
                                 <tr  class="needHRule">
                                     <td></td>
-                                    <td><input id="addCategoryNameBtn" type="button" value="Add Category"/>
+                                    <td><input id="addCategoryNameBtn" type="button" value="Agregar proveedor"/>
                                     </td>
                                 </tr>
 
 
                                 <%//Retrieves The Data From Sub-category table%>
                                 <tr>
-                                    <td><h4>Select a Sub-Category</h4> <br/> <h3 class="center">Or</h3><br/></td>
+                                    <td><h4>Seleccione una categoría</h4> <br/> <h3 class="center">ó</h3><br/></td>
                                     <td>
                                         <img src= "images/icons/dropDown.png" alt="dropDown"/>
                                         <select id="selectMenuSubCategory" name="subCategory">
@@ -179,12 +179,12 @@
                                 </tr>
 
                                 <tr>
-                                    <td><h4>Add Sub-Category</h4></td>
-                                    <td><input id="SubCategoryName" type="text" name= "SubCategoryName" tabindex="1" placeholder="Action, Adventure, Drama, etc"/><br/></td>
+                                    <td><h4>Agregue una categoría</h4></td>
+                                    <td><input id="SubCategoryName" type="text" name= "SubCategoryName" tabindex="1" placeholder="Lácteos"/><br/></td>
                                 </tr>
                                 <tr>
                                     <td></td>
-                                    <td><input id="addSubCategoryBtn" type="button" value="Add Sub-Category"/>
+                                    <td><input id="addSubCategoryBtn" type="button" value="Agregar categoría"/>
                                     </td>
                                 </tr>
                             </table>
@@ -196,21 +196,21 @@
                                         <h5>Will be delivered in 5 days</h5>
                                 </div>-->
                         <div class="clear"></div>
-                        <h1>Step 3. Enter Pricing information</h1>
-                        <input type="text" name= "price" tabindex="1" placeholder="eg.Rs 7899/-"/><br/>
+                        <h1>Paso 3. Ingrese el precio</h1>
+                        <input type="text" name= "price" tabindex="1" placeholder="ej. $25.00"/><br/>
                         <br/>
-                        <h1>Step 4. Enter in Product Name &AMP; Quantity</h1>
-                        <input id="productName" type="text" name= "productName"  placeholder="Product Name"/><br/>
+                        <h1>Paso 4. Ingrese el nombre y cantidad</h1>
+                        <input id="productName" type="text" name= "productName"  placeholder="Nombre del productp"/><br/>
                         <br/>
-                        <input id="productQty" type="text" name= "productQty"  placeholder="Quantity"/><br/>
+                        <input id="productQty" type="text" name= "productQty"  placeholder="Cantidad"/><br/>
                         <br/>
-                        <h1>Step 5. Enter in Tags and Description</h1>
-                        <input id="tags" type="text" name= "tags" placeholder="Write in tags here without commas"/><br/>
+                        <h1>Paso 5. Ingrese tags y la descripción</h1>
+                        <input id="tags" type="text" name= "tags" placeholder="Ingrese los tags seguido por comas"/><br/>
                         <br/>  
-                        <h1>Summary / Description Of the Product</h1>
+                        <h1>Descripción del producto</h1>
                         <textarea name="summary" class="grid_9" rows="17"></textarea>
 
-                        <input id="greenBtn" type="submit" value ="I have Done Adding the Product Info." />
+                        <input id="greenBtn" type="submit" value ="Ya he agregado la información del producto" />
                     </div>
                 </form>
 
@@ -229,47 +229,15 @@
     <div class="grid_16" id="productStrip"> <a href="http:google.com">
             <div class="ProductHeading">
                 <div class="grid_12">
-                    <h2 class="heading">Top Most Viewed Products Currently</h2>
+                    <h2 class="heading">Los productos más vistos</h2>
                 </div>
                 <div id="viewMore" class="grid_3">
-                    <h6 class="blue">View More</h6>
+                    <h6 class="blue">Ver más</h6>
                 </div>
             </div>
         </a>
         <div class="clear"></div>
 
-        <div id="productList" class="grid_3"> 
-            <a href="http:www.google.com"><img src="images/crap%20imgs/bg-linen.jpg" /></a>
-            <p id="info">
-                <a href="http:www.google.com"><span class="blue">Book blue Longest one to test that does it works??</span></a><br/>
-                By Author Name<br/>
-                <span class="red">Rs. 1000</span>
-            <p>            
-        </div>
-        <div id="productList" class="grid_3"> <a href="http:www.google.com"><img src="images/crap%20imgs/bg-linen.jpg" /></a>
-            <p id="info"><a href="http:www.google.com"><span class="blue">Book blue Longest one to test that does it works??</span></a><br/>
-                By Author Name<br/>
-                <span class="red">Rs. 1000</span>
-            <p>            
-        </div>
-        <div id="productList" class="grid_3"> <a href="http:www.google.com"><img src="images/crap%20imgs/bg-linen.jpg" /></a>
-            <p id="info"><a href="http:www.google.com"><span class="blue">Book blue Longest one to test that does it works??</span></a><br/>
-                By Author Name<br/>
-                <span class="red">Rs. 1000</span>
-            <p>            
-        </div>
-        <div id="productList" class="grid_3"> <a href="http:www.google.com"><img src="images/crap%20imgs/bg-linen.jpg" /></a>
-            <p id="info"><a href="http:www.google.com"><span class="blue">Book blue Longest one to test that does it works??</span></a><br/>
-                By Author Name<br/>
-                <span class="red">Rs. 1000</span>
-            <p>            
-        </div>
-        <div id="productList" class="grid_3"> <a href="http:www.google.com"><img src="images/crap%20imgs/bg-linen.jpg" /></a>
-            <p id="info"><a href="http:www.google.com"><span class="blue">Book blue Longest one to test that does it works??</span></a><br/>
-                By Author Name<br/>
-                <span class="red">Rs. 1000</span>
-            <p>            
-        </div>
     </div>
 </div>
 
@@ -281,33 +249,31 @@
         <div class="grid_16" >
             <div class="grid_3">
                 <ul>
-                    <li><strong>Help</strong></li>
-                    <li><a href="faq.html">Payments</a></li>
-                    <li><a href="faq.html">Shipping</a></li>
-                    <li><a href="faq.html">Cancellation &amp; Returns</a></li>
+                    <li><strong>Ayuda</strong></li>
+                    <li><a href="faq.html">Pagos</a></li>
+                    <li><a href="faq.html">Entregas</a></li>
+                    <li><a href="faq.html">Cancelación &amp; Devoluciones</a></li>
                 </ul>
             </div>
             <div class="grid_3">
                 <ul>
                     <li><strong>MayoristasNicas</strong></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="faq.html">Careers</a></li>
+                    <li><a href="contact.html">Contáctamos</a></li>
+                    <li><a href="about.html">Acerca de nosotros</a></li>
+                    <li><a href="faq.html">Preguntas y Respuestas</a></li>
                 </ul>
             </div>
             <div class="grid_3">
                 <ul>
                     <li><strong>Misc</strong></li>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="faq.html">Affiliate</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="faq.html">Preguntas y Respuestas</a></li>
                     <li><a href="http://www.facebook.html">Facebook</a></li>
                 </ul>
             </div>
 
             <div class="grid_5">
-                <br/><h2>Safe and Secure Shopping</h2><p>
-                    All major credit and debit cards are accepted. We also accept payments by Internet Banking, Cash on Delivery and Equated Monthly Installments(EMI).</p>
-
+                <br/><h2>Compras seguras e inmediatas</h2><p>
             </div>
 
         </div>

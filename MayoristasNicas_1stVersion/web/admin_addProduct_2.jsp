@@ -121,16 +121,16 @@
                 <div>
 
                     <div class="grid_3">
-                        <br/><h1>Paso 1. ingresa un producto</h1><hr/>
+                        <br/><h1>Paso 1. Ingresar un producto</h1><hr/>
                     </div>
                     <div class="grid_3 highlight">
-                        <br/><h1>Paso 2. Ingresa categoría</h1><hr/>
+                        <br/><h1>Paso 2. Ingresar categoría</h1><hr/>
                     </div>
                 <div class="grid_3">
-                        <br/><h1>Paso 3. Ingresa nombre del producto, Tags</h1><hr/>
+                        <br/><h1>Paso 3. Ingresa nombre del producto</h1><hr/>
                     </div>
                 <div class="grid_3">
-                        <br/><h1>Paso 4. Ingresa precio & cantidad y descripción</h1><hr/>
+                        <br/><h1>Paso 4. Ingresa precio, cantidad y descripción</h1><hr/>
                  </div>
 
                 </div>
@@ -166,7 +166,7 @@
 
             <div class="grid_13"  style="padding: 10px 0px;" id="whiteBox">
                 <div class="grid_13">
-                    <br/><h1>Paso 2. Ingresa categoria</h1><hr/>
+                    <br/><h1>Paso 2. Ingresar categoria</h1><hr/>
                 </div>
                 <div class="clear"></div>
                 <form method="post" action="admin_addProduct_controller.jsp">
@@ -199,17 +199,17 @@
                     </div>
                     <div class="clear"></div><br/>
                     <div class="grid_2">
-                        <h3>Agregar categoría</h3>
+                        <h3>Agregar proveedor</h3>
                     </div>
                     <div class="grid_5">
-                        <input id="categoryName" type="text" name= "categoryName" tabindex="1" placeholder="Lácteos"/>
+                        <input id="categoryName" type="text" name= "categoryName" tabindex="1" placeholder="Café Soluble"/>
                     </div>
                     <div class="grid_2">
 
                     </div>
                     <div class="clear"></div><br/>
                     <div class="grid_7">
-                        <input id="addCategoryNameBtn" class="buy" type="button" value="Agregar categoría"/>
+                        <input id="addCategoryNameBtn" class="buy" type="button" value="Agregar proveedor"/>
                     </div>
                     <div class="clear"></div>
                     <div class="grid_2">
@@ -243,19 +243,19 @@
                     </div>
                     <div class="clear"></div><br/>
                     <div class="grid_2">
-                        <h3>Add Sub-Category</h3>
+                        <h3>Agregar categoría</h3>
                     </div>
                     <div class="grid_5">
-                        <input id="SubCategoryName"  type="text" name= "SubCategoryName" tabindex="1" placeholder="Action, Adventure, Drama, etc"/></div>
+                        <input id="SubCategoryName"  type="text" name= "SubCategoryName" tabindex="1" placeholder="Lácteos"/></div>
                     <div class="grid_2">
 
                     </div>
                     <div class="clear"></div><br/>
                     <div class="grid_7">
-                        <input id="addSubCategoryBtn" class="buy" type="button" value="Add Sub-Category"/>
+                        <input id="addSubCategoryBtn" class="buy" type="button" value="Agregar categoría"/>
                     </div>
                     <div class="grid_5">
-                        <input id="buy" type="submit" value="Next >"/>
+                        <input id="buy" type="submit" value="Siguiente >"/>
                     </div>
                 </form>
             </div>

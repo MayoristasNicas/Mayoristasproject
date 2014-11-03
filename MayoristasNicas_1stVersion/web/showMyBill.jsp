@@ -165,7 +165,7 @@
                 </div>
                 <div class="grid_4" >
                     <div id="status" class="grid_3">
-                        Status <%= status %>
+                        Estado <%= status %>
                     </div>
                         <% if (status.equals("Entregado"))
                         {
@@ -186,10 +186,10 @@
             <div id="whiteBox" class="grid_12 push_2">
                         <div id="CartTable" style="padding:10px 00px" class="grid_12">
                                     <div class="grid_1">
-                                         <h3>Order Némuero</h3>
+                                         <h3>Order Número</h3>
                                     </div> 
                                     <div class="grid_7">
-                                        <h3 class="push_3">Detalle de Ordern</h3> 
+                                        <h3 class="push_3">Detalle de Orden</h3> 
                                             <div class="clear"></div>
                                             <div class="grid_4">
                                                 Producto 

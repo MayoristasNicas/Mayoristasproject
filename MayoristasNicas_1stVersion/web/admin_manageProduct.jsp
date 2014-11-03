@@ -121,12 +121,12 @@
                             </script>
                             <div class="grid_2">
                                 <select id="sortBy" style="margin:  -2px;">
-                                    <option value="qa">ordenar por cantidad de menor a mayor</option>
-                                    <option  value="qd">odenar por cantidad de mayor a menor</option>
-                                    <option value="pa">ordenar por precio de menor a mayor</option>
-                                    <option  value="pd">ordenar por precio de mayor a menor</option>
-                                    <option  value="ha">ordenar por visitas de menor a mayor</option>
-                                    <option  value="hd">ordenar por visitas de mayor a menor</option>
+                                    <option value="qa">Ordenar por cantidad de menor a mayor</option>
+                                    <option  value="qd">Odenar por cantidad de mayor a menor</option>
+                                    <option value="pa">Ordenar por precio de menor a mayor</option>
+                                    <option  value="pd">Ordenar por precio de mayor a menor</option>
+                                    <option  value="ha">Ordenar por visitas de menor a mayor</option>
+                                    <option  value="hd">Ordenar por visitas de mayor a menor</option>
                                 </select>
                             </div>
                         </div>

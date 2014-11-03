@@ -1,6 +1,5 @@
 <%-- 
     Document   : showMyBill
-    Created on : 21 Nov, 2012, 10:13:42 PM
     Author     : MayoristasNicas
 --%>
 <%@page import="java.util.ArrayList"%>
@@ -152,7 +151,7 @@
             <div class="grid_12 push_2" id="whiteBox" style="margin-top: 30px;">
                 <div class="grid_6">
                     <div class="grid_2">
-                        Para ;
+                        Para:                  
                     </div>
                     <div class="clear">
                     </div>
@@ -175,7 +174,7 @@
                         <%= address%>
                     </div>
                     <div class="grid_2">
-                        Celuar:
+                        Celular:
                     </div>
                     <div class="grid_3">
                         <%= mobileNum%>

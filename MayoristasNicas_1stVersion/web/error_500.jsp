@@ -1,6 +1,5 @@
 <%-- 
     Document   : error_500
-    Created on : 10 Dec, 2012, 2:34:20 AM
     Author     : MayoristasNicas
 --%>
 
@@ -42,14 +41,14 @@
 
         <div class="container_16">
             <div class="grid_14 push_1" id="whiteBox" style="padding: 10px;">
-                <br/><h1 style="padding: 10px;">Error Status <span class="blue">500</span> - Internal Server Error!!
+                <br/><h1 style="padding: 10px;">Error <span class="blue">500</span> - Error interno del servidor!!
                 </h1><hr/><br/>
                 <p  class="grid_4" style="text-align: right; font-size: 72px;">500</p>
                 <p class="grid_7">
-                It seems that the page you've requested has been undergone through several errors 
-                We request you to inform this to our administrator if you wish to like by contacting us
-                please check the requested web page again or try again Later!! 
-                <br/> We are extremely sorry about the inconvenience for not finding the requested webpage, Please Do co-operate!! We wish you best
+                Parece que la página a la que intenta acceder está teniendo problemas en el servidor
+                Por favor notifique el problema al administrador, si desea contactarse con nosotros
+                por favor envíenos un correo a la información de contacto de MayoristasNicas o intente nuevamente
+                <br/> Lo sentimos por el inconveniente
                 </p>
             </div>
         </div>
