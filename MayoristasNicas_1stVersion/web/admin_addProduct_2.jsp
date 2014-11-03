@@ -173,11 +173,11 @@
                     <input type="hidden" name="company" value="<%= productBean.getCompany() %>">
                     <input type="hidden" name="page" value="admin_addProduct_3.jsp">
                     <div class="grid_2">
-                        <h3>Seleccionar categoría</h3>
+                        <h3>Seleccionar proveedor</h3>
                     </div>
                     <div class="grid_5">
                         <select id="selectMenuCategory" name="category">
-                            <option value="" selected="">Seleccionar categoría</option>
+                            <option value="" selected="">Seleccionar proveedor</option>
                                         <% 
                                             ResultSet rs = st.executeQuery(sql_getCategory);
                                             while (rs.next()) {
@@ -213,11 +213,11 @@
                     </div>
                     <div class="clear"></div>
                     <div class="grid_2">
-                        <h3>Select Category</h3>
+                        <h3>Seleccione categoría</h3>
                     </div>
                     <div class="grid_5">
                         <select id="selectMenuSubCategory" name="subCategory">
-                            <option value="" selected="">Select Sub-Category</option>
+                            <option value="" selected="">Seleccione categoría</option>
                                             <%
 
                                                 ResultSet subCategory = st.executeQuery(sql_getSubCategory);
@@ -236,7 +236,7 @@
                     </div>
                     <div class="clear"></div><br/>
                     <div class="grid_2">
-                        Or
+                        ó
                     </div>
                     <div class="grid_5">
                         <h4 id="step2Feedback1" class="grid_8 center">-------------------------------------------------------------<br/></h4>

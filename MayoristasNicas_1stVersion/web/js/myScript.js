@@ -16,7 +16,7 @@ $(document).ready(function (){
         var companyName = $('#companyName').val();
         
         if (companyName == ""){
-            $('#step1Feedback').html("Please enter in some Company Name");
+            $('#step1Feedback').html("Por favor ingresa el nombre de la empresa");
             
             $('#step1Feedback').addClass("red");
             $('#step1Feedback').slideDown(700, function (){
@@ -53,7 +53,7 @@ $(document).ready(function (){
         var categoryName = $('#categoryName').val();
         
         if (categoryName == ""){
-            $('#step2Feedback').html("Please enter in some Category Name");
+            $('#step2Feedback').html("Por favor ingresa un proveedor");
             
             $('#step2Feedback').addClass("red");
             $('#step2Feedback').slideDown(700, function (){
@@ -102,7 +102,7 @@ $(document).ready(function (){
         }
         
         if (SubCategoryName == "" || categoryName == ""){
-            $('#step2Feedback1').html("Please enter in Sub Category Name or Select Category name");
+            $('#step2Feedback1').html("Por favor ingresa una categoria o selecciona una categoria");
             
             $('#step2Feedback1').addClass("red");
             $('#step2Feedback1').slideDown(700, function (){

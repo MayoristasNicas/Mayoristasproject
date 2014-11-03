@@ -153,7 +153,7 @@ NULL ,  '2',  'Ayinga Movie ',  '123456', NOW( )
                             +"VALUES ("
                             +"NULL ,  '"+pid+"',  '"+productBean.getName()+"',  '"+(quantity*price)+"', NOW( )"
                             +" );  ");
-                    response.sendRedirect("productInsertImages.jsp");
+                   response.sendRedirect("productInsertImages.jsp");
                 }catch(NumberFormatException e) {
                     response.sendRedirect("admin_addProduct_4.jsp");
                 }catch(SQLIntegrityConstraintViolationException e) {
