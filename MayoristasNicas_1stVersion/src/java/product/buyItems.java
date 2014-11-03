@@ -231,10 +231,11 @@ public class buyItems extends HttpServlet {
                                 + "`product_price` ,"
                                 + "`product_quantity` ,"
                                 + "`sold_on` ,"
-                                + "`user_id`"
+                                + "`user_id` ,"
+                                + "`Comission`"
                                 + ")"
                                 + "VALUES ("
-                                + "    NULL ,  ?,  ?,  ?,  ?,  ?, NOW( ) ,  ? "
+                                + "    NULL ,  ?,  ?,  ?,  ?,  ?, NOW( ) ,  ?, ?"
                                 + "       );";
                         
                         PreparedStatement insertIntoSalesTable = c.prepareStatement(insertIntoSalesSQL3);
@@ -252,6 +253,8 @@ public class buyItems extends HttpServlet {
                             insertIntoSalesTable.setInt(5, qty.get(i));
                             
                             insertIntoSalesTable.setInt(6, User.getUserId());
+                            
+                            insertIntoSalesTable.setDouble(7, prices.get(i)*0.06);
                             
                             int executeUpdateSalesTable = insertIntoSalesTable.executeUpdate();
                             
