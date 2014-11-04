@@ -112,7 +112,7 @@
                         <li><a id="userInfo"><strong>Perfil de Usuario</strong></a></li>
                         
                         <li><a id="Account">Cuenta</a></li>
-                        <li><a id="MyOrders">Mis ordenes</a></li>
+                        <li><a id="MyOrders">Mis órdenes</a></li>
                         <li><a id="Settings">Configuraciones</a></li>
                     </ul>
                 </div>
@@ -130,7 +130,7 @@
                     
                  <div  style ="text-align: center; border-top: 20px #444 solid; padding: 10px 0px 10px 0px;" class="grid_12 MyOrders">
                         
-                     <h1 style ="padding: 10px 0px 10px 0px;">Mis ordenes</h1>  
+                     <h1 style ="padding: 10px 0px 10px 0px;">Mis órdenes</h1>  
                     
                         <div id="CartTable" style="padding:10px 00px" class="grid_12">
                                     <div class="grid_1">
@@ -308,7 +308,7 @@ WHERE o.`user_id` =4
                             </div>
                             <div class="clear"></div><br/>
                             <div class="grid_3">
-                                Genero
+                                Género
                             </div>
                             <div class="grid_5">
                                 <select name="gender" required>
@@ -352,7 +352,7 @@ WHERE o.`user_id` =4
                             </div>
                             <div class="clear"></div><br/>
                             <div class="grid_3">
-                                Genero
+                                Género
                             </div>
                             <div class="grid_5">
                                 <select name="gender" required>

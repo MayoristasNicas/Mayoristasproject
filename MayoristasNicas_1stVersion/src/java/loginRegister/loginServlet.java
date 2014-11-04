@@ -139,7 +139,7 @@ public class loginServlet extends HttpServlet {
                     //or there no such email YOu do not exist with us Create an account now!!
                     out.println(" No existe una cuenta con este correo electrónico!");
                     message = "Correo electrónico no existe";
-                    messageDetail = "Por favor registrate para iniciar a comprar!";
+                    messageDetail = "Por favor regístrate para iniciar a comprar!";
                     isLoggedIn = false;
                 }
             }

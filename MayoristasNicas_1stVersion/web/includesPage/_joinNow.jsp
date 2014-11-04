@@ -6,7 +6,7 @@
             </div>
             <div class="grid_6" id="top">
                 <ul>
-                    <a href="#" id="join"><li id="greenBtn"  class ="Btn showForm">Registrate</li></a>
+                    <a href="#" id="join"><li id="greenBtn"  class ="Btn showForm">Regístrate</li></a>
                 </ul>
             </div>
         </div>
@@ -61,7 +61,7 @@
                     <table>
                         <tr>
                             <td colspan="2">
-                                <strong><h1 style="font-wieght:bold; text-align:right; padding:20px 0px; color:#000;">Registrate</h1></strong>
+                                <strong><h1 style="font-wieght:bold; text-align:right; padding:20px 0px; color:#000;">Regístrate</h1></strong>
                             </td>
                             <td>
 
@@ -73,7 +73,7 @@
                                 Correo Electrónico</label>
                             </td>
                             <td>
-                                <label><input type="email" name="emailReg" placeholder="john_lee@xyz.com" required/><br/></label>
+                                <label><input type="email" name="emailReg" placeholder="abc@xyz.com" required/><br/></label>
                             </td>
                         </tr>
                         <tr>
