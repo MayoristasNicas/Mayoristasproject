@@ -97,7 +97,7 @@
                             <%             
                             for (int i =0; i< subCat.size(); i++){
                                 %>
-                                <li><a href="addProductFilters.jsp?scat=<%= subCat.get(i) %>"><%= subCat.get(i) %></a></li>      
+                                <li><a href="addProductFilters.jsp?scat=<%= subCat.get(i) %> "><white><%= subCat.get(i) %></white></a></li>      
                                 <%
                             } subCat.clear(); %>
                                 </ul>
@@ -118,7 +118,7 @@
                             <%
                             for (int i =0; i< Cat.size(); i++){
                                 %>
-                                <li><a href="addProductFilters.jsp?cat=<%= Cat.get(i) %>"><%= Cat.get(i) %></a></li>      
+                                    <li><a href="addProductFilters.jsp?cat=<%= Cat.get(i) %>"> <white><%= Cat.get(i) %></white></a></li>      
                                 <%
                             } Cat.clear();
                             %>
